@@ -1,0 +1,33 @@
+{
+  "name": "@livip/core",
+  "version": "1.0.0",
+  "description": "Core components for our design system",
+  "author": "odelucca",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livipdev/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/livipdev/design-system/issues"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "npm run build:transpile && npm run build:copy",
+    "build:copy": "cp package.json dist",
+    "build:transpile": "babel ./src --out-dir dist --config-file ../../babel.config.js --minified --no-comments --source-maps",
+    "clean": "rimraf dist"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.9.5",
+    "react": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "rimraf": "^3.0.2"
+  }
+}

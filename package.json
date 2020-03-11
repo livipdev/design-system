@@ -1,0 +1,31 @@
+{
+  "name": "@livip/design-system",
+  "version": "1.0.0",
+  "description": "Components package for our React applications",
+  "author": "odelucca",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livipdev/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/livipdev/design-system/issues"
+  },
+  "engines": {
+    "yarn": ">=1.22.4",
+    "node": ">=13.10.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna exec yarn build && npm run copy",
+    "clean": "lerna run clean",
+    "copy": "lerna exec cp package.json dist",
+    "release": "lerna publish from-package --contents dist"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
