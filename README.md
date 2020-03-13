@@ -11,9 +11,41 @@ Components package for our React applications
 
 Many of our applications can use shared components. Also, all components from every application should follow the same design and code structure. That's why we've created this package. This is where most of our components live, in a way that we can import those in our applications, configure an duse them.
 
+## 💾 Dependencies
+
+To use this library, your application must have the following packages installed:
+
+* []@material-ui/core](https://www.npmjs.com/package/@material-ui/core)
+
 ## 🤖 Getting Started
 
-_TODO_
+This is a monorepo, containing multiple interface components packages. Here is a short list of all our packages:
+
+* [@livip/core](packages/core)
+
+You can install each one of those packages with a simple `yarn add` or `npm install` command. This library is not yet deployed on any package manager. In order to use any of our packages in your application you may first run the following command on this package:
+
+``` sh
+yarn build
+```
+
+Then, you can install a package (`@livip/core`, on this example) with:
+
+``` sh
+yarn add <path-to-this-repo>/packages/core/dist
+```
+
+After installing it, you can import any of our components with:
+
+``` javascript
+import Box from '@livip/core';
+
+...
+```
+
+And use it on your code! :)
+
+**IMPORTANT:** Don't forget to install all [dependencies](#dependencies) for our components to properly run on your application.
 
 ## 🌱 Feature requests
 
