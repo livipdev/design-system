@@ -1,0 +1,24 @@
+{
+  "name": "@livip/tokens",
+  "version": "1.0.0",
+  "description": "Tokens used on our theme",
+  "author": "odelucca",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livipdev/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/livipdev/design-system/issues"
+  },
+  "scripts": {
+    "build": "style-dictionary build && npm run copy",
+    "clean": "style-dictionary clean",
+    "copy": "cp package.json dist",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^2.8.3"
+  }
+}

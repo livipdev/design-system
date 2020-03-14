@@ -1,0 +1,11 @@
+{
+  "fontSize": {
+    "display": "2.125rem",
+    "headline": "1.5rem",
+    "title": "1.25rem",
+    "subheading": "1rem",
+    "body": "0.875rem",
+    "button": "0.875rem",
+    "caption": "0.75rem"
+  }
+}

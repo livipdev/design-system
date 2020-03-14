@@ -1,0 +1,28 @@
+{
+  "typography": {
+    "body2": {
+      "fontSize": "0.875rem"
+    },
+    "body1": {
+      "fontSize": "0.875rem"
+    },
+    "button": {
+      "fontSize": "0.875rem"
+    },
+    "caption": {
+      "fontSize": "0.75rem"
+    },
+    "display1": {
+      "fontSize": "2.125rem"
+    },
+    "headline": {
+      "fontSize": "1.5rem"
+    },
+    "subheading": {
+      "fontSize": "1rem"
+    },
+    "title": {
+      "fontSize": "1.25rem"
+    }
+  }
+}
