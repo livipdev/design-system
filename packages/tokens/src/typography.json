@@ -1,5 +1,8 @@
 {
   "typography": {
+    "fontFamily": [
+      "serif"
+    ],
     "body2": {
       "fontSize": "0.875rem"
     },

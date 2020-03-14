@@ -1,9 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import { MuiThemeProvider } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
 
-import ThemeProviderPropTypes from '../Theme/proptypes';
+import propTypes from './propTypes';
+import defautProps from './defaultProps';
 
 const ThemeProvider = ({ theme, muiProps, children }) => (
   <MuiThemeProvider theme={theme} {...muiProps}>
@@ -11,17 +12,7 @@ const ThemeProvider = ({ theme, muiProps, children }) => (
   </MuiThemeProvider>
 );
 
-ThemeProvider.propTypes = {
-  children: PropTypes.node.isRequired,
-  theme: ThemeProviderPropTypes.isRequired,
-  muiProps: PropTypes.shape({
-    disableStylesGeneration: PropTypes.bool,
-    sheetsManager: PropTypes.object,
-  }),
-};
-
-ThemeProvider.defaultProps = {
-  muiProps: {},
-};
+ThemeProvider.propTypes = propTypes;
+ThemeProvider.defaultProps = defautProps;
 
 export default ThemeProvider;

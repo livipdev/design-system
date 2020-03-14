@@ -23,9 +23,19 @@
     "build": "lerna exec yarn build && npm run copy",
     "clean": "lerna run clean",
     "copy": "lerna exec cp package.json dist",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
     "release": "lerna publish from-package --contents dist"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-quintoandar-pwa": "^2.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-quintoandar": "^1.9.3",
+    "eslint-plugin-react": "^7.19.0",
     "lerna": "^3.20.2"
   }
 }

@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 import { elevations, palette, shape, typography } from '@livip/tokens';
 
 export const theme = {
