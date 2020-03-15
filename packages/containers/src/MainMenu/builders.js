@@ -5,11 +5,12 @@ import { MAIN_MENU_ITEMS } from './constants';
 
 export const buildMenuItems = () =>
   Object.entries(MAIN_MENU_ITEMS).map(
-    ([label, link]) =>
+    ([label, link]) => (
       <MainMenuItem
         key={label}
         href={link}
       >
         {label}
       </MainMenuItem>
+    )
   );
