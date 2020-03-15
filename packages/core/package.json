@@ -31,6 +31,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "@livip/tokens": "/home/odelucca/Code/livip/design-system/packages/tokens/dist"
+    "@livip/tokens": "/home/odelucca/Code/livip/design-system/packages/tokens/dist",
+    "typeface-montserrat": "^0.0.75"
   }
 }

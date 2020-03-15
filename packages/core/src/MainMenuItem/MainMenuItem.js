@@ -4,10 +4,8 @@ import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 import Link from '../Link';
 
-const MainMenuItem = ({ children, href, label, classes }) => (
-  <Link className={classes.primary} href={href}>
-    { label }
-  </Link>
+const MainMenuItem = ({ classes, ...props }) => (
+  <Link className={classes.root} {...props} />
 );
 
 MainMenuItem.propTypes = propTypes;

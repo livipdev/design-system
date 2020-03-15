@@ -5,9 +5,11 @@ import Typography from '@material-ui/core/Typography';
 
 import propTypes from './propTypes';
 import defautProps from './defaultProps';
+import CssBaseline from '../../CssBaseline';
 
 const ThemeProvider = ({ theme, muiProps, children }) => (
   <MuiThemeProvider theme={theme} {...muiProps}>
+    <CssBaseline />
     {children}
   </MuiThemeProvider>
 );

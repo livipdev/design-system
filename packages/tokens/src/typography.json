@@ -1,8 +1,6 @@
 {
   "typography": {
-    "fontFamily": [
-      "serif"
-    ],
+    "fontFamily": "Montserrat, Helvetica, Arial, sans-serif",
     "body2": {
       "fontSize": "0.875rem"
     },

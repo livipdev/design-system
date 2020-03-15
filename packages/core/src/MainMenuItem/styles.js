@@ -1,5 +1,5 @@
 const styles = {
-  primary: {
+  root: {
     color: '#fff',
   },
 };

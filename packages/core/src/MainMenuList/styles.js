@@ -1,5 +1,5 @@
 const styles = (theme) => ({
-  primary: {
+  root: {
     backgroundColor: theme.palette.primary.main,
   },
 });

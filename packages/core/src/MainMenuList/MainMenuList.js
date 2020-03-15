@@ -1,12 +1,10 @@
 import React from 'react';
 
 import propTypes from './propTypes';
-import MenuList from '../MenuList';
+import List from '../List';
 
-const MainMenuList = ({ children, classes }) => (
-  <MenuList className={ classes.primary }>
-    { children }
-  </MenuList>
+const MainMenuList = ({ classes, ...props }) => (
+  <List className={ classes.root } { ...props } />
 );
 
 MainMenuList.propTypes = propTypes;
