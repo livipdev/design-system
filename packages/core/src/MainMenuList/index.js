@@ -1,6 +1,9 @@
-import withStyles from '@material-ui/core/styles/withStyles';
+import React from 'react';
 
-import styles from './styles';
-import MainMenuList from './MainMenuList';
+import List from '../List';
 
-export default withStyles(styles)(MainMenuList);
+const MainMenuList = ({ ...props }) => (
+  <List {...props} />
+);
+
+export default MainMenuList;

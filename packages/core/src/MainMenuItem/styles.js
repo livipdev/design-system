@@ -14,7 +14,7 @@ const styles = (theme) => ({
     '&:hover': {
       '&::after': {
         width: '100%',
-      }
+      },
     },
   },
 });
