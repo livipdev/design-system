@@ -1,15 +1,10 @@
 {
   "palette": {
+    "contrastThreshold": 2.5,
     "primary": {
-      "main": "#5063F0",
-      "light": "#E9E9FD",
-      "dark": "#1F3BDF",
-      "contrastText": "#FFFFFF"
-    },
-    "secondary": {
-      "main": "#36B67E",
-      "light": "#91D3B2",
-      "dark": "#009B5D",
+      "main": "#421428",
+      "light": "#55253a",
+      "dark": "#31101f",
       "contrastText": "#FFFFFF"
     },
     "error": {
@@ -35,23 +30,10 @@
       "base": "#EEEEEE",
       "background": "#FAFAFA"
     },
-    "special": {
-      "main": "#0a9db0",
-      "light": "#DAF1F3",
-      "dark": "#006e81",
-      "contrastText": "#FFFFFF"
-    },
-    "specialSecondary": {
-      "main": "#9362b7",
-      "light": "#c591ea",
-      "dark": "#633687",
-      "contrastText": "#FFFFFF"
-    },
     "common": {
       "transparent": "rgba(0,0,0,0)",
       "black": "#000000",
       "white": "#FFFFFF"
-    },
-    "contrastThreshold": 2.5
+    }
   }
 }
