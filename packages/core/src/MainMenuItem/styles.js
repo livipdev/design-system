@@ -6,7 +6,6 @@ const styles = (theme) => ({
     '&::after': {
       content: '""',
       display: 'block',
-      width: 0,
       height: '2px',
       backgroundColor: theme.palette.common.white,
       transition: 'width .3s',
@@ -15,6 +14,18 @@ const styles = (theme) => ({
       '&::after': {
         width: '100%',
       },
+    },
+  },
+
+  selected: {
+    '&::after': {
+      width: '100%',
+    },
+  },
+
+  unselected: {
+    '&::after': {
+      width: '0%',
     },
   },
 });

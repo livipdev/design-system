@@ -17,7 +17,7 @@ const MainMenu = ({ classes, maxWidth, variant }) => (
       </Box>
       <Box>
         <MainMenuList>
-          { buildMenuItems() }
+          { buildMenuItems(variant) }
         </MainMenuList>
       </Box>
     </Box>

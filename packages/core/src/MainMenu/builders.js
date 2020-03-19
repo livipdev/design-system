@@ -4,11 +4,11 @@ import MainMenuLink from '@livip/core/MainMenuLink';
 
 import { MAIN_MENU_ITEMS } from './constants';
 
-export const buildMenuItems = () =>
+export const buildMenuItems = (variant) =>
   Object.entries(MAIN_MENU_ITEMS).map(
-    ([label, link]) => (
-      <MainMenuItem key={label}>
-        <MainMenuLink href={link}>{label}</MainMenuLink>
+    ([label, options]) => (
+      <MainMenuItem key={options.key} active={variant === options.key}>
+        <MainMenuLink href={options.link}>{label}</MainMenuLink>
       </MainMenuItem>
     )
   );
