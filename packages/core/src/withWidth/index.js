@@ -1,6 +1,8 @@
-import withWidth, { isWidthUp, isWidthDown } from '@material-ui/core/withWidth';
+import muiWithWidth, { isWidthUp as muiIsWidthUp, muiIsWidthDown } from '@material-ui/core/withWidth';
 
-export { isWidthUp };
-export { isWidthDown };
+export const isWidthUp = muiIsWidthUp;
+export const isWidthDown = muiIsWidthDown;
+
+const withWidth = muiWithWidth;
 
 export default withWidth;
