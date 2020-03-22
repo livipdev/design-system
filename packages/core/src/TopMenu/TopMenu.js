@@ -1,14 +1,14 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
 
 import Container from '../Container';
+import TopMenuClaim from '../TopMenuClaim';
 
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
 const TopMenu = ({ classes, maxWidth, variant }) => (
-  <Container className={classes.container} maxWidth={maxWidth} disableGutters>
-    <FormattedMessage id="test.ok" defaultMessage="NOK" />
+  <Container classes={classes} maxWidth={maxWidth} disableGutters>
+    <TopMenuClaim variant={variant} />
   </Container>
 );
 

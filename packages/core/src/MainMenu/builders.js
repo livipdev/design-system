@@ -6,7 +6,7 @@ import { MAIN_MENU_ORDERED, MAIN_MENU_ITEMS } from './constants';
 import messages from './messages';
 
 export const buildMenuItems = (variant, intl, items = MAIN_MENU_ORDERED) => (
-  items.map((key) => buildMenuItem(key, variant, intl));
+  items.map((key) => buildMenuItem(key, variant, intl))
 );
 
 const buildMenuItem = (key, variant, intl, hashItems = MAIN_MENU_ITEMS) => {

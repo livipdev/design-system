@@ -1,4 +1,4 @@
-import { fade } from '@material-ui/core/styles/colorManipulator';
+import { fade } from '../styles/colorManipulator';
 import { getDoubledSpace, getHalfSpace } from '../styles/spacing';
 
 const commonBox = {

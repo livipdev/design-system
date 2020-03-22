@@ -1,7 +1,8 @@
 import { defineMessages } from 'react-intl';
 
-const headerRef = 'app.header';
-const mainMenuRef = `${headerRef}.menu.main`;
+import { headerMenuRef } from '@livip/containers/Header/messages';
+
+const mainMenuRef = `${headerMenuRef}.main`;
 const mainMenuItemsRef = `${mainMenuRef}.items`;
 const mainMenuButtonsRef = `${mainMenuRef}.buttons`;
 
