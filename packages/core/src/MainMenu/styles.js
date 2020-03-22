@@ -24,7 +24,7 @@ const styles = (theme) => ({
     ...commonBox,
     marginLeft: getDoubledSpace(),
     marginRight: getDoubledSpace(),
-  }
+  },
 });
 
 export default styles;

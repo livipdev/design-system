@@ -7,10 +7,10 @@ import MainMenu from '@livip/core/MainMenu';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const Header = ({ maxWidth }) => (
-  <Container maxWidth={ maxWidth } disableGutters>
-    <TopMenu />
-    <MainMenu />
+const Header = ({ maxWidth, variant }) => (
+  <Container maxWidth={maxWidth} disableGutters>
+    <TopMenu variant={variant} />
+    <MainMenu variant={variant} />
   </Container>
 );
 

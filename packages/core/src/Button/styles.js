@@ -11,7 +11,7 @@ const addAnimation = (theme) => ({
     content: '""',
     height: '155px',
     left: '-75px',
-    opacity: .2,
+    opacity: 0.2,
     position: 'absolute',
     top: '-50px',
     transform: 'rotate(35deg)',

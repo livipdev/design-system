@@ -1,22 +1,30 @@
 export const MAIN_MENU_ITEMS = {
-  'Livip Tickets': {
+  tickets: {
     key: 'tickets',
     href: '#',
   },
-  'Livip One': {
+  one: {
     key: 'one',
     href: '#',
   },
-  'Livip Travel': {
+  travel: {
     key: 'travel',
     href: '#',
   },
-  Sobre: {
-    key: 'sobre',
+  about: {
+    key: 'about',
     href: '#',
   },
-  'Fale conosco': {
-    key: 'fale-conosco',
+  contact: {
+    key: 'contact',
     href: '#',
   },
 };
+
+export const MAIN_MENU_ORDERED = [
+  'tickets',
+  'one',
+  'travel',
+  'about',
+  'contact',
+];
