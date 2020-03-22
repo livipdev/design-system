@@ -1,6 +1,6 @@
 import withStyles from '../styles/withStyles';
 
 import styles from './styles';
-import Button from './Button';
+import MenuLink from './MenuLink';
 
-export default withStyles(styles)(Button);
+export default withStyles(styles)(MenuLink);

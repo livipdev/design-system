@@ -3,7 +3,7 @@ import React from 'react';
 import Container from '../Container';
 import Box from '../Box';
 import Logotype from '../Logotype';
-import MainMenuList from '../MainMenuList';
+import MenuList from '../MenuList';
 import Button from '../Button';
 
 import propTypes from './propTypes';
@@ -17,9 +17,9 @@ const MainMenu = ({ classes, maxWidth, variant }) => (
         <Logotype variant={variant} />
       </Box>
       <Box className={classes.menuBox}>
-        <MainMenuList>
+        <MenuList>
           { buildMenuItems(variant) }
-        </MainMenuList>
+        </MenuList>
       </Box>
       <Box className={classes.box}>
         <Button variant="outlined">Clube Livip</Button>

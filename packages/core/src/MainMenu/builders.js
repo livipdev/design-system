@@ -1,14 +1,14 @@
 import React from 'react';
-import MainMenuItem from '@livip/core/MainMenuItem';
-import MainMenuLink from '@livip/core/MainMenuLink';
+import MenuListItem from '@livip/core/MenuListItem';
+import MenuLink from '@livip/core/MenuLink';
 
 import { MAIN_MENU_ITEMS } from './constants';
 
 export const buildMenuItems = (variant) =>
   Object.entries(MAIN_MENU_ITEMS).map(
     ([label, options]) => (
-      <MainMenuItem key={options.key} selected={variant === options.key}>
-        <MainMenuLink href={options.link}>{label}</MainMenuLink>
-      </MainMenuItem>
+      <MenuListItem key={options.key} selected={variant === options.key}>
+        <MenuLink href={options.link}>{label}</MenuLink>
+      </MenuListItem>
     )
   );

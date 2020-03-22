@@ -4,11 +4,11 @@ import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 import Link from '../Link';
 
-const MainMenuLink = ({ classes, ...props }) => (
+const MenuLink = ({ classes, ...props }) => (
   <Link className={classes.root} {...props} />
 );
 
-MainMenuLink.propTypes = propTypes;
-MainMenuLink.defaultProps = defaultProps;
+MenuLink.propTypes = propTypes;
+MenuLink.defaultProps = defaultProps;
 
-export default MainMenuLink;
+export default MenuLink;

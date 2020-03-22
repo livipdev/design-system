@@ -1,3 +1,3 @@
-import MainMenu from '@livip/core/MainMenu';
+import Header from './Header';
 
-export default MainMenu;
+export default Header;

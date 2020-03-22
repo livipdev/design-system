@@ -1,4 +1,4 @@
-import withStyles from '@material-ui/core/styles/withStyles';
+import withStyles from '../styles/withStyles';
 
 import styles from './styles';
 import MainMenu from './MainMenu';

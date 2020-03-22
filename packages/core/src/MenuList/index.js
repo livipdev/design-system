@@ -2,8 +2,8 @@ import React from 'react';
 
 import List from '../List';
 
-const MainMenuList = ({ ...props }) => (
+const MenuList = ({ ...props }) => (
   <List {...props} />
 );
 
-export default MainMenuList;
+export default MenuList;

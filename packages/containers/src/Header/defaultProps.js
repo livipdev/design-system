@@ -1,4 +1,4 @@
-import { SCREEN_SIZES } from '../styles/theme/constants';
+import { SCREEN_SIZES } from '@livip/core/styles/theme/constants';
 
 const defaultProps = {
   maxWidth: SCREEN_SIZES.NONE,
