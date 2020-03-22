@@ -6,6 +6,9 @@ const styles = (theme) => ({
     color: theme.palette.common.white,
     backgroundColor: theme.palette.primary.dark,
     padding: getFullSpace(),
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 

@@ -5,6 +5,7 @@ const styles = (theme) => ({
     display: 'flex',
     justifyContent: 'center',
     whiteSpace: 'pre-wrap',
+    marginLeft: 'auto',
   },
 });
 
