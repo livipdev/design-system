@@ -1601,6 +1601,9 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
+"@livip/icons@/home/odelucca/Code/livip/design-system/packages/icons/dist":
+  version "1.0.0"
+
 "@livip/tokens@file:packages/tokens/dist":
   version "1.0.0"
 

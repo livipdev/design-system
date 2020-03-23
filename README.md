@@ -15,7 +15,8 @@ Many of our applications can use shared components. Also, all components from ev
 
 To use this library, your application must have the following packages installed:
 
-* []@material-ui/core](https://www.npmjs.com/package/@material-ui/core)
+* [@material-ui/core](https://www.npmjs.com/package/@material-ui/core)
+* [@material-ui/icons](https://www.npmjs.com/package/@material-ui/icons)
 
 ## 🤖 Getting Started
 

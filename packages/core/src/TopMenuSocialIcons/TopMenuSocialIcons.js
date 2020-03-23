@@ -3,10 +3,11 @@ import React from 'react';
 import Box from '../Box';
 
 import propTypes from './propTypes';
+import { buildSocialIcons } from './builders';
 
 const TopMenuSocialIcons = ({ classes }) => (
   <Box classes={classes}>
-    Ok
+    { buildSocialIcons() }
   </Box>
 );
 

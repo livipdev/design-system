@@ -1,7 +1,7 @@
 {
-  "name": "@livip/core",
+  "name": "@livip/icons",
   "version": "1.0.0",
-  "description": "Core components for our design system",
+  "description": "Icons for our design system",
   "author": "odelucca",
   "license": "MIT",
   "private": true,
@@ -21,6 +21,7 @@
   },
   "peerDependencies": {
     "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
     "react": "^16.13.0"
   },
   "devDependencies": {
@@ -29,12 +30,5 @@
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-react": "^7.8.3",
     "rimraf": "^3.0.2"
-  },
-  "dependencies": {
-    "@livip/icons": "/home/odelucca/Code/livip/design-system/packages/icons/dist",
-    "@livip/tokens": "/home/odelucca/Code/livip/design-system/packages/tokens/dist",
-    "lodash": "^4.17.15",
-    "react-intl": "^4.2.2",
-    "typeface-montserrat": "^0.0.75"
   }
 }

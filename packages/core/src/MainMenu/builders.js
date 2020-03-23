@@ -1,6 +1,7 @@
 import React from 'react';
-import MenuListItem from '@livip/core/MenuListItem';
-import MenuLink from '@livip/core/MenuLink';
+
+import MenuListItem from '../MenuListItem';
+import MenuLink from '../MenuLink';
 
 import { MAIN_MENU_ORDERED, MAIN_MENU_ITEMS } from './constants';
 import messages from './messages';

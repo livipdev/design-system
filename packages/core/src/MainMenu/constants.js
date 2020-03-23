@@ -1,30 +1,36 @@
+const TICKETS = 'tickets';
+const ONE = 'one';
+const TRAVEL = 'travel';
+const ABOUT = 'about';
+const CONTACT = 'contact';
+
 export const MAIN_MENU_ITEMS = {
-  tickets: {
+  [TICKETS]: {
     key: 'tickets',
     href: '#',
   },
-  one: {
+  [ONE]: {
     key: 'one',
     href: '#',
   },
-  travel: {
+  [TRAVEL]: {
     key: 'travel',
     href: '#',
   },
-  about: {
+  [ABOUT]: {
     key: 'about',
     href: '#',
   },
-  contact: {
+  [CONTACT]: {
     key: 'contact',
     href: '#',
   },
 };
 
 export const MAIN_MENU_ORDERED = [
-  'tickets',
-  'one',
-  'travel',
-  'about',
-  'contact',
+  TICKETS,
+  ONE,
+  TRAVEL,
+  ABOUT,
+  CONTACT,
 ];
