@@ -1,11 +1,17 @@
 import PropTypes from 'prop-types';
 
-import { SCREEN_SIZES } from '@livip/core/styles/theme/constants';
+import Grid from '@livip/core/Grid';
 import { AVAILABLE_VARIANTS } from '@livip/core/Logotype/constants';
 
+const guttersPropTypes = {
+  xs: PropTypes.number,
+};
+
 const propTypes = {
-  maxWidth: PropTypes.oneOf(Object.values(SCREEN_SIZES)),
   variant: PropTypes.oneOf(Object.values(AVAILABLE_VARIANTS)),
+  gutter: PropTypes.shape(guttersPropTypes),
+  justify: Grid.propTypes.justify,
+  alignItems: Grid.propTypes.alignItems,
 };
 
 export default propTypes;

@@ -1,12 +1,27 @@
 import PropTypes from 'prop-types';
 
-import { SCREEN_SIZES } from '../styles/theme/constants';
+import Grid from '../Grid';
 import { AVAILABLE_VARIANTS } from '../Logotype/constants';
+
+const itemsPropTypes = {
+  logotype: PropTypes.shape(itemPropTypes),
+};
+
+const itemPropTypes = {
+  xs: Grid.propTypes.xs,
+};
+
+const guttersPropTypes = {
+  xs: Grid.propTypes.xs,
+};
 
 const propTypes = {
   classes: PropTypes.object.isRequired,
-  maxWidth: PropTypes.oneOf(Object.values(SCREEN_SIZES)),
   variant: PropTypes.oneOf(AVAILABLE_VARIANTS),
+  gutters: PropTypes.shape(guttersPropTypes).isRequired,
+  justify: Grid.propTypes.justify,
+  alignItems: Grid.propTypes.alignItems,
+  items: PropTypes.shape(itemsPropTypes),
 };
 
 export default propTypes;

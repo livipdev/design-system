@@ -1,17 +1,17 @@
 import React from 'react';
 
-import Container from '@livip/core/Container';
+import Grid from '@livip/core/Grid';
 import TopMenu from '@livip/core/TopMenu';
 import MainMenu from '@livip/core/MainMenu';
 
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const Header = ({ maxWidth, variant }) => (
-  <Container maxWidth={maxWidth} disableGutters>
-    <TopMenu variant={variant} />
-    <MainMenu variant={variant} />
-  </Container>
+const Header = ({ variant, justify, alignItems, gutters }) => (
+  <Grid justify={justify} alignItems={alignItems} container>
+    <TopMenu variant={variant} gutters={gutters} />
+    <MainMenu variant={variant} gutters={gutters} />
+  </Grid>
 );
 
 Header.propTypes = propTypes;
