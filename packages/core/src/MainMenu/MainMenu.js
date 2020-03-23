@@ -14,13 +14,13 @@ const MainMenu = ({ classes, variant, children, gutters }) => {
 
   return (
     <Grid className={classes.container} container>
-      <Grid xs={gutters.xs/2} />
+      <Grid xs={gutters.xs / 2} />
 
       <MainMenuLogotype variant={variant} {...children.logotype} />
       <HeaderMenu menu={menu} {...children.menu} />
       <MainMenuButtons {...children.buttons} />
 
-      <Grid xs={gutters.xs/2} />
+      <Grid xs={gutters.xs / 2} />
     </Grid>
   );
 };

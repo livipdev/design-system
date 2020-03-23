@@ -3,7 +3,7 @@ const gutters = {
 };
 
 const defaultProps = {
-  gutters: gutters,
+  gutters,
   justify: 'center',
   alignItems: 'center',
 };

@@ -14,7 +14,7 @@ const TopMenuClaim = ({ classes, variant, xs, justify, alignItems }) => {
   return (
     <Grid classes={classes} xs={xs} justify={justify} alignItems={alignItems} container>
       <Typography className={classes.typography}>
-        {intl.formatMessage(message).concat(" ")}
+        {intl.formatMessage(message).concat(' ')}
       </Typography>
       <Typography variant="body2" className={classes.typography}>
         {intl.formatMessage(messages.contact)}

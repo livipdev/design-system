@@ -1,24 +1,16 @@
 import React from 'react';
-import { useIntl } from 'react-intl';
 
 import Grid from '../Grid';
-import Button from '../Button';
 
-import messages from './messages';
 import propTypes from './propTypes';
+import { buildVariantButtons } from './builders';
 
-const MainMenuButtons = ({ xs, alignItems, justify }) => {
-  const intl = useIntl();
+const SubMenuButtons = ({ variant, xs, alignItems, justify }) => (
+  <Grid xs={xs} alignItems={alignItems} justify={justify} container>
+    { buildVariantButtons(variant) }
+  </Grid>
+);
 
-  return (
-      <Grid xs={xs} alignItems={alignItems} justify={justify} container>
-        <Button variant="text" color="secondary">
-          { intl.formatMessage(messages.proposal) }
-        </Button>
-    </Grid>
-  );
-};
+SubMenuButtons.propTypes = propTypes;
 
-MainMenuButtons.propTypes = propTypes;
-
-export default MainMenuButtons;
+export default SubMenuButtons;

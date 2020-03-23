@@ -8,7 +8,7 @@ const buttonsProps = {
   xs: 2,
   justify: 'flex-end',
   alignItems: 'center',
-}
+};
 
 const childrenProps = {
   menu: menuProps,

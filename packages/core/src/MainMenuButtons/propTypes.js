@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 import Grid from '../Grid';
 
 const propTypes = {

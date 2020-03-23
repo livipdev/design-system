@@ -9,5 +9,5 @@ export const buildSocialIcons = (items = SOCIAL_NETWORKS_ORDERED) => items.map(b
 const buildSocialIcon = (key) => {
   const { href, Icon } = SOCIAL_NETWORKS[key];
 
-  return <SocialIcon key={key} href={href} Icon={Icon} />
+  return <SocialIcon key={key} href={href} Icon={Icon} />;
 };

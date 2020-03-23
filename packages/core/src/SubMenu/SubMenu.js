@@ -13,12 +13,12 @@ const SubMenu = ({ classes, variant, children, gutters }) => {
 
   return (
     <Grid className={classes.container} container>
-      <Grid xs={gutters.xs/2} />
+      <Grid xs={gutters.xs / 2} />
 
       <HeaderMenu menu={menu} {...children.menu} />
-      <SubMenuButtons {...children.buttons} />
+      <SubMenuButtons variant={variant} {...children.buttons} />
 
-      <Grid xs={gutters.xs/2} />
+      <Grid xs={gutters.xs / 2} />
     </Grid>
   );
 };

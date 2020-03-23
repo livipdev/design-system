@@ -17,12 +17,12 @@ const TopMenu = ({
   alignItems,
 }) => (
   <Grid classes={classes} justify={justify} alignItems={alignItems} xs={container.xs} container>
-    <Grid xs={gutters.xs/2} item/>
+    <Grid xs={gutters.xs / 2} item />
 
     <TopMenuClaim variant={variant} {...items.claim} />
-    <TopMenuSocialIcons {...items.social}/>
+    <TopMenuSocialIcons {...items.social} />
 
-    <Grid xs={gutters.xs/2} item/>
+    <Grid xs={gutters.xs / 2} item />
   </Grid>
 );
 

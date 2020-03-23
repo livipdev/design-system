@@ -8,7 +8,7 @@ export const buildMenuItems = (menu) => {
   const intl = useIntl();
   const items = menu.order.map((key) => buildMenuItem(key, intl, menu));
 
-  return items
+  return items;
 };
 
 const buildMenuItem = (key, intl, menu) => {

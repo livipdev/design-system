@@ -14,7 +14,7 @@ const buttonsProps = {
   xs: 3,
   justify: 'flex-end',
   alignItems: 'center',
-}
+};
 
 const childrenProps = {
   logotype: logotypeProps,

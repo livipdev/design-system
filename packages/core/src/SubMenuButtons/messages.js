@@ -1,12 +1,15 @@
 import { defineMessages } from 'react-intl';
 
-import { subMenuRef } from '../SubMenu/messages';
+import { subMenuTravelRef } from '../SubMenu/messages';
+import { PROPOSAL } from './constants';
 
-const subMenuButtonsRef = `${subMenuRef}.buttons`;
+const subMenuTravelButtonsRef = `${subMenuTravelRef}.buttons`;
 
 export default defineMessages({
-  proposal: {
-    id: `${subMenuButtonsRef}.proposal`,
-    defaultMessage: 'Request a proposal',
+  travel: {
+    [PROPOSAL]: {
+      id: `${subMenuTravelButtonsRef}.proposal`,
+      defaultMessage: 'Request a proposal',
+    },
   },
 });

@@ -11,13 +11,13 @@ const MainMenuButtons = ({ xs, alignItems, justify }) => {
   const intl = useIntl();
 
   return (
-      <Grid xs={xs} alignItems={alignItems} justify={justify} container>
-        <Button variant="outlined">
-          { intl.formatMessage(messages.livipClub) }
-        </Button>
-        <Button variant="contained" color="secondary">
-          { intl.formatMessage(messages.referral) }
-        </Button>
+    <Grid xs={xs} alignItems={alignItems} justify={justify} container>
+      <Button variant="outlined">
+        { intl.formatMessage(messages.livipClub) }
+      </Button>
+      <Button variant="contained" color="secondary">
+        { intl.formatMessage(messages.referral) }
+      </Button>
     </Grid>
   );
 };
