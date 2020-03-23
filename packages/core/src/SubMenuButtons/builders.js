@@ -22,7 +22,7 @@ const buildKeyButton = (key, { variant, intl, ...options }) => {
   const message = messages[variant][key];
 
   return (
-    <Button variant={button.variant} color={button.color}>
+    <Button key={key} variant={button.variant} color={button.color}>
       { intl.formatMessage(message) }
     </Button>
   );
