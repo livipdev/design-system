@@ -1,0 +1,11 @@
+import PropTypes from 'prop-types';
+
+import Grid from '../Grid';
+
+const propTypes = {
+  xs: Grid.propTypes.xs.isRequired,
+  justify: Grid.propTypes.justify,
+  alignItems: Grid.propTypes.alignItems,
+};
+
+export default propTypes;

@@ -12,11 +12,8 @@ const MainMenuButtons = ({ xs, alignItems, justify }) => {
 
   return (
       <Grid xs={xs} alignItems={alignItems} justify={justify} container>
-        <Button variant="outlined">
-          { intl.formatMessage(messages.livipClub) }
-        </Button>
-        <Button variant="contained" color="secondary">
-          { intl.formatMessage(messages.referral) }
+        <Button variant="text" color="secondary">
+          { intl.formatMessage(messages.proposal) }
         </Button>
     </Grid>
   );

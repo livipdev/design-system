@@ -1,23 +1,16 @@
-const logotypeProps = {
-  xs: 1,
-  justify: 'center',
-  alignItems: 'center',
-};
-
 const menuProps = {
-  xs: 6,
+  xs: 8,
   justify: 'center',
   alignItems: 'center',
 };
 
 const buttonsProps = {
-  xs: 3,
+  xs: 2,
   justify: 'flex-end',
   alignItems: 'center',
 }
 
 const childrenProps = {
-  logotype: logotypeProps,
   menu: menuProps,
   buttons: buttonsProps,
 };

@@ -4,7 +4,6 @@ import Grid from '../Grid';
 import { AVAILABLE_VARIANTS } from '../Logotype/constants';
 
 const childrenPropTypes = {
-  logotype: PropTypes.shape(itemPropTypes),
   menu: PropTypes.shape(itemPropTypes),
   buttons: PropTypes.shape(itemPropTypes),
 };

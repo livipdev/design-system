@@ -29,7 +29,6 @@ const addAnimation = (theme) => ({
 
 const styles = (theme) => ({
   root: {
-    ...addAnimation(theme),
     margin: getHalfSpace(),
     paddingTop: getHalfSpace(),
     paddingBottom: getHalfSpace(),
@@ -38,11 +37,19 @@ const styles = (theme) => ({
   },
 
   outlined: {
+    ...addAnimation(theme),
     color: theme.palette.common.white,
     borderColor: theme.palette.common.white,
   },
 
   textSecondary: {
+    color: theme.palette.common.white,
+    '&:hover': {
+      backgroundColor: 'transparent',
+    },
+  },
+
+  containedSecondary: {
     color: theme.palette.primary.main,
     borderColor: theme.palette.common.white,
     backgroundColor: theme.palette.common.white,

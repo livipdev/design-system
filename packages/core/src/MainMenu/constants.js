@@ -1,10 +1,10 @@
-const TICKETS = 'tickets';
-const ONE = 'one';
-const TRAVEL = 'travel';
+export const TICKETS = 'tickets';
+export const ONE = 'one';
+export const TRAVEL = 'travel';
 const ABOUT = 'about';
 const CONTACT = 'contact';
 
-export const MAIN_MENU_ITEMS = {
+export const MAIN_MENU_HASHMAP = {
   [TICKETS]: {
     key: 'tickets',
     href: '#',
@@ -27,7 +27,7 @@ export const MAIN_MENU_ITEMS = {
   },
 };
 
-export const MAIN_MENU_ORDERED = [
+export const MAIN_MENU_ORDER = [
   TICKETS,
   ONE,
   TRAVEL,
