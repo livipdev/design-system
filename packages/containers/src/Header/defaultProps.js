@@ -1,9 +1,9 @@
-const gutters = {
-  xs: 2,
+const guttersProps = {
+  xs: 1,
 };
 
 const defaultProps = {
-  gutters,
+  gutters: guttersProps,
   justify: 'center',
   alignItems: 'center',
 };

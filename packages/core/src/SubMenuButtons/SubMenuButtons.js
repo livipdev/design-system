@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Grid from '../Grid';
+import Box from '../Box';
 
 import propTypes from './propTypes';
 import { buildVariantButtons } from './builders';
 
-const SubMenuButtons = ({ variant, xs, alignItems, justify }) => (
-  <Grid xs={xs} alignItems={alignItems} justify={justify} container>
+const SubMenuButtons = ({ variant, ...props }) => (
+  <Box {...props}>
     { buildVariantButtons(variant) }
-  </Grid>
+  </Box>
 );
 
 SubMenuButtons.propTypes = propTypes;

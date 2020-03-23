@@ -1,29 +1,14 @@
-const containerProps = {
-  xs: 12,
+const contentProps = {
+  xs: 10,
 };
 
-const claimProps = {
-  xs: 8,
-  justify: 'center',
-  alignItems: 'center',
-};
-
-const socialProps = {
-  xs: 2,
-  justify: 'flex-end',
-  alignItems: 'center',
-};
-
-const itemsProps = {
-  claim: claimProps,
-  social: socialProps,
+const guttersProps = {
+  xs: 1,
 };
 
 const defaultProps = {
-  container: containerProps,
-  items: itemsProps,
-  justify: 'center',
-  alignItems: 'center',
+  content: contentProps,
+  gutters: guttersProps,
 };
 
 export default defaultProps;

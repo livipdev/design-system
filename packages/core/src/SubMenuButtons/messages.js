@@ -1,6 +1,6 @@
 import { defineMessages } from 'react-intl';
 
-import { subMenuTravelRef } from '../SubMenu/messages';
+import { subMenuTravelRef } from '../SubMenuContent/messages';
 import { PROPOSAL } from './constants';
 
 const subMenuTravelButtonsRef = `${subMenuTravelRef}.buttons`;

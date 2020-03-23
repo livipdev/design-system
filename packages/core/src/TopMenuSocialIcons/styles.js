@@ -4,7 +4,6 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     marginLeft: 'auto',
-    whiteSpace: 'pre-wrap',
   },
 };
 

@@ -4,7 +4,7 @@ import Grid from '@livip/core/Grid';
 import { AVAILABLE_VARIANTS } from '@livip/core/Logotype/constants';
 
 const guttersPropTypes = {
-  xs: PropTypes.number,
+  xs: Grid.propTypes.xs,
 };
 
 const propTypes = {

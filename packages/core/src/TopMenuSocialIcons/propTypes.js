@@ -1,9 +1,7 @@
-import Grid from '../Grid';
+import PropTypes from 'prop-types';
 
 const propTypes = {
-  xs: Grid.propTypes.xs,
-  justify: Grid.propTypes.justify,
-  alignItems: Grid.propTypes.alignItems,
+  classes: PropTypes.object.isRequired,
 };
 
 export default propTypes;

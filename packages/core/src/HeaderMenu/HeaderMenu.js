@@ -1,19 +1,14 @@
 import React from 'react';
 
-import Grid from '../Grid';
+import Box from '../Box';
 
 import { buildMenuItems } from './builders';
 import propTypes from './propTypes';
 
-const HeaderMenu = ({
-  menu,
-  xs,
-  justify,
-  alignItems,
-}) => (
-  <Grid xs={xs} alignItems={alignItems} justify={justify} container>
+const HeaderMenu = ({ menu, ...props }) => (
+  <Box {...props}>
     { buildMenuItems(menu) }
-  </Grid>
+  </Box>
 );
 
 HeaderMenu.propTypes = propTypes;

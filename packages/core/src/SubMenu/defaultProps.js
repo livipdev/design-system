@@ -1,22 +1,14 @@
-const menuProps = {
-  xs: 8,
-  justify: 'center',
-  alignItems: 'center',
+const guttersProps = {
+  xs: 1,
 };
 
-const buttonsProps = {
-  xs: 2,
-  justify: 'flex-end',
-  alignItems: 'center',
-};
-
-const childrenProps = {
-  menu: menuProps,
-  buttons: buttonsProps,
+const contentProps = {
+  xs: 10,
 };
 
 const defaultProps = {
-  children: childrenProps,
+  gutters: guttersProps,
+  content: contentProps,
   justify: 'center',
   alignItems: 'center',
 };

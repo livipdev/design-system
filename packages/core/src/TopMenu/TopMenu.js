@@ -1,28 +1,17 @@
 import React from 'react';
 
 import Grid from '../Grid';
-import TopMenuClaim from '../TopMenuClaim';
-import TopMenuSocialIcons from '../TopMenuSocialIcons';
+import Gutter from '../Gutter';
+import TopMenuContent from '../TopMenuContent';
 
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const TopMenu = ({
-  classes,
-  variant,
-  gutters,
-  container,
-  items,
-  justify,
-  alignItems,
-}) => (
-  <Grid classes={classes} justify={justify} alignItems={alignItems} xs={container.xs} container>
-    <Grid xs={gutters.xs / 2} item />
-
-    <TopMenuClaim variant={variant} {...items.claim} />
-    <TopMenuSocialIcons {...items.social} />
-
-    <Grid xs={gutters.xs / 2} item />
+const TopMenu = ({ classes, variant, gutters, content }) => (
+  <Grid container classes={classes}>
+    <Gutter {...gutters} />
+    <TopMenuContent variant={variant} {...content}/>
+    <Gutter {...gutters} />
   </Grid>
 );
 

@@ -1,10 +1,12 @@
 const styles = {
   root: {
     display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+  },
+
+  menu: {
+    display: 'flex',
     marginLeft: 'auto',
-    whiteSpace: 'pre-wrap',
+    alignItems: 'center',
   },
 };
 
