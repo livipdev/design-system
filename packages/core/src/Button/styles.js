@@ -44,6 +44,9 @@ const styles = (theme) => ({
 
   textSecondary: {
     color: theme.palette.common.white,
+    margin: 0,
+    padding: getHalfSpace(),
+    fontWeight: 700,
     '&:hover': {
       backgroundColor: 'transparent',
     },

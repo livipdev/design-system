@@ -15,7 +15,7 @@ export const SOCIAL_NETWORKS = {
 
   [INSTAGRAM]: {
     key: 'instagram',
-    href: 'https://instagram.com/livip',
+    href: 'https://instagram.com/livip_br',
     Icon: InstagramIcon,
   },
 

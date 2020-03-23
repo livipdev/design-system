@@ -9,7 +9,7 @@ const guttersPropTypes = {
 
 const propTypes = {
   variant: PropTypes.oneOf(Object.values(AVAILABLE_VARIANTS)),
-  gutter: PropTypes.shape(guttersPropTypes),
+  gutters: PropTypes.shape(guttersPropTypes),
   justify: Grid.propTypes.justify,
   alignItems: Grid.propTypes.alignItems,
 };

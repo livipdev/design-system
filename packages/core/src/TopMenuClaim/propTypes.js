@@ -5,7 +5,7 @@ import { AVAILABLE_VARIANTS } from '../Logotype/constants';
 
 const propTypes = {
   classes: PropTypes.object.isRequired,
-  xs: Grid.propTypes.xs.isRequired,
+  xs: Grid.propTypes.xs,
   variant: PropTypes.oneOf(AVAILABLE_VARIANTS),
   justify: Grid.propTypes.justify,
   alignItems: Grid.propTypes.alignItems,

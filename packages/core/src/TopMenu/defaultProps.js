@@ -3,13 +3,13 @@ const containerProps = {
 };
 
 const claimProps = {
-  xs: 9,
+  xs: 8,
   justify: 'center',
   alignItems: 'center',
 };
 
 const socialProps = {
-  xs: 1,
+  xs: 2,
   justify: 'flex-end',
   alignItems: 'center',
 };

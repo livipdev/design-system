@@ -11,7 +11,7 @@ const menuPropTypes = {
 
 const propTypes = {
   menu: PropTypes.shape(menuPropTypes).isRequired,
-  xs: Grid.propTypes.xs.isRequired,
+  xs: Grid.propTypes.xs,
   justify: Grid.propTypes.justify,
   alignItems: Grid.propTypes.alignItems,
 };
