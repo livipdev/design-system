@@ -1,8 +1,13 @@
 import React from 'react';
 import MuiButton from '@material-ui/core/Button';
 
-const Button = (props) => <MuiButton {...props} />;
+import propTypes from './propTypes';
 
-Button.propTypes = MuiButton.propTypes;
+const Button = ({ classes, ...props }) => <MuiButton classes={classes} {...props} />;
+
+Button.propTypes = {
+  ...MuiButton.propTypes,
+  ...propTypes,
+};
 
 export default Button;

@@ -1,18 +1,16 @@
 import React from 'react';
 
-import Grid from '../Grid';
+import Box from '../Box';
 import Logotype from '../Logotype';
 
 import propTypes from './propTypes';
-import defaultProps from './defaultProps';
 
 const MainMenuLogotype = ({ classes, variant }) => (
-  <Grid item classes={classes}>
+  <Box classes={classes}>
     <Logotype variant={variant} />
-  </Grid>
+  </Box>
 );
 
 MainMenuLogotype.propTypes = propTypes;
-MainMenuLogotype.defaultProps = defaultProps;
 
 export default MainMenuLogotype;

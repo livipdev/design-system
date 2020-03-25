@@ -1,4 +1,4 @@
-import { TICKETS, ONE, TRAVEL } from '../MainMenu/constants';
+import { TICKETS, ONE, TRAVEL } from '../MainMenuContent/constants';
 
 const EVENTS = 'events';
 const PROJECTS = 'projects';

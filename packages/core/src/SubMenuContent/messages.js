@@ -1,5 +1,5 @@
 import { defineMessages } from 'react-intl';
-import { subMenuRef } from '../SubMenu';
+import { subMenuRef } from '../SubMenu/messages';
 
 export const subMenuTravelRef = `${subMenuRef}.travel`;
 const subMenuTravelItemsRef = `${subMenuTravelRef}.items`;

@@ -17,6 +17,5 @@
     "react/jsx-fragments": [0],
     "object-curly-newline": [0],
     "import/no-unresolved": [0],
-    "react/forbid-foreign-prop-types": [0]
   }
 }

@@ -11,7 +11,7 @@ const SubMenuContent = ({ classes, variant }) => {
   const menu = buildSubMenu(variant);
 
   return (
-    <Grid container classes={classes}>
+    <Grid item classes={classes} lg={10} xs={12}>
       <HeaderMenu menu={menu} classes={{ root: classes.menu }} />
       <SubMenuButtons variant={variant} />
     </Grid>

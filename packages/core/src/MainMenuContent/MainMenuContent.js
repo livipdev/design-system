@@ -8,11 +8,11 @@ import MainMenuButtons from '../MainMenuButtons';
 import propTypes from './propTypes';
 import { buildMainMenu } from './builders';
 
-const MainMenuContent = ({ variant }) => {
+const MainMenuContent = ({ variant, classes }) => {
   const menu = buildMainMenu(variant);
 
   return (
-    <Grid container justify='space-between' alignItems='center'>
+    <Grid item classes={classes} lg={10} xs={12}>
       <MainMenuLogotype variant={variant} />
       <HeaderMenu menu={menu} />
       <MainMenuButtons />

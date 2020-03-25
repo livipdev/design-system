@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Grid from '../Grid';
+import Box from '../Box';
 
 import { buildMenuItems } from './builders';
 import propTypes from './propTypes';
 
 const HeaderMenu = ({ classes, menu }) => (
-  <Grid item classes={classes}>
+  <Box classes={classes}>
     { buildMenuItems(menu) }
-  </Grid>
+  </Box>
 );
 
 HeaderMenu.propTypes = propTypes;

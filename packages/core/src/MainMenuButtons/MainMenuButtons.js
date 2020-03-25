@@ -1,24 +1,27 @@
 import React from 'react';
 import { useIntl } from 'react-intl';
 
-import Grid from '../Grid';
+import Box from '../Box';
 import Button from '../Button';
 
 import messages from './messages';
+import propTypes from './propTypes';
 
 const MainMenuButtons = ({ classes }) => {
   const intl = useIntl();
 
   return (
-    <Grid item classes={classes}>
+    <Box classes={classes}>
       <Button variant="outlined">
         { intl.formatMessage(messages.livipClub) }
       </Button>
       <Button variant="contained" color="secondary">
         { intl.formatMessage(messages.referral) }
       </Button>
-    </Grid>
+    </Box>
   );
 };
+
+MainMenuButtons.propTypes = propTypes;
 
 export default MainMenuButtons;
