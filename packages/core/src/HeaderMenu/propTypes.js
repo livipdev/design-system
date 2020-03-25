@@ -9,7 +9,6 @@ const menuPropTypes = {
 
 const propTypes = {
   menu: PropTypes.shape(menuPropTypes).isRequired,
-  classes: PropTypes.object,
 };
 
 export default propTypes;

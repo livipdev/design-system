@@ -1,4 +1,4 @@
-import { getHalfSpace } from '../styles/spacing';
+import { getHalfSpace, getSpaceTimes } from '../styles/spacing';
 
 const styles = (theme) => ({
   root: {

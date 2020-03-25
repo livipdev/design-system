@@ -1,7 +1,7 @@
 import React from 'react';
 import { useIntl } from 'react-intl';
 
-import Box from '../Box';
+import Grid from '../Grid';
 import Typography from '../Typography';
 
 import propTypes from './propTypes';
@@ -12,14 +12,14 @@ const TopMenuClaim = ({ classes, variant }) => {
   const message = messages[variant];
 
   return (
-    <Box classes={classes}>
+    <Grid item classes={classes}>
       <Typography>
         {intl.formatMessage(message).concat(' ')}
       </Typography>
       <Typography variant="body2">
         {intl.formatMessage(messages.contact)}
       </Typography>
-    </Box>
+    </Grid>
   );
 };
 

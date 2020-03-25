@@ -2,26 +2,26 @@
   "typography": {
     "fontFamily": "Montserrat, Helvetica, Arial, sans-serif",
     "body2": {
-      "fontSize": "0.875rem",
+      "fontSize": "0.80rem",
       "fontWeight": "700"
     },
     "body1": {
-      "fontSize": "0.875rem"
+      "fontSize": "0.80rem"
     },
     "button": {
-      "fontSize": "0.875rem"
+      "fontSize": "0.80rem"
     },
     "caption": {
-      "fontSize": "0.75rem"
+      "fontSize": "0.65rem"
     },
     "display1": {
-      "fontSize": "2.125rem"
+      "fontSize": "2.12rem"
     },
     "headline": {
-      "fontSize": "1.5rem"
+      "fontSize": "1.50rem"
     },
     "subheading": {
-      "fontSize": "1rem"
+      "fontSize": "1.00rem"
     },
     "title": {
       "fontSize": "1.25rem"

@@ -5,8 +5,8 @@ import Box from '../Box';
 import propTypes from './propTypes';
 import { buildVariantButtons } from './builders';
 
-const SubMenuButtons = ({ variant, ...props }) => (
-  <Box {...props}>
+const SubMenuButtons = ({ variant, classes }) => (
+  <Box classes={classes}>
     { buildVariantButtons(variant) }
   </Box>
 );

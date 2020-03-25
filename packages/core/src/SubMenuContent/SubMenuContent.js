@@ -7,11 +7,11 @@ import SubMenuButtons from '../SubMenuButtons';
 import propTypes from './propTypes';
 import { buildSubMenu } from './builders';
 
-const SubMenuContent = ({ classes, variant, ...props }) => {
+const SubMenuContent = ({ classes, variant }) => {
   const menu = buildSubMenu(variant);
 
   return (
-    <Grid item classes={classes} {...props}>
+    <Grid container classes={classes}>
       <HeaderMenu menu={menu} classes={{ root: classes.menu }} />
       <SubMenuButtons variant={variant} />
     </Grid>

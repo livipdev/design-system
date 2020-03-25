@@ -6,8 +6,8 @@ import TopMenuSocialIcons from '../TopMenuSocialIcons';
 
 import propTypes from './propTypes';
 
-const TopMenuContent = ({ variant, ...props }) => (
-  <Grid item {...props}>
+const TopMenuContent = ({ classes, variant }) => (
+  <Grid container classes={classes}>
     <TopMenuClaim variant={variant} />
     <TopMenuSocialIcons />
   </Grid>

@@ -1,5 +1,5 @@
 import {
-  getDoubledSpace,
+  getFullSpace,
   getHalfSpace,
 } from '../styles/spacing';
 
@@ -29,11 +29,10 @@ const addAnimation = (theme) => ({
 
 const styles = (theme) => ({
   root: {
-    margin: getHalfSpace(),
     paddingTop: getHalfSpace(),
     paddingBottom: getHalfSpace(),
-    paddingLeft: getDoubledSpace(),
-    paddingRight: getDoubledSpace(),
+    paddingLeft: getFullSpace(),
+    paddingRight: getFullSpace(),
   },
 
   outlined: {
@@ -44,7 +43,6 @@ const styles = (theme) => ({
 
   textSecondary: {
     color: theme.palette.common.white,
-    margin: 0,
     padding: getHalfSpace(),
     fontWeight: 700,
     '&:hover': {

@@ -1,9 +1,8 @@
 const styles = {
   root: {
     display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
     flexDirection: 'column',
+    justifyContent: 'center',
   },
 };
 

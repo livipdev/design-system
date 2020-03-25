@@ -1,11 +1,13 @@
 import { fade } from '../styles/colorManipulator';
-import { getHalfSpace } from '../styles/spacing';
+import { getHalfSpace, getSpaceTimes } from '../styles/spacing';
 
 const styles = (theme) => ({
-  container: {
+  root: {
     backgroundColor: fade(theme.palette.primary.light, 0.95),
     paddingTop: getHalfSpace(),
     paddingBottom: getHalfSpace(),
+    paddingLeft: getSpaceTimes(0.25),
+    paddingRight: getSpaceTimes(0.25),
   },
 });
 

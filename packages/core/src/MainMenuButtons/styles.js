@@ -1,8 +1,10 @@
+import { getDoubledSpace } from '../styles/spacing';
+
 const styles = {
   root: {
-    display: 'flex',
-    alignItems: 'center',
-    marginLeft: 'auto',
+    '&> button:first-child': {
+      marginRight: getDoubledSpace(),
+    },
   },
 };
 

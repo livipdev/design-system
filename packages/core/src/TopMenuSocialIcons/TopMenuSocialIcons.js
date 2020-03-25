@@ -1,16 +1,13 @@
 import React from 'react';
 
-import Box from '../Box';
+import Grid from '../Grid';
 
-import propTypes from './propTypes';
 import { buildSocialIcons } from './builders';
 
 const TopMenuSocialIcons = ({ classes }) => (
-  <Box classes={classes}>
+  <Grid item classes={classes}>
     { buildSocialIcons() }
-  </Box>
+  </Grid>
 );
-
-TopMenuSocialIcons.propTypes = propTypes;
 
 export default TopMenuSocialIcons;

@@ -5,17 +5,15 @@ import Gutter from '../Gutter';
 import SubMenuContent from '../SubMenuContent';
 
 import propTypes from './propTypes';
-import defaultProps from './defaultProps';
 
-const SubMenu = ({ classes, variant, gutters, content }) => (
+const SubMenu = ({ classes, variant }) => (
   <Grid container classes={classes}>
-    <Gutter {...gutters}/>
-    <SubMenuContent variant={variant} {...content}/>
-    <Gutter {...gutters}/>
+    <Gutter lg={1} xs={false} />
+    <SubMenuContent variant={variant} />
+    <Gutter lg={1} xs={false} />
   </Grid>
 );
 
 SubMenu.propTypes = propTypes;
-SubMenu.defaultProps = defaultProps;
 
 export default SubMenu;
