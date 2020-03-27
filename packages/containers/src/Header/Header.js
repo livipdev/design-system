@@ -1,19 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import AppBar from '@livip/core/AppBar';
-import TopMenu from '@livip/core/TopMenu';
-import MainMenu from '@livip/core/MainMenu';
-import SubMenu from '@livip/core/SubMenu';
+import HeaderToolbar from '@livip/core/HeaderToolbar';
+import HeaderMenuToggler from '@livip/core/HeaderMenuToggler';
+import HeaderDrawer from '@livip/core/HeaderDrawer';
 
 import propTypes from './propTypes';
+import { DEFAULT_MENU_STATE } from './constants';
 
-const Header = ({ variant }) => (
-  <AppBar>
-    <TopMenu variant={variant} />
-    <MainMenu variant={variant} />
-    <SubMenu variant={variant} />
-  </AppBar>
-);
+const Header = ({ variant }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(DEFAULT_MENU_STATE);
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  return (
+    <AppBar position="static" color="transparent">
+      <HeaderToolbar variant={variant} />
+      <HeaderMenuToggler toggleMenu={toggleMenu} />
+      <HeaderDrawer
+        isMenuOpen={isMenuOpen}
+        toggleMenu={toggleMenu}
+        variant={variant}
+      />
+    </AppBar>
+  );
+};
 
 Header.propTypes = propTypes;
 

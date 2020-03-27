@@ -31,6 +31,4 @@ export const MAIN_MENU_ORDER = [
   TICKETS,
   ONE,
   TRAVEL,
-  ABOUT,
-  CONTACT,
 ];

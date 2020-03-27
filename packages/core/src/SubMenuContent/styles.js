@@ -1,13 +1,18 @@
-const styles = {
+const styles = (theme) => ({
   root: {
     display: 'flex',
+    alignItems: 'center',
+
+    [theme.breakpoints.down('sm')]: {
+      flexDirection: 'column',
+    },
   },
 
   menu: {
-    display: 'flex',
-    marginLeft: 'auto',
-    alignItems: 'center',
+    [theme.breakpoints.up('md')]: {
+      marginLeft: 'auto',
+    },
   },
-};
+});
 
 export default styles;

@@ -1,8 +1,6 @@
-import React from 'react';
-import MuiAppBar from '@material-ui/core/AppBar';
+import withStyles from '../styles/withStyles';
 
-const AppBar = (props) => <MuiAppBar {...props} />;
+import styles from './styles';
+import AppBar from './AppBar';
 
-AppBar.propTypes = MuiAppBar.propTypes;
-
-export default AppBar;
+export default withStyles(styles)(AppBar);

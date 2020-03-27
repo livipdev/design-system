@@ -3,8 +3,13 @@ import { getFullSpace } from '../styles/spacing';
 
 const styles = (theme) => ({
   root: {
-    backgroundColor: fade(theme.palette.primary.main, 0.95),
-    padding: getFullSpace(),
+    transition: theme.transitions.create(),
+
+    [theme.breakpoints.up('md')]: {
+      backgroundColor: fade(theme.palette.primary.main, 0.95),
+      paddingTop: getFullSpace(),
+      paddingBottom: getFullSpace(),
+    },
   },
 });
 

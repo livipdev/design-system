@@ -12,7 +12,7 @@ const SubMenuContent = ({ classes, variant }) => {
 
   return (
     <Grid item classes={classes} lg={10} xs={12}>
-      <HeaderMenu menu={menu} classes={{ root: classes.menu }} />
+      <HeaderMenu menu={menu} customClasses={classes.menu} />
       <SubMenuButtons variant={variant} />
     </Grid>
   );

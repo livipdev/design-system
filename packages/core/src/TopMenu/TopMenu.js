@@ -6,13 +6,20 @@ import TopMenuContent from '../TopMenuContent';
 
 import propTypes from './propTypes';
 
-const TopMenu = ({ classes, variant }) => (
-  <Grid container classes={classes}>
-    <Gutter lg={1} xs={false} />
-    <TopMenuContent variant={variant} />
-    <Gutter lg={1} xs={false} />
-  </Grid>
-);
+const TopMenu = ({ classes, guttersClass, variant }) => {
+  const mergedClasses = {
+    ...classes,
+    root: [classes.root, guttersClass].join(" "),
+  };
+
+  return (
+    <Grid container classes={mergedClasses}>
+      <Gutter lg={1} xs={false} />
+      <TopMenuContent variant={variant} />
+      <Gutter lg={1} xs={false} />
+    </Grid>
+  );
+};
 
 TopMenu.propTypes = propTypes;
 
