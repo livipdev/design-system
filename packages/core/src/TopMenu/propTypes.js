@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
-
-import { AVAILABLE_VARIANTS } from '../Logotype/constants';
+import config from '@livip/config';
 
 const propTypes = {
   classes: PropTypes.object.isRequired,
   guttersClass: PropTypes.string,
-  variant: PropTypes.oneOf(AVAILABLE_VARIANTS),
+  variant: PropTypes.oneOf(config.variants.available),
 };
 
 export default propTypes;

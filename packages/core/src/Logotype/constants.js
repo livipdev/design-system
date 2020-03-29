@@ -1,16 +1,11 @@
-export const VARIANT_ROOT = 'root';
-export const VARIANT_TRAVEL = 'travel';
-export const VARIANT_ONE = 'one';
-export const VARIANT_TICKETS = 'tickets';
+import config from '@livip/config';
+
+export const VARIANT_ROOT = config.variants.root;
+export const VARIANT_TICKETS = config.variants.tickets;
+export const VARIANT_ONE = config.variants.one;
+export const VARIANT_TRAVEL = config.variants.travel;
 
 export const DEFAULT_VARIANT = VARIANT_ROOT;
-
-export const AVAILABLE_VARIANTS = [
-  VARIANT_ROOT,
-  VARIANT_TRAVEL,
-  VARIANT_ONE,
-  VARIANT_TICKETS,
-];
 
 export const VARIANT_COMPONENTS = {
   [VARIANT_ROOT]: './Root',

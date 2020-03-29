@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
-
-import { AVAILABLE_VARIANTS } from '@livip/core/Logotype/constants';
+import config from '@livip/config';
 
 const propTypes = {
-  variant: PropTypes.oneOf(Object.values(AVAILABLE_VARIANTS)),
+  variant: PropTypes.oneOf(config.variants.available),
 };
 
 export default propTypes;

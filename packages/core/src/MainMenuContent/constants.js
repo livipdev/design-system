@@ -1,6 +1,8 @@
-export const TICKETS = 'tickets';
-export const ONE = 'one';
-export const TRAVEL = 'travel';
+import config from '@livip/config';
+
+const TICKETS = config.variants.tickets;
+const ONE = config.variants.one;
+const TRAVEL = config.variants.travel;
 const ABOUT = 'about';
 const CONTACT = 'contact';
 

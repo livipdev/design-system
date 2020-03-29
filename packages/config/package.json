@@ -1,0 +1,25 @@
+{
+  "name": "@livip/config",
+  "version": "1.0.0",
+  "description": "Config used on our applications",
+  "author": "odelucca",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livipdev/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/livipdev/design-system/issues"
+  },
+  "scripts": {
+    "build": "npm run build:transpile && npm run build:copy",
+    "build:copy": "cp package.json dist",
+    "build:transpile": "babel ./src --out-dir dist --config-file ../../.babelrc --minified --no-comments --source-maps",
+    "clean": "rimraf dist",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

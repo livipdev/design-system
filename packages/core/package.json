@@ -33,6 +33,7 @@
   "dependencies": {
     "@livip/icons": "/home/odelucca/Code/livip/design-system/packages/icons/dist",
     "@livip/tokens": "/home/odelucca/Code/livip/design-system/packages/tokens/dist",
+    "@livip/config": "/home/odelucca/Code/livip/design-system/packages/config/dist",
     "lodash": "^4.17.15",
     "react-intl": "^4.2.2",
     "typeface-montserrat": "^0.0.75"

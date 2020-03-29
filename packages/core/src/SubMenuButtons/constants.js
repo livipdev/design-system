@@ -1,4 +1,8 @@
-import { TICKETS, ONE, TRAVEL } from '../MainMenuContent/constants';
+import config from '@livip/config';
+
+const TICKETS = config.variants.tickets;
+const ONE = config.variants.one;
+const TRAVEL = config.variants.travel;
 
 export const PROPOSAL = 'proposal';
 
