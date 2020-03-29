@@ -8,8 +8,8 @@ const menuPropTypes = {
 };
 
 const propTypes = {
-  classes: PropTypes.object.isRequired,
   menu: PropTypes.shape(menuPropTypes).isRequired,
+  classes: PropTypes.object,
   customClasses: PropTypes.string,
 };
 

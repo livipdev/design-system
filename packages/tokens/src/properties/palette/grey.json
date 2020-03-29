@@ -1,0 +1,12 @@
+{
+  "palette": {
+    "grey": {
+      "highEmphasis": "#424242",
+      "mediumEmphasis": "#757575",
+      "disabled": "#BDBDBD",
+      "lighter": "#E0E0E0",
+      "base": "#EEEEEE",
+      "background": "#FAFAFA"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "source": [
-    "src/**/*.json"
+    "src/properties/**/*.json"
   ],
   "platforms": {
     "js": {
-      "transformGroup": "js",
+      "transformGroup": "livip/js",
       "files": [
         {
           "format": "javascript/umd",

@@ -1,7 +1,7 @@
 {
   "name": "@livip/tokens",
   "version": "1.0.0",
-  "description": "Tokens used on our theme",
+  "description": "Tokens dictionary used on our theme and applications",
   "author": "odelucca",
   "license": "MIT",
   "private": true,
@@ -13,12 +13,13 @@
     "url": "https://github.com/livipdev/design-system/issues"
   },
   "scripts": {
-    "build": "style-dictionary build && npm run copy",
-    "clean": "style-dictionary clean",
+    "build": "node ./scripts/build.js && npm run copy",
+    "clean": "rm -rf dist",
     "copy": "cp package.json dist",
     "prepare": "npm run build"
   },
   "devDependencies": {
+    "@material-ui/core": "^4.9.5",
     "style-dictionary": "^2.8.3"
   }
 }

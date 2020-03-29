@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.object,
   href: PropTypes.string,
 };
 

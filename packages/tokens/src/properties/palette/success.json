@@ -1,0 +1,9 @@
+{
+  "palette": {
+    "success": {
+      "main": "#007844",
+      "light": "#E4F4EC",
+      "contrastText": "#FFFFFF"
+    }
+  }
+}

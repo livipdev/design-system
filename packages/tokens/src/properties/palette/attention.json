@@ -1,0 +1,9 @@
+{
+  "palette": {
+    "attention": {
+      "main": "#FDB637",
+      "light": "#FFE8BB",
+      "contrastText": "#000000"
+    }
+  }
+}

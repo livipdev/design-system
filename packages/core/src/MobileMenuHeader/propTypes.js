@@ -3,9 +3,9 @@ import { MENU_TYPES } from '@livip/containers/MenuMobile/constants';
 import config from '@livip/config';
 
 const propTypes = {
-  classes: PropTypes.object.isRequired,
-  currentMenu: PropTypes.oneOf(MENU_TYPES),
   toggleMenu: PropTypes.func.isRequired,
+  classes: PropTypes.object,
+  currentMenu: PropTypes.oneOf(MENU_TYPES),
   variant: PropTypes.oneOf(config.variants.available),
 };
 

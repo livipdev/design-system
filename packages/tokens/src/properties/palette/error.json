@@ -1,0 +1,9 @@
+{
+  "palette": {
+    "error": {
+      "main": "#C6292E",
+      "light": "#FEEBEF",
+      "contrastText": "#FFFFFF"
+    }
+  }
+}

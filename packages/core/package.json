@@ -21,6 +21,9 @@
   },
   "peerDependencies": {
     "@material-ui/core": "^4.9.5",
+    "@livip/icons": "^1.0.0",
+    "@livip/tokens": "^1.0.0",
+    "@livip/config": "^1.0.0",
     "react": "^16.13.0"
   },
   "devDependencies": {
@@ -31,9 +34,6 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "@livip/icons": "/home/odelucca/Code/livip/design-system/packages/icons/dist",
-    "@livip/tokens": "/home/odelucca/Code/livip/design-system/packages/tokens/dist",
-    "@livip/config": "/home/odelucca/Code/livip/design-system/packages/config/dist",
     "lodash": "^4.17.15",
     "react-intl": "^4.2.2",
     "typeface-montserrat": "^0.0.75"

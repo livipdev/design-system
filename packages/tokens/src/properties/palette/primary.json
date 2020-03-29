@@ -1,0 +1,10 @@
+{
+  "palette": {
+    "primary": {
+      "main": "#421428",
+      "light": "#55253a",
+      "dark": "#31101f",
+      "contrastText": "#FFFFFF"
+    }
+  }
+}
