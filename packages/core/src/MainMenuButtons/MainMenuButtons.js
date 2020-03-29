@@ -7,11 +7,20 @@ import Button from '../Button';
 import messages from './messages';
 import propTypes from './propTypes';
 
-const MainMenuButtons = ({ classes }) => {
+const MainMenuButtons = ({ classes, isExiting }) => {
   const intl = useIntl();
+  const mergedClasses = {
+    ...classes,
+    root: [
+      classes.root,
+      isExiting
+        ? classes.isExiting
+        : classes.isNotExiting,
+    ].join(" "),
+  };
 
   return (
-    <Box classes={classes}>
+    <Box classes={mergedClasses}>
       <Button variant="outlined">
         { intl.formatMessage(messages.livipClub) }
       </Button>

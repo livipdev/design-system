@@ -8,14 +8,32 @@ import MainMenuButtons from '../MainMenuButtons';
 import propTypes from './propTypes';
 import { buildMainMenu } from './builders';
 
-const MainMenuContent = ({ variant, classes }) => {
+const mergeClasses = (classes, others) => (
+  [
+    classes.root,
+    others.isExiting
+      ? classes.isExiting
+      : classes.isNotExiting,
+  ].join(" ")
+);
+
+const MainMenuContent = ({ variant, classes, isExiting }) => {
   const menu = buildMainMenu(variant);
+  const mergedClasses = {
+    ...classes,
+    root: mergeClasses(
+      classes,
+      {
+        isExiting,
+      }
+    ),
+  };
 
   return (
-    <Grid item classes={classes} lg={10} xs={12}>
+    <Grid item classes={mergedClasses} lg={10} xs={12}>
       <MainMenuLogotype variant={variant} />
       <HeaderMenu menu={menu} />
-      <MainMenuButtons />
+      <MainMenuButtons isExiting={isExiting} />
     </Grid>
   );
 };

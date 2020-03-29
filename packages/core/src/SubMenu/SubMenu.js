@@ -15,7 +15,7 @@ const mergeClasses = (classes, others) => (
   ].join(" ")
 );
 
-const SubMenu = ({ classes, guttersClass, variant }) => {
+const SubMenu = ({ classes, guttersClass, variant, isExiting }, ref) => {
     const mergedClasses = {
     ...classes,
     root: mergeClasses(
@@ -27,9 +27,9 @@ const SubMenu = ({ classes, guttersClass, variant }) => {
   };
 
   return (
-    <Grid container classes={mergedClasses}>
+    <Grid container classes={mergedClasses} ref={ref}>
       <Gutter lg={1} xs={false} />
-      <SubMenuContent variant={variant} />
+      <SubMenuContent variant={variant} isExiting={isExiting} />
       <Gutter lg={1} xs={false} />
     </Grid>
   );
@@ -37,4 +37,4 @@ const SubMenu = ({ classes, guttersClass, variant }) => {
 
 SubMenu.propTypes = propTypes;
 
-export default SubMenu;
+export default React.forwardRef(SubMenu);
