@@ -1,11 +1,9 @@
-const styles = {
+const styles = (theme) => ({
   root: {
-    position: 'absolute',
-    top: '50px',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
+    ...theme.alignments.center,
+    ...theme.alignments.vertical,
+    ...theme.alignments.fixed.topEdge,
   },
-};
+});
 
 export default styles;

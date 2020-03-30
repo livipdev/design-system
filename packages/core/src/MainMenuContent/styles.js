@@ -1,31 +1,25 @@
 const styles = (theme) => ({
   root: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    ...theme.alignments.equallySpaced,
 
     [theme.breakpoints.down('sm')]: {
-      flexDirection: 'column',
-      animation: `$fade ${theme.transitions.duration.enteringScreen * 2}ms ${theme.transitions.easing.easeInOut}`,
+      ...theme.alignments.vertical,
+      ...theme.animations.fade,
+
+      animationName: '$fade',
     },
   },
 
   isNotExiting: {},
 
   isExiting: {
-    animation: `$fade ${theme.transitions.duration.enteringScreen * 2}ms ${theme.transitions.easing.easeInOut}`,
-    animationDirection: 'reverse',
+    ...theme.animations.fade,
+    ...theme.animations.reversed,
+
+    animationName: '$fade',
   },
 
-  '@keyframes fade': {
-    '0%': {
-      opacity: '0',
-    },
-
-    '100%': {
-      opacity: '1',
-    },
-  },
+  '@keyframes fade': theme.keyframes.fade,
 });
 
 export default styles;

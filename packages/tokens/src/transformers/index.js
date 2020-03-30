@@ -1,8 +1,8 @@
-const padding = require('./padding');
+const spaces = require('./spaces');
 const { ORG } = require('./constants');
 
 const transformers = {
-  padding,
+  spaces,
 };
 
 const register = (dictionary) => {
@@ -17,7 +17,7 @@ const registerTransformers = (dictionary) => (
 const registerTransformGroup = (dictionary) => (
   dictionary.registerTransformGroup({
     name: `${ORG}/js`,
-    transforms: ['livip/padding', ...dictionary.transformGroup.js],
+    transforms: ['livip/spaces', ...dictionary.transformGroup.js],
   })
 );
 

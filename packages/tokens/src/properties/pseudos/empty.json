@@ -1,0 +1,8 @@
+{
+  "pseudos": {
+    "empty": {
+      "content": "''",
+      "display": "block"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sizes": {
+    "viewports": {
+      "fullwidth": {
+        "minWidth": "100vw"
+      }
+    }
+  }
+}

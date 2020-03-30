@@ -1,13 +1,11 @@
 const styles = (theme) => ({
   root: {
-    width: '100%',
+    ...theme.sizes.fullwidth,
   },
   productName: {
+    ...theme.typography.logo,
+
     color: theme.palette.common.white,
-    fontWeight: 500,
-    fontSize: 16,
-    fontFamily: 'Montserrat-SemiBold, Montserrat',
-    opacity: 0.526669457,
   },
 });
 

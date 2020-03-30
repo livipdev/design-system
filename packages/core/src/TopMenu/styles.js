@@ -1,11 +1,9 @@
-import { getHalfSpace } from '../styles/spacing';
-
 const styles = (theme) => ({
   root: {
     color: theme.palette.common.white,
     backgroundColor: theme.palette.primary.dark,
-    paddingTop: getHalfSpace(),
-    paddingBottom: getHalfSpace(),
+    paddingTop: theme.spaces.compact.value,
+    paddingBottom: theme.spaces.compact.value,
   },
 });
 

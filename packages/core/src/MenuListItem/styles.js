@@ -1,34 +1,31 @@
-import { getHalfSpace } from '../styles/spacing';
-
 const styles = (theme) => ({
   root: {
-    display: 'inline-block',
-    width: 'auto',
-    margin: getHalfSpace(),
+    ...theme.alignments.horizontalList,
+
     '&::after': {
-      content: '""',
-      display: 'block',
-      height: '2px',
+      ...theme.pseudos.empty,
+      ...theme.transitions.width,
+      ...theme.sizes.menuLine.shared,
+      ...theme.sizes.menuLine.hidden,
+
       backgroundColor: theme.palette.common.white,
-      transition: 'width .3s',
-      width: '0%',
     },
     '&:hover': {
       '&::after': {
-        width: '100%',
+        ...theme.sizes.menuLine.visible,
       },
     },
     '&$selected': {
-      backgroundColor: 'transparent',
+      backgroundColor: theme.palette.common.transparent,
       '&:hover': {
-        backgroundColor: 'transparent',
+        backgroundColor: theme.palette.common.transparent,
       },
     },
   },
 
   selected: {
     '&::after': {
-      width: '100%',
+      ...theme.sizes.menuLine.visible,
     },
   },
 });

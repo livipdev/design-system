@@ -1,0 +1,10 @@
+{
+  "alignments": {
+    "autoMarginLeft": {
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "marginLeft": "auto"
+    }
+  }
+}

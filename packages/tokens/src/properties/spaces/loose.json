@@ -1,8 +1,8 @@
 {
-  "spacing": {
+  "spaces": {
     "loose": {
       "value": 2,
-      "group": "spacing"
+      "group": "spaces"
     }
   }
 }

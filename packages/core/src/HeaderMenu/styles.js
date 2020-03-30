@@ -1,10 +1,9 @@
 const styles = (theme) => ({
   root: {
-    display: 'flex',
-    alignItems: 'center',
+    ...theme.alignments.center,
 
     [theme.breakpoints.down('sm')]: {
-      flexDirection: 'column',
+      ...theme.alignments.vertical,
     },
   },
 });

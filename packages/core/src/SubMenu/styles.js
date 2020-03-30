@@ -1,12 +1,11 @@
 import { fade } from '../styles/colorManipulator';
-import { getHalfSpace } from '../styles/spacing';
 
 const styles = (theme) => ({
   root: {
     [theme.breakpoints.up('md')]: {
       backgroundColor: fade(theme.palette.primary.light, 0.95),
-      paddingTop: getHalfSpace(),
-      paddingBottom: getHalfSpace(),
+      paddingTop: theme.spaces.compact.value,
+      paddingBottom: theme.spaces.compact.value,
     },
   },
 });

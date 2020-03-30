@@ -1,7 +1,7 @@
-const styles = {
+const styles = (theme) => ({
   root: {
-    display: 'flex',
+    ...theme.alignments.center,
   },
-};
+});
 
 export default styles;

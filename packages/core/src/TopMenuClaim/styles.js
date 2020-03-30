@@ -1,11 +1,8 @@
-const styles = {
+const styles = (theme) => ({
   root: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginLeft: 'auto',
-    whiteSpace: 'pre-wrap',
+    ...theme.alignments.autoMarginLeft,
+    whiteSpace: theme.alignments.whitespaces.preWrap,
   },
-};
+});
 
 export default styles;

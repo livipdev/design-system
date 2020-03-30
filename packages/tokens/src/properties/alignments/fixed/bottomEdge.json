@@ -1,0 +1,10 @@
+{
+  "alignments": {
+    "fixed": {
+      "bottomEdge": {
+        "position": "absolute",
+        "bottom": "20px"
+      }
+    }
+  }
+}

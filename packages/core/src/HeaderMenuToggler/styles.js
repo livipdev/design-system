@@ -1,13 +1,12 @@
 const styles = (theme) => ({
   root: {
+    ...theme.alignments.fixed.topLeftEdge,
+
     mixBlendMode: 'difference',
     color: theme.palette.common.white,
-    position: 'absolute',
-    top: '20px',
-    left: '20px',
 
     [theme.breakpoints.up('md')]: {
-      display: 'none',
+      ...theme.visibilities.removed,
     },
   },
 });

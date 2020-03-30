@@ -1,10 +1,7 @@
-import { elevations, palette, shape, typography } from '@livip/tokens';
+import tokens from '@livip/tokens';
 
 const theme = {
-  elevations,
-  palette,
-  shape,
-  typography,
+  ...tokens,
 };
 
 export default theme;

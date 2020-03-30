@@ -1,0 +1,9 @@
+{
+  "sizes": {
+    "viewports": {
+      "halfwidth": {
+        "minWidth": "50vw"
+      }
+    }
+  }
+}

@@ -1,17 +1,15 @@
-import { getDoubledSpace } from '../styles/spacing';
-
 const styles = (theme) => ({
   root: {
-    flexDirection: 'column',
+    ...theme.alignments.vertical,
 
     [theme.breakpoints.down('sm')]: {
-      display: 'none',
+      ...theme.visibilities.removed,
     },
   },
 
   gutters: {
-    paddingLeft: getDoubledSpace(),
-    paddingRight: getDoubledSpace(),
+    paddingLeft: theme.spaces.loose,
+    paddingRight: theme.spaces.loose,
   },
 });
 

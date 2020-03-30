@@ -1,0 +1,15 @@
+{
+  "sizes": {
+    "menuLine": {
+      "shared": {
+        "height": "2px"
+      },
+      "hidden": {
+        "width": "0%"
+      },
+      "visible": {
+        "width": "100%"
+      }
+    }
+  }
+}

@@ -1,26 +1,25 @@
-import { getDoubledSpace, getFullSpace } from '../styles/spacing';
-
 const styles = (theme) => ({
   root: {
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up('md')]: {
       '&> button:first-child': {
-        marginRight: getDoubledSpace(),
+        marginRight: theme.spaces.default.value,
       },
     },
 
     [theme.breakpoints.down('sm')]: {
-      position: 'absolute',
-      bottom: '50px',
-      display: 'flex',
-      flexDirection: 'column',
-      animation: `$fadeIn ${theme.transitions.duration.enteringScreen * 3}ms ${theme.transitions.easing.easeInOut}`,
+      ...theme.alignments.center,
+      ...theme.alignments.vertical,
+      ...theme.alignments.fixed.bottomEdge2,
+      ...theme.animations.longFade,
+
+      animationName: '$fade',
 
       '&> button:first-child': {
-        marginBottom: getFullSpace(),
+        marginBottom: theme.spaces.default.value,
       },
 
       '&> button': {
-        minWidth: '100%',
+        ...theme.sizes.fullwidth,
       },
     },
   },
@@ -28,24 +27,10 @@ const styles = (theme) => ({
   isNotExiting: {},
 
   isExiting: {
-    display: 'none',
+    ...theme.visibilities.removed,
   },
 
-  '@keyframes fadeIn': {
-    '0%': {
-      display: 'none',
-      opacity: '0',
-    },
-
-    '51%': {
-      display: 'inherit',
-      opacity: '0',
-    },
-
-    '100%': {
-      opacity: '1',
-    },
-  },
+  '@keyframes fade': theme.keyframes.delayedFade,
 });
 
 export default styles;

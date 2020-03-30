@@ -1,40 +1,26 @@
 const styles = (theme) => ({
   root: {
-    display: 'flex',
-    alignItems: 'center',
+    ...theme.alignments.center,
 
     [theme.breakpoints.up('md')]: {
-      marginLeft: 'auto',
+      ...theme.alignments.autoMarginLeft,
     },
 
     [theme.breakpoints.down('sm')]: {
-      position: 'absolute',
-      bottom: '20px',
-      animation: `$fadeIn ${theme.transitions.duration.enteringScreen * 3}ms ${theme.transitions.easing.easeInOut}`,
+      ...theme.alignments.fixed.bottomEdge,
+      ...theme.animations.longFade,
+
+      animationName: '$fade',
     },
   },
 
   isNotExiting: {},
 
   isExiting: {
-    display: 'none',
+    ...theme.visibilities.removed,
   },
 
-  '@keyframes fadeIn': {
-    '0%': {
-      display: 'none',
-      opacity: '0',
-    },
-
-    '51%': {
-      display: 'flex',
-      opacity: '0',
-    },
-
-    '100%': {
-      opacity: '1',
-    },
-  },
+  '@keyframes fade': theme.keyframes.delayedFade,
 });
 
 export default styles;

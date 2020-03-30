@@ -1,14 +1,13 @@
-import { getDoubledSpace } from '../styles/spacing';
-
 const styles = (theme) => ({
   paper: {
+    ...theme.alignments.center,
+    ...theme.sizes.viewports.halfwidth,
+
     background: theme.palette.primary.main,
-    padding: getDoubledSpace(),
-    justifyContent: 'center',
-    minWidth: '50vw',
+    padding: theme.spaces.loose.value,
 
     [theme.breakpoints.down('xs')]: {
-      minWidth: '100vw',
+      ...theme.sizes.viewports.fullwidth,
     },
   },
 });

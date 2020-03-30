@@ -7,7 +7,7 @@ const styles = (theme) => ({
   common: {},
 
   reverse: {
-    transform: 'rotate(180deg)',
+    transform: theme.transformers.rotate.reverse,
   },
 });
 

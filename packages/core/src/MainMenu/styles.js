@@ -1,12 +1,11 @@
 import { fade } from '../styles/colorManipulator';
-import { getFullSpace } from '../styles/spacing';
 
 const styles = (theme) => ({
   root: {
     [theme.breakpoints.up('md')]: {
       backgroundColor: fade(theme.palette.primary.main, 0.95),
-      paddingTop: getFullSpace(),
-      paddingBottom: getFullSpace(),
+      paddingTop: theme.spaces.default.value,
+      paddingBottom: theme.spaces.default.value,
     },
   },
 });

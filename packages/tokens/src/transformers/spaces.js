@@ -2,16 +2,16 @@ const createSpacing = require('@material-ui/core/styles/createSpacing').default;
 const { ORG } = require('./constants');
 
 const match = (prop) => (
-  prop.group === 'spacing'
+  prop.group === 'spaces'
 );
 
 const handler = (prop) => createSpacing(16)(prop.value);
 
-const padding = (dictionary) => dictionary.registerTransform({
-  name: `${ORG}/padding`,
+const spaces = (dictionary) => dictionary.registerTransform({
+  name: `${ORG}/spaces`,
   type: 'value',
   matcher: match,
   transformer: handler,
 });
 
-module.exports = padding;
+module.exports = spaces;

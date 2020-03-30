@@ -1,0 +1,10 @@
+{
+  "alignments": {
+    "equallySpaced": {
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "justifyContent": "space-between"
+    }
+  }
+}
