@@ -1,8 +1,6 @@
-import React from 'react';
-import MuiTypography from '@material-ui/core/Typography';
+import withStyles from '../styles/withStyles';
 
-const Typography = (props) => <MuiTypography {...props} />;
+import styles from './styles';
+import Typography from './Typography';
 
-Typography.propTypes = MuiTypography.propTypes;
-
-export default Typography;
+export default withStyles(styles)(Typography);
