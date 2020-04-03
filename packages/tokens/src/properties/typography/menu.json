@@ -1,0 +1,10 @@
+{
+  "typography": {
+    "menu": {
+      "root": {
+        "textTransform": "uppercase",
+        "fontWeight": "500"
+      }
+    }
+  }
+}

@@ -6,16 +6,16 @@ import Root from '../Root';
 
 const Product = ({ classes, variant }) => (/* eslint-disable */
   <g>
+    <Root classes={classes} />
+    <title>
+      Subdivisão { variant }
+    </title>
+    <description>
+      A palavra { variant } escrita capitalizada e acinzentada, ao lado do logotipo da Livip, um pouco desalinhado para baixo
+    </description>
     <text className={classes.productName}>
-      <title>
-        Subdivisão { variant }
-      </title>
-      <description>
-        A palavra { variant } escrita capitalizada e acinzentada, ao lado do logotipo da Livip, um pouco desalinhado para baixo
-      </description>
-      <tspan x="73" y="22">{ capitalize(variant) }</tspan>
+      <tspan x="69" y="23">{ capitalize(variant) }</tspan>
     </text>
-    <Root />
   </g>
 );
 

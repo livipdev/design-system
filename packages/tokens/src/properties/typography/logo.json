@@ -1,10 +1,22 @@
 {
   "typography": {
     "logo": {
-      "fontWeight": "500",
-      "fontSize": "16px",
-      "fontFamily": "Montserrat-SemiBold, Montserrat",
-      "opacity": "0.53"
+      "root": {
+        "fontFamily": "Montserrat-Bold, Montserrat",
+        "fontSize": "24px",
+        "fontWeight": "700",
+        "transform": "translate(-1 -4)"
+      },
+      "dot": {
+        "transform":"translate(-1 -4)"
+      },
+      "product": {
+        "fontFamily": "Montserrat-Medium, Montserrat",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "opacity": "0.53",
+        "transform": "translate(-1 -4)"
+      }
     }
   }
 }

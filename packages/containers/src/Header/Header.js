@@ -13,7 +13,7 @@ const Header = ({ variant }) => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <AppBar position="static" color="transparent">
+    <AppBar position="fixed" color="transparent">
       <HeaderToolbar variant={variant} />
       <HeaderMenuToggler toggleMenu={toggleMenu} />
       <HeaderDrawer

@@ -1,14 +1,14 @@
 import React from 'react';
 
 import Container from '../Container';
-
 import propTypes from './propTypes';
 
-const ContainerWithBackground = ({ classes, variant, children }) => {
+const ContainerWithBackground = ({ classes, background, variant, children }) => {
   const mergedClasses = {
     ...classes,
     root: [
       classes.root,
+      classes.bg,
       classes[variant],
     ].join(" "),
   };

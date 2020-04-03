@@ -17,7 +17,11 @@ const buildMenuItem = (key, intl, menu) => {
 
   return (
     <MenuListItem key={key} selected={menu.current === key}>
-      <MenuLink href={item.link}>
+      <MenuLink
+        href={item.link}
+        color="primary"
+        underline="none"
+      >
         { intl.formatMessage(message) }
       </MenuLink>
     </MenuListItem>

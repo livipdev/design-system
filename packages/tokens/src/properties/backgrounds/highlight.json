@@ -1,0 +1,18 @@
+{
+  "backgrounds": {
+    "highlight": {
+      "background": {
+       "backgroundSize": "cover",
+       "backgroundPosition": "center"
+      },
+      "alignment": {
+        "default": {
+          "paddingTop": "190px"
+        },
+        "mobile": {
+          "paddingTop": "0px"
+        }
+      }
+    }
+  }
+}

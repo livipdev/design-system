@@ -1,11 +1,9 @@
 const styles = (theme) => ({
   root: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
+    ...theme.alignments.center,
 
     [theme.breakpoints.down('sm')]: {
-      display: 'none',
+      ...theme.visibilities.removed,
     },
   },
 });

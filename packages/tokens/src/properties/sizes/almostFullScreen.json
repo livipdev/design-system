@@ -1,0 +1,10 @@
+{
+  "sizes": {
+    "almostFullScreen": {
+      "width": "100%",
+      "minWidth": "100%",
+      "height": "85vh",
+      "minHeight": "85vh"
+    }
+  }
+}
