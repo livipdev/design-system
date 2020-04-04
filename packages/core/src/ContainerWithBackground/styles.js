@@ -2,6 +2,8 @@ import { buildImagePath } from '../Image/builders';
 
 const styles = (theme) => ({
   root: {
+    ...theme.alignments.vertical,
+
     paddingTop: theme.spaces.loose.value,
   },
 
@@ -28,11 +30,12 @@ const styles = (theme) => ({
   highlight: {
     ...theme.backgrounds.highlight.background,
     ...theme.backgrounds.highlight.alignment.default,
-    ...theme.sizes.almostFullScreen,
+    ...theme.sizes.almostFullScreen.default,
     ...theme.alignments.center,
 
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('sm')]: {
       ...theme.backgrounds.highlight.alignment.mobile,
+      ...theme.sizes.almostFullScreen.mobile,
     },
   },
 });

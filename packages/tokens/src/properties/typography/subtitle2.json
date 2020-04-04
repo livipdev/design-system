@@ -1,9 +1,9 @@
 {
   "typography": {
-    "subtitle1": {
+    "subtitle2": {
       "fontFamily": "Montserrat-Medium, Montserrat, Helvetica, Arial, sans-serif",
       "fontWeight": "400",
-      "fontSize": "1.4rem"
+      "fontSize": "1.3rem"
     }
   }
 }

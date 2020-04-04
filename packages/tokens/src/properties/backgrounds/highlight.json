@@ -7,7 +7,7 @@
       },
       "alignment": {
         "default": {
-          "paddingTop": "190px"
+          "paddingTop": "115px"
         },
         "mobile": {
           "paddingTop": "0px"

@@ -1,0 +1,9 @@
+{
+  "alignments": {
+    "wrappedWithSomeSpace": {
+      "display": "flex",
+      "flexWrap": "wrap",
+      "margin": "0 -2em"
+    }
+  }
+}

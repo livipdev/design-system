@@ -1,0 +1,9 @@
+{
+  "typography": {
+    "h2": {
+      "fontFamily": "Montserrat-SemiBold, Montserrat, Montserrat, Helvetica, Arial, sans-serif",
+      "fontWeight": "500",
+      "fontSize": "3.4rem"
+    }
+  }
+}

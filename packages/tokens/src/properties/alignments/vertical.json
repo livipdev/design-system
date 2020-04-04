@@ -1,6 +1,7 @@
 {
   "alignments": {
     "vertical": {
+      "display": "flex",
       "flexDirection": "column"
     }
   }

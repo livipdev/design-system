@@ -1,8 +1,6 @@
-import React from 'react';
-import MuiCssBaseline from '@material-ui/core/CssBaseline';
+import withStyles from '../styles/withStyles';
 
-const CssBaseline = (props) => <MuiCssBaseline {...props} />;
+import styles from './styles';
+import CssBaseline from './CssBaseline';
 
-CssBaseline.propTypes = MuiCssBaseline.propTypes;
-
-export default CssBaseline;
+export default withStyles(styles)(CssBaseline);

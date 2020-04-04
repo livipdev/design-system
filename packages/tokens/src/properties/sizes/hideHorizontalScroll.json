@@ -1,0 +1,8 @@
+{
+  "sizes": {
+    "hideHorizontalScroll": {
+      "maxWidth": "100%",
+      "overflowX": "hidden"
+    }
+  }
+}
