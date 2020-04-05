@@ -6,8 +6,8 @@ import { buildSocialIcons } from './builders';
 import propTypes from './propTypes';
 
 const TopMenuSocialIcons = ({ classes }) => (
-  <Box classes={classes}>
-    { buildSocialIcons() }
+  <Box className={classes.root}>
+    { buildSocialIcons(classes.icon) }
   </Box>
 );
 

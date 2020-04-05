@@ -4,8 +4,7 @@ import { eventPropTypes } from '@livip/containers/EventFilteredList/propTypes';
 const propTypes = {
   event: eventPropTypes,
   currentFilter: PropTypes.string,
-  filterEvents: PropTypes.func,
-  classes: PropTypes.obj,
+  filterEvent: PropTypes.func,
 };
 
 export default propTypes;

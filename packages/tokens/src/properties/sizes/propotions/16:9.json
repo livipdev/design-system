@@ -1,0 +1,10 @@
+{
+  "sizes": {
+    "proportions": {
+      "16:9": {
+        "height": 0,
+        "paddingTop": "56.25%"
+      }
+    }
+  }
+}

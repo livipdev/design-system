@@ -1,0 +1,10 @@
+{
+  "sizes": {
+    "proportions": {
+      "4:3": {
+        "height": 0,
+        "paddingTop": "70%"
+      }
+    }
+  }
+}

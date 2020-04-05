@@ -3,9 +3,9 @@ import React from 'react';
 import Link from '../Link';
 import propTypes from './propTypes';
 
-const SocialIcon = ({ classes, Icon, href }) => (
+const SocialIcon = ({ className, Icon, href }) => (
   <Link href={href}>
-    <Icon classes={classes} />
+    <Icon className={className} />
   </Link>
 );
 

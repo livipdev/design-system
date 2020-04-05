@@ -8,7 +8,15 @@ import useTheme from '../styles/useTheme';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const EventList = ({ classes, events, columns, spacingType }) => {
+const EventList = ({
+  classes,
+  events,
+  currentFilter,
+  filterEvents,
+  columns,
+  cellHeight,
+  spacingType,
+}) => {
   const theme = useTheme();
   const spacing = theme.spaces.loose.value;
 
@@ -16,12 +24,17 @@ const EventList = ({ classes, events, columns, spacingType }) => {
     <GridList
       classes={classes}
       cols={columns}
+      cellHeight={cellHeight}
       spacing={spacing}
     >
       {
         events.map((event) => (
           <GridListTile key={event.id}>
-            <EventCard event={event} />
+            <EventCard
+              event={event}
+              currentFilter={currentFilter}
+              filterEvents={filterEvents}
+            />
           </GridListTile>
         ))
       }

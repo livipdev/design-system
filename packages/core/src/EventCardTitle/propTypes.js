@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import { eventPropTypes } from '@livip/containers/EventFilteredList/propTypes';
 
 const propTypes = {
-  event: eventPropTypes,
+  event: eventPropTypes.isRequired,
   currentFilter: PropTypes.string,
-  filterEvents: PropTypes.func,
+  filterEvent: PropTypes.func,
   classes: PropTypes.obj,
 };
 

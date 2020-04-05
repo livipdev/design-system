@@ -13,15 +13,19 @@ const EventFilteredList = ({ events, selectorName, defaultFilter }) => {
   const tabs = buildTabs(events, selectorName);
   const filteredEvents = selectEventsWithCategory(events, filter);
 
-  const handleChange = (_, next) => setFilter(next);
+  const filterEvents = (_, next) => setFilter(next);
 
   return (
     <PanelWithFilter
       filter={filter}
-      handleChange={handleChange}
+      handleChange={filterEvents}
       tabs={tabs}
     >
-      <EventList events={filteredEvents} />
+      <EventList
+        events={filteredEvents}
+        currentFilter={filter}
+        filterEvents={filterEvents}
+      />
     </PanelWithFilter>
   );
 };
