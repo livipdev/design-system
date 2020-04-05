@@ -1,29 +1,32 @@
 import React, { useState } from 'react';
 
 import PanelWithFilter from '@livip/core/PanelWithFilter';
+import EventList from '@livip/core/EventList';
 
 import { buildTabs } from './builders';
+import { selectEventsWithCategory } from './selectors';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const EventList = ({ events, selectorName, defaultFilter }) => {
+const EventFilteredList = ({ events, selectorName, defaultFilter }) => {
   const [filter, setFilter] = useState(defaultFilter);
   const tabs = buildTabs(events, selectorName);
+  const filteredEvents = selectEventsWithCategory(events, filter);
 
   const handleChange = (_, next) => setFilter(next);
 
   return (
     <PanelWithFilter
-      value={filter}
+      filter={filter}
       handleChange={handleChange}
       tabs={tabs}
     >
-      <div>Ok</div>
+      <EventList events={filteredEvents} />
     </PanelWithFilter>
   );
 };
 
-EventList.propTypes = propTypes;
-EventList.defaultProps = defaultProps;
+EventFilteredList.propTypes = propTypes;
+EventFilteredList.defaultProps = defaultProps;
 
-export default EventList;
+export default EventFilteredList;

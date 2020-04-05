@@ -10,7 +10,7 @@ import defaultProps from './defaultProps';
 
 const PanelWithFilter = ({
   classes,
-  value,
+  filter,
   handleChange,
   tabs,
   children,
@@ -21,7 +21,7 @@ const PanelWithFilter = ({
     maxWidth={maxWidth}
   >
     <Tabs
-      value={value}
+      value={filter}
       onChange={handleChange}
       centered
     >

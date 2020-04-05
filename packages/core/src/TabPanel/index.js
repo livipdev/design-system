@@ -1,12 +1,12 @@
 import React from 'react';
-import Container from '../Container';
 
+import Grid from '../Grid';
 import propTypes from './propTypes';
 
 const TabPanel = ({ children }) => (
-  <Container>
+  <Grid container>
     {children}
-  </Container>
+  </Grid>
 );
 
 TabPanel.propTypes = propTypes;

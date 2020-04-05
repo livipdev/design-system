@@ -6,7 +6,7 @@ const tabPropTypes = PropTypes.shape({
 });
 
 const propTypes = {
-  value: PropTypes.string.isRequired,
+  filter: PropTypes.string.isRequired,
   handleChange: PropTypes.func.isRequired,
   tabProps: PropTypes.arrayOf(tabPropTypes).isRequired,
   children: PropTypes.node.isRequired,
