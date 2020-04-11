@@ -1,7 +1,7 @@
 const defaultProps = {
   columns: 3,
   spacingType: 'default',
-  cellHeight: 422,
+  cellHeight: 'auto',
 };
 
 export default defaultProps;

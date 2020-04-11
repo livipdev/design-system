@@ -1,0 +1,11 @@
+{
+  "animations": {
+    "card": {
+      "shortSlideUp": {
+        "animationDuration": "300ms",
+        "animationTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "animationFillMode": "forwards"
+      }
+    }
+  }
+}

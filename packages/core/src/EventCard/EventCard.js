@@ -7,7 +7,7 @@ import EventCardBar from '../EventCardBar';
 import propTypes from './propTypes';
 
 const EventCard = ({ classes, event, currentFilter, filterEvents }) => (
-  <Card>
+  <Card className={classes.card}>
     <CardMedia
       className={classes.media}
       image={event.img}

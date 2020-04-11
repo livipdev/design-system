@@ -29,7 +29,7 @@ const EventList = ({
     >
       {
         events.map((event) => (
-          <GridListTile key={event.id}>
+          <GridListTile key={event.id} className={classes.tile}>
             <EventCard
               event={event}
               currentFilter={currentFilter}

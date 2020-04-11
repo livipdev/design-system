@@ -1,0 +1,13 @@
+{
+  "cards": {
+    "tile": {
+      "default": {
+        "cursor": "pointer",
+        "transition": ".3s all"
+      },
+      "hover": {
+        "transform": "scale(1.02)"
+      }
+    }
+  }
+}

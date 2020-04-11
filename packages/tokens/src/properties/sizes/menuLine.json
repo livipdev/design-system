@@ -9,6 +9,9 @@
       },
       "visible": {
         "width": "100%"
+      },
+      "card": {
+        "height": "4px"
       }
     }
   }

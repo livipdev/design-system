@@ -1,0 +1,11 @@
+{
+  "cards": {
+    "root": {
+      "default": {
+        "boxShadow": "none",
+        "borderWidth": "1px",
+        "borderStyle": "solid"
+      }
+    }
+  }
+}

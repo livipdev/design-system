@@ -1,0 +1,12 @@
+{
+  "shapes": {
+    "arrowUp": {
+      "borderLeftWidth": "10px",
+      "borderLeftStyle": "solid",
+      "borderRightWidth": "10px",
+      "borderRightStyle": "solid",
+      "borderBottomWidth": "10px",
+      "borderBottomStyle": "solid"
+    }
+  }
+}

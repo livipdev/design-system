@@ -1,8 +1,7 @@
 {
   "sizes": {
     "fullwidth": {
-      "width": "100%",
-      "minWidth": "100%"
+      "width": "100%"
     }
   }
 }
