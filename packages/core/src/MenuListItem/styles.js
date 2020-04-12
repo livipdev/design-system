@@ -5,14 +5,15 @@ const styles = (theme) => ({
     '&::after': {
       ...theme.pseudos.empty,
       ...theme.transitions.width,
-      ...theme.sizes.menuLine.shared,
-      ...theme.sizes.menuLine.hidden,
+      ...theme.shapes.underline.menu,
+      ...theme.sizes.noWidth,
 
       backgroundColor: theme.palette.common.white,
+      transition: theme.transitions.create('width'),
     },
     '&:hover': {
       '&::after': {
-        ...theme.sizes.menuLine.visible,
+        ...theme.sizes.fullwidth,
       },
     },
     '&$selected': {
@@ -25,7 +26,7 @@ const styles = (theme) => ({
 
   selected: {
     '&::after': {
-      ...theme.sizes.menuLine.visible,
+      ...theme.sizes.fullwidth,
     },
   },
 });

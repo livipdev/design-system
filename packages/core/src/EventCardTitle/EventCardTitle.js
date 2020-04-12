@@ -8,7 +8,7 @@ import EventCardActions from '../EventCardActions';
 import propTypes from './propTypes';
 
 const EventCardTitle = ({ classes, event, currentFilter, filterEvents }) => (
-  <Grid container>
+  <Grid className={classes.container} container>
     <Grid item>
       <EventCardCategories
         categories={event.categories}

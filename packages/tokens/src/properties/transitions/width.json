@@ -1,7 +1,0 @@
-{
-  "transitions": {
-    "width": {
-      "transition": "width .3s"
-    }
-  }
-}

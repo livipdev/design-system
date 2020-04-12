@@ -1,0 +1,8 @@
+{
+  "spaces": {
+    "minimum": {
+      "value": 0.25,
+      "group": "spaces"
+    }
+  }
+}

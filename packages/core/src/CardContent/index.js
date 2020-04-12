@@ -1,8 +1,6 @@
-import React from 'react';
-import MuiCardContent from '@material-ui/core/CardContent';
+import withStyles from '../styles/withStyles';
 
-const CardContent = (props) => <MuiCardContent {...props} />;
+import styles from './styles';
+import CardContent from './CardContent';
 
-CardContent.propTypes = MuiCardContent.propTypes;
-
-export default CardContent;
+export default withStyles(styles)(CardContent);
