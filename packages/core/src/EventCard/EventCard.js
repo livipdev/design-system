@@ -2,7 +2,7 @@ import React from 'react';
 
 import Card from '../Card';
 import CardMedia from '../CardMedia';
-import EventCardBar from '../EventCardBar';
+import EventCardBar from '@livip/containers/EventCardBar';
 
 import propTypes from './propTypes';
 

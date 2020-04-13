@@ -1,0 +1,9 @@
+{
+  "cards": {
+    "bar": {
+      "default": {
+        "height": "115px"
+      }
+    }
+  }
+}

@@ -3,10 +3,7 @@ import { eventPropTypes } from '@livip/containers/EventFilteredList/propTypes';
 
 const propTypes = {
   event: eventPropTypes.isRequired,
-  currentFilter: PropTypes.string,
-  filterEvent: PropTypes.func,
-  toggleSide: PropTypes.func,
-  classes: PropTypes.obj,
+  toggleSide: PropTypes.func.isRequired,
 };
 
 export default propTypes;

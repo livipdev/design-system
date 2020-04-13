@@ -7,7 +7,13 @@ import EventCardActions from '../EventCardActions';
 
 import propTypes from './propTypes';
 
-const EventCardTitle = ({ classes, event, currentFilter, filterEvents }) => (
+const EventCardTitle = ({
+  classes,
+  event,
+  currentFilter,
+  filterEvents,
+  toggleSide,
+}) => (
   <Grid className={classes.container} container>
     <Grid item>
       <EventCardCategories
@@ -21,7 +27,7 @@ const EventCardTitle = ({ classes, event, currentFilter, filterEvents }) => (
     </Grid>
 
     <Grid className={classes.action} item>
-      <EventCardActions />
+      <EventCardActions toggleSide={toggleSide} />
     </Grid>
   </Grid>
 );

@@ -1,12 +1,6 @@
-import React from 'react';
-import ShareIcon from '@livip/icons/Share';
+import withStyles from '../styles/withStyles';
 
-import IconWithLink from '../IconWithLink';
+import styles from './styles';
+import EventCardActions from './EventCardActions';
 
-const EventCardActions = () => (
-  <IconWithLink
-    Icon={ShareIcon}
-  />
-);
-
-export default EventCardActions;
+export default withStyles(styles)(EventCardActions);
