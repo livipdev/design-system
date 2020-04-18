@@ -4,7 +4,12 @@ import GridList from '../GridList';
 import GridListTile from '../GridListTile';
 import EventCard from '../EventCard';
 import useTheme from '../styles/useTheme';
+import useWidth from '../styles/useWidth';
 
+import {
+  selectColsBasedOnViewport,
+  selectSpaceBasedOnViewport,
+} from './selectors';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
@@ -18,12 +23,14 @@ const EventList = ({
   spacingType,
 }) => {
   const theme = useTheme();
-  const spacing = theme.spaces.loose.value;
+  const viewport = useWidth();
+  const spacing = selectSpaceBasedOnViewport(theme, viewport);
+  const cols = selectColsBasedOnViewport(columns, viewport)
 
   return (
     <GridList
       classes={classes}
-      cols={columns}
+      cols={cols}
       cellHeight={cellHeight}
       spacing={spacing}
     >

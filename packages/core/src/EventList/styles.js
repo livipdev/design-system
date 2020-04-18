@@ -1,3 +1,5 @@
+import { SCREEN_SIZES } from '../styles/theme/constants';
+
 const styles = (theme) => ({
   root: {
     ...theme.sizes.fullwidth,
@@ -11,6 +13,11 @@ const styles = (theme) => ({
 
     '&:hover': {
       ...theme.cards.tile.hover,
+    },
+
+    [theme.breakpoints.down(SCREEN_SIZES.MEDIUM)]: {
+      marginTop: theme.spaces.default.value,
+      marginBottom: theme.spaces.default.value,
     },
   },
 });

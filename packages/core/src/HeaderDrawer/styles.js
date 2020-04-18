@@ -1,3 +1,5 @@
+import { SCREEN_SIZES } from '../styles/theme/constants';
+
 const styles = (theme) => ({
   paper: {
     ...theme.alignments.center,
@@ -6,7 +8,7 @@ const styles = (theme) => ({
     background: theme.palette.primary.main,
     padding: theme.spaces.loose.value,
 
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down(SCREEN_SIZES.EXTRA_SMALL)]: {
       ...theme.sizes.viewports.fullwidth,
     },
   },

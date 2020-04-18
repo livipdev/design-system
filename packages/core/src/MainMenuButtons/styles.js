@@ -1,12 +1,14 @@
+import { SCREEN_SIZES } from '../styles/theme/constants';
+
 const styles = (theme) => ({
   root: {
-    [theme.breakpoints.up('md')]: {
+    [theme.breakpoints.up(SCREEN_SIZES.MEDIUM)]: {
       '&> button:first-child': {
         marginRight: theme.spaces.default.value,
       },
     },
 
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down(SCREEN_SIZES.SMALL)]: {
       ...theme.alignments.center,
       ...theme.alignments.vertical,
       ...theme.alignments.fixed.bottomEdge2,

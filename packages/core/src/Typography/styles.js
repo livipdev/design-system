@@ -1,8 +1,10 @@
+import { SCREEN_SIZES } from '../styles/theme/constants';
+
 const styles = (theme) => ({
   h1: {
     color: theme.palette.common.white,
 
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down(SCREEN_SIZES.SMALL)]: {
       fontSize: '3.4rem',
     },
   },

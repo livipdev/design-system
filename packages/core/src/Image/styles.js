@@ -1,23 +1,24 @@
+import { SCREEN_SIZES } from '../styles/theme/constants';
 import { buildImagePath } from './builders';
 
 const styles = (theme) => ({
   img: {
     backgroundImage: (props) => `url(${buildImagePath(props.rootImage)})`,
 
-    [theme.breakpoints.up('sm')]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.rootImage, 'sm')})`,
+    [theme.breakpoints.up(SCREEN_SIZES.SMALL)]: {
+      backgroundImage: (props) => `url(${buildImagePath(props.rootImage, SCREEN_SIZES.SMALL)})`,
     },
 
-    [theme.breakpoints.up('md')]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.rootImage, 'md')})`,
+    [theme.breakpoints.up(SCREEN_SIZES.MEDIUM)]: {
+      backgroundImage: (props) => `url(${buildImagePath(props.rootImage, SCREEN_SIZES.MEDIUM)})`,
     },
 
-    [theme.breakpoints.up('lg')]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.rootImage, 'lg')})`,
+    [theme.breakpoints.up(SCREEN_SIZES.LARGE)]: {
+      backgroundImage: (props) => `url(${buildImagePath(props.rootImage, SCREEN_SIZES.LARGE)})`,
     },
 
-    [theme.breakpoints.up('xl')]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.rootImage, 'xl')})`,
+    [theme.breakpoints.up(SCREEN_SIZES.EXTRA_LARGE)]: {
+      backgroundImage: (props) => `url(${buildImagePath(props.rootImage, SCREEN_SIZES.EXTRA_LARGE)})`,
     },
   },
 });

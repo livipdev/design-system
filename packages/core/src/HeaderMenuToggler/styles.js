@@ -1,3 +1,5 @@
+import { SCREEN_SIZES } from '../styles/theme/constants';
+
 const styles = (theme) => ({
   root: {
     ...theme.alignments.fixed.topLeftEdge,
@@ -5,7 +7,7 @@ const styles = (theme) => ({
     mixBlendMode: 'difference',
     color: theme.palette.common.white,
 
-    [theme.breakpoints.up('md')]: {
+    [theme.breakpoints.up(SCREEN_SIZES.MEDIUM)]: {
       ...theme.visibilities.removed,
     },
   },
