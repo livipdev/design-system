@@ -1,14 +1,12 @@
 import React from 'react';
-import { useIntl } from 'react-intl';
 
 import Box from '../Box';
-import Button from '../Button';
+import IntlButton from '../IntlButton';
 
 import messages from './messages';
 import propTypes from './propTypes';
 
 const MainMenuButtons = ({ classes, isExiting }) => {
-  const intl = useIntl();
   const mergedClasses = {
     ...classes,
     root: [
@@ -21,12 +19,15 @@ const MainMenuButtons = ({ classes, isExiting }) => {
 
   return (
     <Box classes={mergedClasses}>
-      <Button variant="outlined">
-        { intl.formatMessage(messages.livipClub) }
-      </Button>
-      <Button variant="contained" color="secondary">
-        { intl.formatMessage(messages.referral) }
-      </Button>
+      <IntlButton
+        variant="outlined"
+        message={messages.livipClub}
+      />
+      <IntlButton
+        variant="contained"
+        color="secondary"
+        message={messages.referral}
+      />
     </Box>
   );
 };

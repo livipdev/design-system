@@ -1,7 +1,6 @@
 import React from 'react';
-import { useIntl } from 'react-intl';
 
-import Button from '../Button';
+import IntlButton from '../IntlButton';
 
 import messages from './messages';
 import { SUBMENU_BUTTONS } from './constants';
@@ -10,7 +9,6 @@ export const buildVariantButtons = (variant) => {
   const options = {
     ...SUBMENU_BUTTONS[variant],
     variant,
-    intl: useIntl(),
   };
   const buttons = options.order.map((key) => buildKeyButton(key, options));
 
@@ -22,8 +20,11 @@ const buildKeyButton = (key, { variant, intl, ...options }) => {
   const message = messages[variant][key];
 
   return (
-    <Button key={key} variant={button.variant} color={button.color}>
-      { intl.formatMessage(message) }
-    </Button>
+    <IntlButton
+      key={key}
+      variant={button.variant}
+      color={button.color}
+      message={message}
+    />
   );
 };

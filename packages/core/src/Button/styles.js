@@ -26,6 +26,11 @@ const styles = (theme) => ({
     },
   },
 
+  outlinedPrimary: {
+    color: theme.palette.primary.main,
+    borderColor: theme.palette.primary.main,
+  },
+
   textSecondary: {
     color: theme.palette.common.white,
     padding: theme.spaces.compact.value,
