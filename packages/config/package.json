@@ -19,7 +19,7 @@
     "clean": "rimraf dist",
     "prepare": "npm run build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "lodash": "^4.17.15"
   }
 }
