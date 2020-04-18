@@ -8,11 +8,13 @@ const Carousel = ({
   stopOnHover,
   intervalInMilliseconds,
   children,
+  variant,
 }) => (
   <CarouselWithAutoplay
     play={play}
     cancelOnInteraction={stopOnHover}
     interval={intervalInMilliseconds}
+    variant={variant}
     children={buildSlides(children)}
   />
 );

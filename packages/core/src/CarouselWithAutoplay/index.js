@@ -1,11 +1,6 @@
-import React from 'react';
-import AwesomeSlider from 'react-awesome-slider';
-import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import withStyles from '../styles/withStyles';
 
-const CarouselWithAutoplay = (props) => {
-  const AutoplaySlider = withAutoplay(AwesomeSlider);
+import styles from './styles';
+import CarouselWithAutoplay from './CarouselWithAutoplay';
 
-  return <AutoplaySlider {...props} />;
-};
-
-export default CarouselWithAutoplay;
+export default withStyles(styles)(CarouselWithAutoplay);

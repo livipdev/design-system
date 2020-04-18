@@ -1,0 +1,8 @@
+{
+  "shapes": {
+    "circle": {
+      "border": "1px solid transparent",
+      "borderRadius": "50%"
+    }
+  }
+}
