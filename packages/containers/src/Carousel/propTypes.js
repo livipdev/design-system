@@ -7,6 +7,7 @@ const propTypes = {
   stopOnHover: PropTypes.bool,
   intervalInMilliseconds: PropTypes.int,
   variant: PropTypes.oneOf(Object.values(VARIANTS)),
+  customClasses: PropTypes.obj,
 };
 
 export default propTypes;

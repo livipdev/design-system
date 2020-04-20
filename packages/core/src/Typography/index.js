@@ -1,6 +1,26 @@
-import withStyles from '../styles/withStyles';
+import React from 'react';
+import MuiTypography from '@material-ui/core/Typography';
+import { useIntl } from 'react-intl';
 
-import styles from './styles';
-import Typography from './Typography';
+import propTypes from './propTypes';
 
-export default withStyles(styles)(Typography);
+const Typography = ({ message, children, ...props }) => {
+  const intl = useIntl();
+
+  return (
+    <MuiTypography {...props}>
+      {
+        message
+          ? intl.formatMessage(message)
+          : children
+      }
+    </MuiTypography>
+  );
+};
+
+Typography.propTypes = {
+  ...MuiTypography.propTypes,
+  ...propTypes,
+};
+
+export default Typography;

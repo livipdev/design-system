@@ -2,16 +2,16 @@ import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
-//import { selectCarouselClasses } from './selectors';
+import { selectCarouselClasses } from './selectors';
 import propTypes from './propTypes';
 
-const CarouselWithAutoplay = ({ classes, variant, ...props }) => {
+const CarouselWithAutoplay = ({ classes, customClasses, variant, ...props }) => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
-  //const mergedSliderClasses = selectCarouselClasses(classes, variant);
+  const mergedCarouselClasses = selectCarouselClasses(classes, customClasses, variant);
 
   return (
     <AutoplaySlider
-      className={classes.carousel}
+      className={mergedCarouselClasses}
       {...props}
     />
   );

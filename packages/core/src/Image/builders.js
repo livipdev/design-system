@@ -1,4 +1,4 @@
-import { useTheme } from '../styles';
+import useTheme from '../styles/useTheme';
 import { DEFAULT_VIEWPORT } from './constants';
 
 export const buildImageSet = (rootImage) => {

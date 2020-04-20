@@ -32,7 +32,28 @@ const styles = (theme) => ({
         },
       },
     },
+
+    '& .awssld__controls': {
+      '&> button': {
+        '&> span': {
+          '&::before': {
+            backgroundColor: theme.palette.common.white,
+          },
+
+          '&::after': {
+            backgroundColor: theme.palette.common.white,
+          },
+        },
+      },
+    },
   },
+
+  'navigation-on-right': {
+    '& .awssld__bullets': {
+      justifyContent: 'flex-end',
+      paddingRight: '10%',
+    },
+  }
 });
 
 export default styles;

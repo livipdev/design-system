@@ -11,20 +11,24 @@ const styles = (theme) => ({
   bg: {
     backgroundImage: (props) => `url(${buildImagePath(props.background)})`,
 
+    [theme.breakpoints.up(SCREEN_SIZES.EXTRA_SMALL)]: {
+      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.EXTRA_SMALL)})`,
+    },
+
     [theme.breakpoints.up(SCREEN_SIZES.SMALL)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, 'sm')})`,
+      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.SMALL)})`,
     },
 
     [theme.breakpoints.up(SCREEN_SIZES.MEDIUM)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, 'md')})`,
+      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.MEDIUM)})`,
     },
 
     [theme.breakpoints.up(SCREEN_SIZES.LARGE)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, 'lg')})`,
+      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.LARGE)})`,
     },
 
     [theme.breakpoints.up(SCREEN_SIZES.EXTRA_LARGE)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, 'xl')})`,
+      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.EXTRA_LARGE)})`,
     },
   },
 

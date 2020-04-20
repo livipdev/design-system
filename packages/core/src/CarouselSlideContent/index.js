@@ -1,9 +1,6 @@
-import React from 'react';
+import withStyles from '../styles/withStyles';
 
-const CarouselSlideContent = (props) => {
-  console.log(props);
+import styles from './styles';
+import CarouselSlideContent from './CarouselSlideContent';
 
-  return(<div>ok</div>)
-};
-
-export default CarouselSlideContent;
+export default withStyles(styles)(CarouselSlideContent);

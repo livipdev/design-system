@@ -5,6 +5,7 @@ const propTypes = {
   classes: PropTypes.object,
   children: PropTypes.node,
   variant: PropTypes.string,
+  customClass: PropTypes.string,
 };
 
 export default propTypes;

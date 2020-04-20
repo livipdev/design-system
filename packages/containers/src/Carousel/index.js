@@ -9,6 +9,7 @@ const Carousel = ({
   intervalInMilliseconds,
   children,
   variant,
+  customClasses,
 }) => (
   <CarouselWithAutoplay
     play={play}
@@ -16,6 +17,7 @@ const Carousel = ({
     interval={intervalInMilliseconds}
     variant={variant}
     children={buildSlides(children)}
+    customClasses={customClasses}
   />
 );
 

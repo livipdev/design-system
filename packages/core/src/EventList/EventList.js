@@ -3,8 +3,10 @@ import React from 'react';
 import GridList from '../GridList';
 import GridListTile from '../GridListTile';
 import EventCard from '../EventCard';
-import useTheme from '../styles/useTheme';
-import useWidth from '../styles/useWidth';
+import {
+  useTheme,
+  useWidth,
+} from '../styles';
 
 import {
   selectColsBasedOnViewport,
