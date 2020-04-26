@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Box from '../Box';
 import Container from '../Container';
 
 import { buildText } from './builders';
@@ -13,6 +14,7 @@ const Title = ({
   subtitle,
   suptitle,
   customClass,
+  children,
   ...props
 }) => {
   const mergedClasses = {
@@ -28,6 +30,11 @@ const Title = ({
       { buildText(suptitle, props) }
       { buildText(title, props) }
       { buildText(subtitle, props) }
+      { children && (
+        <Box mt={6}>
+          {children}
+        </Box>
+      ) }
     </Container>
   );
 };

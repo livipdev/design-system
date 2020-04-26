@@ -15,6 +15,7 @@ const CarouselSlideContent = ({
   subtitle,
   suptitle,
   background,
+  children,
 }) => {
   const mergedContentClasses = selectMergedClasses(classes, variant, 'content');
   const mergedTitleClasses = selectMergedClasses(classes, variant, 'title');
@@ -29,7 +30,7 @@ const CarouselSlideContent = ({
     >
       <Grid
         className={mergedContentClasses}
-        alignItems='center'
+        alignItems="center"
         container
       >
         <Title
@@ -38,7 +39,9 @@ const CarouselSlideContent = ({
           suptitle={normalizedSuptitle}
           maxWidth={SCREEN_SIZES.SMALL}
           customClass={mergedTitleClasses}
-        />
+        >
+          {children}
+        </Title>
       </Grid>
     </ContainerWithBackground>
   );
