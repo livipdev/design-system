@@ -20,6 +20,7 @@
     "packages/*"
   ],
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "build": "lerna exec yarn build && npm run copy",
     "clean": "lerna run clean",
     "copy": "lerna exec cp package.json dist",
@@ -29,14 +30,16 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.8.3",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-quintoandar-pwa": "^2.0.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-quintoandar": "^1.9.3",
-    "eslint-plugin-react": "^7.19.0",
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.x",
+    "eslint": "6.x",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "4.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "2.x",
     "lerna": "^3.20.2"
   }
 }
