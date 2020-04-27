@@ -1,9 +1,9 @@
 {
   "typography": {
     "h3": {
-      "fontFamily": "Montserrat-Bold, Montserrat, Helvetica, Arial, sans-serif",
-      "fontWeight": "700",
-      "fontSize": "1.2rem"
+      "fontFamily": "Montserrat-SemiBold, Montserrat, Helvetica, Arial, sans-serif",
+      "fontWeight": "600",
+      "fontSize": "1.875rem"
     }
   }
 }

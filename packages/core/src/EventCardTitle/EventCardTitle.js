@@ -21,7 +21,7 @@ const EventCardTitle = ({
         currentFilter={currentFilter}
         filterEvents={filterEvents}
       />
-      <Typography variant="h3">
+      <Typography variant="h4">
         {event.name}
       </Typography>
     </Grid>
