@@ -10,8 +10,10 @@ const Carousel = ({
   children,
   variant,
   customClasses,
+  ...props
 }) => (
   <CarouselWithAutoplay
+    {...props}
     play={play}
     cancelOnInteraction={stopOnHover}
     interval={intervalInMilliseconds}
