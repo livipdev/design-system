@@ -4,7 +4,7 @@
   "description": "Components package for our React applications",
   "author": "odelucca",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/livipdev/design-system.git"
