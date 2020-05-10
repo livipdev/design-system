@@ -36,5 +36,6 @@
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-react": "^7.8.3",
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "cf626c134efd655db364e9709649bced2fa3c132"
 }
