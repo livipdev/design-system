@@ -1,6 +1,6 @@
 {
   "name": "@livip/config",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Config used on our applications",
   "author": "odelucca",
   "license": "MIT",
@@ -22,5 +22,5 @@
   "peerDependencies": {
     "lodash": "^4.17.15"
   },
-  "gitHead": "cf626c134efd655db364e9709649bced2fa3c132"
+  "gitHead": "7887d4b67b3d267561ff8de94fff4fed0119e4e3"
 }

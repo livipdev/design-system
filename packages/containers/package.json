@@ -1,6 +1,6 @@
 {
   "name": "@livip/containers",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Common application containers using our design system",
   "author": "odelucca",
   "license": "MIT",
@@ -30,5 +30,5 @@
     "@babel/preset-react": "^7.8.3",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "cf626c134efd655db364e9709649bced2fa3c132"
+  "gitHead": "7887d4b67b3d267561ff8de94fff4fed0119e4e3"
 }
