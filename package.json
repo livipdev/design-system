@@ -19,6 +19,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna exec yarn build && npm run copy",
@@ -26,7 +29,7 @@
     "copy": "lerna exec cp package.json dist",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "release": "lerna publish --contents dist --access public"
+    "release": "lerna publish --contents dist"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.8.3",
