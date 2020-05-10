@@ -4,7 +4,7 @@
   "description": "Icons for our design system",
   "author": "odelucca",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/livipdev/design-system.git"
@@ -31,5 +31,5 @@
     "@babel/preset-react": "^7.8.3",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "7887d4b67b3d267561ff8de94fff4fed0119e4e3"
+  "gitHead": "e4eff5c13c14dc89abca076824c34197d390514b"
 }
