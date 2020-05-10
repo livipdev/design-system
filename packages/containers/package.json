@@ -12,6 +12,9 @@
   "bugs": {
     "url": "https://github.com/livipdev/design-system/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "npm run build:transpile && npm run build:copy",
     "build:copy": "cp package.json dist",
@@ -30,5 +33,5 @@
     "@babel/preset-react": "^7.8.3",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "e4eff5c13c14dc89abca076824c34197d390514b"
+  "gitHead": "5a6e051d4d86b64ab5c933625cd9c1be851ef105"
 }

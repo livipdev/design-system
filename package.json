@@ -19,9 +19,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna exec yarn build && npm run copy",
