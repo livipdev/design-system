@@ -4,7 +4,7 @@
   "description": "Tokens dictionary used on our theme and applications",
   "author": "odelucca",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/livipdev/design-system.git"

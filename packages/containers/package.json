@@ -4,7 +4,7 @@
   "description": "Common application containers using our design system",
   "author": "odelucca",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/livipdev/design-system.git"
