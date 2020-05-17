@@ -1,4 +1,4 @@
-import config from '@livip/config';
+import config from '@livipdev/config';
 
 const TICKETS = config.variants.tickets;
 const ONE = config.variants.one;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import xor from 'lodash/xor';
-import { MENU_TYPE_MAIN, MENU_TYPE_SUB } from '@livip/containers/MenuMobile/constants';
+import { MENU_TYPE_MAIN, MENU_TYPE_SUB } from '@livipdev/containers/MenuMobile/constants';
 
 import Grid from '../Grid';
 import Slide from '../Slide';

@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuIcon from '@livip/icons/Menu';
+import MenuIcon from '@livipdev/icons/Menu';
 
 import IconButton from '../IconButton';
 

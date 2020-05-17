@@ -1,5 +1,5 @@
 import React from 'react';
-import CarouselSlide from '@livip/core/CarouselSlide';
+import CarouselSlide from '@livipdev/core/CarouselSlide';
 
 export const buildSlides = (slides) => (
   slides.map(buildSingleSlide)

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { MENU_TYPES } from '@livip/containers/MenuMobile/constants';
+import { MENU_TYPES } from '@livipdev/containers/MenuMobile/constants';
 
 const propTypes = {
   classes: PropTypes.object,

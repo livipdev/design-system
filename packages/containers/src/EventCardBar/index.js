@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import CardContent from '@livip/core/CardContent';
-import EventCardBarBack from '@livip/core/EventCardBarBack';
-import EventCardBarFront from '@livip/core/EventCardBarFront';
+import CardContent from '@livipdev/core/CardContent';
+import EventCardBarBack from '@livipdev/core/EventCardBarBack';
+import EventCardBarFront from '@livipdev/core/EventCardBarFront';
 
 import propTypes from './propTypes';
 

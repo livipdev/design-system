@@ -1,5 +1,5 @@
 import React from 'react';
-import ShareIcon from '@livip/icons/Share';
+import ShareIcon from '@livipdev/icons/Share';
 
 import IconWithAction from '../IconWithAction';
 import propTypes from './propTypes';

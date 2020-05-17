@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { VARIANTS } from '@livip/containers/Carousel/constants';
+import { VARIANTS } from '@livipdev/containers/Carousel/constants';
 
 const propTypes = {
   classes: PropTypes.obj,

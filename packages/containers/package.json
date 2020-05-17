@@ -1,5 +1,5 @@
 {
-  "name": "@livip/containers",
+  "name": "@livipdev/containers",
   "version": "1.0.0",
   "description": "Common application containers using our design system",
   "author": "odelucca",
@@ -23,7 +23,7 @@
     "prepare": "npm run build"
   },
   "peerDependencies": {
-    "@livip/core": "^1.0.0",
+    "@livipdev/core": "^1.0.0",
     "react": "^16.13.0"
   },
   "devDependencies": {

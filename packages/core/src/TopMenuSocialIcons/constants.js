@@ -1,6 +1,6 @@
-import LinkedInIcon from '@livip/icons/LinkedIn';
-import InstagramIcon from '@livip/icons/Instagram';
-import WhatsAppIcon from '@livip/icons/WhatsApp';
+import LinkedInIcon from '@livipdev/icons/LinkedIn';
+import InstagramIcon from '@livipdev/icons/Instagram';
+import WhatsAppIcon from '@livipdev/icons/WhatsApp';
 
 const LINKEDIN = 'linkedin';
 const INSTAGRAM = 'instagram';

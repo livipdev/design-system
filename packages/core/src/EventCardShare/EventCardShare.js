@@ -1,8 +1,8 @@
 import React from 'react';
-import WhatsAppIcon from '@livip/icons/WhatsApp';
-import MailOutlineIcon from '@livip/icons/MailOutline';
-import FacebookIcon from '@livip/icons/Facebook';
-import TwitterIcon from '@livip/icons/Twitter';
+import WhatsAppIcon from '@livipdev/icons/WhatsApp';
+import MailOutlineIcon from '@livipdev/icons/MailOutline';
+import FacebookIcon from '@livipdev/icons/Facebook';
+import TwitterIcon from '@livipdev/icons/Twitter';
 
 import Grid from '../Grid';
 import IconWithLink from '../IconWithLink';

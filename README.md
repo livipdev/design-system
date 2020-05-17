@@ -22,7 +22,7 @@ To use this library, your application must have the following packages installed
 
 This is a monorepo, containing multiple interface components packages. Here is a short list of all our packages:
 
-* [@livip/core](packages/core)
+* [@livipdev/core](packages/core)
 
 You can install each one of those packages with a simple `yarn add` or `npm install` command. This library is not yet deployed on any package manager. In order to use any of our packages in your application you may first run the following command on this package:
 
@@ -30,7 +30,7 @@ You can install each one of those packages with a simple `yarn add` or `npm inst
 yarn build
 ```
 
-Then, you can install a package (`@livip/core`, on this example) with:
+Then, you can install a package (`@livipdev/core`, on this example) with:
 
 ``` sh
 yarn add <path-to-this-repo>/packages/core/dist
@@ -39,7 +39,7 @@ yarn add <path-to-this-repo>/packages/core/dist
 After installing it, you can import any of our components with:
 
 ``` javascript
-import Box from '@livip/core';
+import Box from '@livipdev/core';
 
 ...
 ```

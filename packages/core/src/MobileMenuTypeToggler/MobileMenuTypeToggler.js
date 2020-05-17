@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ExpandLessIcon from '@livip/icons/ExpandLess';
-import { MENU_TYPE_DEFAULT } from '@livip/containers/MenuMobile/constants';
+import ExpandLessIcon from '@livipdev/icons/ExpandLess';
+import { MENU_TYPE_DEFAULT } from '@livipdev/containers/MenuMobile/constants';
 
 import IconButton from '../IconButton';
 

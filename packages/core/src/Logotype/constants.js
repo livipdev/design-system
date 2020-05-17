@@ -1,4 +1,4 @@
-import config from '@livip/config';
+import config from '@livipdev/config';
 
 export const VARIANT_ROOT = config.variants.root;
 export const VARIANT_TICKETS = config.variants.tickets;

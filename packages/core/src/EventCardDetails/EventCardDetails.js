@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormattedDate, FormattedRelativeTime } from 'react-intl';
-import HistoryIcon from '@livip/icons/History';
+import HistoryIcon from '@livipdev/icons/History';
 
 import Grid from '../Grid';
 

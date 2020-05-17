@@ -1,5 +1,5 @@
 import React from 'react';
-import CarouselWithAutoplay from '@livip/core/CarouselWithAutoplay';
+import CarouselWithAutoplay from '@livipdev/core/CarouselWithAutoplay';
 
 import { buildSlides } from './builders';
 

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { eventPropTypes } from '@livip/containers/EventFilteredList/propTypes';
+import { eventPropTypes } from '@livipdev/containers/EventFilteredList/propTypes';
 
 const dateFormatPropTypes = {
   weekday: PropTypes.string,

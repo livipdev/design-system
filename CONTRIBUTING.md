@@ -66,7 +66,7 @@ yarn build
 
 ## Creating a new component
 
-Creating a new component is pretty straightforward. The first thing you should do is see if there's already a package to place it. Don't create too much packages, problably you can put inside an existing one. If you need to create a new package you can simply create folder inside `packages`, copy the contents of `package.json` from an existing package and update the package name. You must follow the pattern:`@livip/<package-name>` to make easier for us to identify our own packages.
+Creating a new component is pretty straightforward. The first thing you should do is see if there's already a package to place it. Don't create too much packages, problably you can put inside an existing one. If you need to create a new package you can simply create folder inside `packages`, copy the contents of `package.json` from an existing package and update the package name. You must follow the pattern:`@livipdev/<package-name>` to make easier for us to identify our own packages.
 
 After that, you can create a new folder inside the package suits your component and create your component structure right there.
 

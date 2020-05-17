@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MenuMobile from '@livip/containers/MenuMobile';
+import MenuMobile from '@livipdev/containers/MenuMobile';
 
 import SwipeableDrawer from '../SwipeableDrawer';
 

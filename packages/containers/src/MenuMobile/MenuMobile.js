@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import Grid from '@livip/core/Grid';
-import MobileMenuHeader from '@livip/core/MobileMenuHeader';
-import MobileMenuContent from '@livip/core/MobileMenuContent';
+import Grid from '@livipdev/core/Grid';
+import MobileMenuHeader from '@livipdev/core/MobileMenuHeader';
+import MobileMenuContent from '@livipdev/core/MobileMenuContent';
 
 import propTypes from './propTypes';
 import {

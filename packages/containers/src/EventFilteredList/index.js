@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import PanelWithFilter from '@livip/core/PanelWithFilter';
-import EventList from '@livip/core/EventList';
+import PanelWithFilter from '@livipdev/core/PanelWithFilter';
+import EventList from '@livipdev/core/EventList';
 
 import { buildTabs } from './builders';
 import { selectEventsWithCategory } from './selectors';

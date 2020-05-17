@@ -1,4 +1,4 @@
-import tokens from '@livip/tokens';
+import tokens from '@livipdev/tokens';
 
 const theme = {
   ...tokens,

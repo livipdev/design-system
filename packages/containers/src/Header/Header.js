@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import AppBar from '@livip/core/AppBar';
-import HeaderToolbar from '@livip/core/HeaderToolbar';
-import HeaderMenuToggler from '@livip/core/HeaderMenuToggler';
-import HeaderDrawer from '@livip/core/HeaderDrawer';
+import AppBar from '@livipdev/core/AppBar';
+import HeaderToolbar from '@livipdev/core/HeaderToolbar';
+import HeaderMenuToggler from '@livipdev/core/HeaderMenuToggler';
+import HeaderDrawer from '@livipdev/core/HeaderDrawer';
 
 import propTypes from './propTypes';
 import { DEFAULT_MENU_STATE } from './constants';

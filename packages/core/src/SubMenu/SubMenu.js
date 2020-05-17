@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { MENU_TYPE_SUB } from '@livip/containers/MenuMobile/constants';
+import { MENU_TYPE_SUB } from '@livipdev/containers/MenuMobile/constants';
 
 import Grid from '../Grid';
 import Gutter from '../Gutter';

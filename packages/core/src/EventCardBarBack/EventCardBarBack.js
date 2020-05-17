@@ -1,5 +1,5 @@
 import React from 'react';
-import InstagramIcon from '@livip/icons/Instagram';
+import InstagramIcon from '@livipdev/icons/Instagram';
 
 import Grid from '../Grid';
 import EventCardShare from '../EventCardShare';
