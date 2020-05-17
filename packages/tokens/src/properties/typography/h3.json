@@ -3,7 +3,10 @@
     "h3": {
       "fontFamily": "Montserrat-SemiBold, Montserrat, Helvetica, Arial, sans-serif",
       "fontWeight": "600",
-      "fontSize": "1.875rem"
+      "fontSize": "1.875rem",
+      "@media screen and (max-width: 600px)": {
+        "fontSize": "1.5rem"
+      }
     }
   }
 }

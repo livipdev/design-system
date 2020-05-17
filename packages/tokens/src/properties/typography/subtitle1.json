@@ -3,7 +3,10 @@
     "subtitle1": {
       "fontFamily": "Montserrat-Medium, Montserrat, Helvetica, Arial, sans-serif",
       "fontWeight": "400",
-      "fontSize": "1.4rem"
+      "fontSize": "1.4rem",
+      "@media screen and (max-width: 600px)": {
+        "fontSize": "1rem"
+      }
     }
   }
 }
