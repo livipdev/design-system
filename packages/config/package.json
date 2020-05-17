@@ -1,6 +1,6 @@
 {
   "name": "@livip/config",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "description": "Config used on our applications",
   "author": "odelucca",
   "license": "MIT",
