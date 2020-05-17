@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types';
 
-import Container from '../Container';
-
 export const intlPropTypes = {
   id: PropTypes.string.isRequired,
   defaultMessage: PropTypes.string,
@@ -10,7 +8,6 @@ export const intlPropTypes = {
 
 const propTypes = {
   message: PropTypes.shape(intlPropTypes),
-  maxWidth: Container.propTypes.maxWidth,
 };
 
 export default propTypes;
