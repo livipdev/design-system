@@ -1,8 +1,6 @@
-import React from 'react';
-import MuiContainer from '@material-ui/core/Container';
+import withStyles from '../styles/withStyles';
 
-const Container = (props) => <MuiContainer {...props} />;
+import styles from './styles';
+import Container from './Container';
 
-Container.propTypes = MuiContainer.propTypes;
-
-export default Container;
+export default withStyles(styles)(Container);
