@@ -1,5 +1,6 @@
 const styles = (theme) => ({
   root: {
+    height: ({ height }) => height || '1em',
     width: ({ width }) => width || 'unset',
   },
 
