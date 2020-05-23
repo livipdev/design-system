@@ -3,6 +3,7 @@
     "primary": {
       "main": "#421428",
       "light": "#55253a",
+      "lighter": "#A05576",
       "dark": "#31101f",
       "contrastText": "#b63366"
     }
