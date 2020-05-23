@@ -1,6 +1,6 @@
 const styles = (theme) => ({
   root: {
-    ...theme.sizes.fullwidth,
+    width: ({ width }) => width || 'unset',
   },
 
   logo: {

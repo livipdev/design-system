@@ -7,7 +7,7 @@ import propTypes from './propTypes';
 
 const MainMenuLogotype = ({ classes, variant }) => (
   <Box classes={classes}>
-    <Logotype variant={variant} />
+    <Logotype variant={variant} width="100%" />
   </Box>
 );
 

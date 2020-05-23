@@ -5,6 +5,7 @@ const propTypes = {
   classes: PropTypes.object,
   viewBox: PropTypes.string,
   variant: PropTypes.oneOf(config.variants.available),
+  width: PropTypes.string,
 };
 
 export default propTypes;
