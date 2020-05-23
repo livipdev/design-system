@@ -11,7 +11,6 @@ const styles = (theme) => ({
 
     color: theme.palette.common.white,
     borderColor: theme.palette.common.white,
-    borderWidth: `${theme.spacing(1/4)}px`,
 
     '&::after': {
       ...theme.pseudos.empty,
