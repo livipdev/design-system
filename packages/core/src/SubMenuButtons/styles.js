@@ -4,6 +4,10 @@ const styles = (theme) => ({
   root: {
     ...theme.alignments.center,
 
+    '& > a': {
+      color: theme.palette.primary.lighter,
+    },
+
     [theme.breakpoints.up(SCREEN_SIZES.MEDIUM)]: {
       ...theme.alignments.autoMarginLeft,
     },

@@ -4,7 +4,7 @@ const styles = (theme) => ({
     whiteSpace: theme.alignments.whitespaces.preWrap,
   },
 
-  contact: {
+  typography: {
     color: theme.palette.primary.lighter,
   }
 });
