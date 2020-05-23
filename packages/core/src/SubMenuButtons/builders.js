@@ -1,6 +1,7 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 
-import IntlButton from '../IntlButton';
+import Link from '../Link';
 
 import messages from './messages';
 import { SUBMENU_BUTTONS } from './constants';
@@ -15,16 +16,14 @@ export const buildVariantButtons = (variant) => {
   return buttons;
 };
 
-const buildKeyButton = (key, { variant, intl, ...options }) => {
-  const button = options.hashmap[key];
+const buildKeyButton = (key, { variant }) => {
   const message = messages[variant][key];
 
   return (
-    <IntlButton
+    <Link
       key={key}
-      variant={button.variant}
-      color={button.color}
-      message={message}
-    />
+    >
+      <FormattedMessage {...message} />
+    </Link>
   );
 };
