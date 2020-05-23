@@ -17,8 +17,8 @@ const styles = (theme) => ({
   },
 
   gutters: {
-    paddingLeft: theme.spaces.loose,
-    paddingRight: theme.spaces.loose,
+    paddingLeft: theme.spaces.loose.value,
+    paddingRight: theme.spaces.loose.value,
   },
 });
 

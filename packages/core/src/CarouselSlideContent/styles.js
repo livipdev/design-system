@@ -13,6 +13,7 @@ const styles = (theme) => ({
 
   title: {
     ...theme.alignments.centerText,
+    marginBottom: 0,
   },
 
   'aligned-to-left-content': {},
