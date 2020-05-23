@@ -2,12 +2,12 @@ import React from 'react';
 
 import Box from '../Box';
 
-import { buildSocialIcons } from './builders';
+import SocialIcons from '../SocialIcons';
 import propTypes from './propTypes';
 
 const TopMenuSocialIcons = ({ classes }) => (
   <Box className={classes.root}>
-    { buildSocialIcons(classes.icon) }
+    <SocialIcons />
   </Box>
 );
 
