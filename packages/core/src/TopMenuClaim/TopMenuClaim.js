@@ -16,7 +16,7 @@ const TopMenuClaim = ({ classes, variant }) => {
       <Typography>
         {intl.formatMessage(message).concat(' ')}
       </Typography>
-      <Typography variant="body2">
+      <Typography variant="body2" className={classes.typography}>
         {intl.formatMessage(messages.contact)}
       </Typography>
     </Box>

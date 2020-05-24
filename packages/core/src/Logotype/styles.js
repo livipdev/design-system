@@ -1,6 +1,7 @@
 const styles = (theme) => ({
   root: {
-    ...theme.sizes.fullwidth,
+    height: ({ height }) => height || '1em',
+    width: ({ width }) => width || 'unset',
   },
 
   logo: {
