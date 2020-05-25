@@ -40,6 +40,17 @@ const styles = (theme) => ({
     },
   },
 
+  containedPrimary: {
+    color: theme.palette.common.white,
+    borderColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.primary.main,
+
+    '&:hover': {
+      color: theme.palette.common.white,
+      backgroundColor: theme.palette.primary.main,
+    },
+  },
+
   containedSecondary: {
     color: theme.palette.primary.main,
     borderColor: theme.palette.common.white,

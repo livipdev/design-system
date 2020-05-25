@@ -3,7 +3,7 @@ import React from 'react';
 import Container from '../Container';
 import propTypes from './propTypes';
 
-const ContainerWithBackground = ({ classes, customClass, background, variant, children }) => {
+const ContainerWithBackground = ({ classes, customClass, variant, children }) => {
   const mergedClasses = {
     ...classes,
     root: [
