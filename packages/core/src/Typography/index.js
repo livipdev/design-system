@@ -1,22 +1,18 @@
 import React from 'react';
 import MuiTypography from '@material-ui/core/Typography';
-import { useIntl } from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 
 import propTypes from './propTypes';
 
-const Typography = ({ message, children, ...props }) => {
-  const intl = useIntl();
-
-  return (
-    <MuiTypography {...props}>
-      {
-        message
-          ? intl.formatMessage(message)
-          : children
-      }
-    </MuiTypography>
-  );
-};
+const Typography = ({ message, children, ...props }) => (
+  <MuiTypography {...props}>
+    {
+      message
+        ? <FormattedMessage {...message} />
+        : children
+    }
+  </MuiTypography>
+);
 
 Typography.propTypes = {
   ...MuiTypography.propTypes,
