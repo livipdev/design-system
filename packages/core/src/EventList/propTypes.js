@@ -10,6 +10,7 @@ const propTypes = {
   cellHeight: PropTypes.int,
   spacingType: PropTypes.string,
   classes: PropTypes.obj,
+  customClass: PropTypes.string,
 };
 
 export default propTypes;
