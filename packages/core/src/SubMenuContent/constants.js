@@ -10,11 +10,11 @@ const PROJECTS = 'projects';
 export const TRAVEL_SUBMENU_HASHMAP = {
   [EVENTS]: {
     key: 'events',
-    href: '#',
+    href: 'events',
   },
   [PROJECTS]: {
     key: 'projects',
-    href: '#',
+    href: 'projects',
   },
 };
 
