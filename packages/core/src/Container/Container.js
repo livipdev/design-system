@@ -1,12 +1,18 @@
-import React from 'react';
-import MuiContainer from '@material-ui/core/Container';
+import styled from '../styles/styled';
 
 import propTypes from './propTypes';
 
-const Container = (props) =>  <MuiContainer {...props} />;
+const Container = styled('div')(({
+  disableGutters,
+  theme
+}) => ({
+  [theme.breakpoints.up('md')]: disableGutters ? false : {
+    margin: '0 auto',
+    maxWidth: '86vw',
+  }
+}));
 
 Container.propTypes = {
-  ...MuiContainer.propTypes,
   ...propTypes,
 };
 
