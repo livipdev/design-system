@@ -30,7 +30,7 @@ const MainMenuContent = ({ variant, classes, isExiting }) => {
   };
 
   return (
-    <Grid item classes={mergedClasses} lg={10} xs={12}>
+    <Grid item classes={mergedClasses} lg={12} xs={12}>
       <MainMenuLogotype variant={variant} />
       <HeaderMenu menu={menu} />
       <MainMenuButtons isExiting={isExiting} />

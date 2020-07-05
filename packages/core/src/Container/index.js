@@ -1,6 +1,20 @@
-import withStyles from '../styles/withStyles';
+import styled from '../styles/styled';
 
-import styles from './styles';
-import Container from './Container';
+import propTypes from './propTypes';
 
-export default withStyles(styles)(Container);
+const Container = styled('div')(({
+  disableGutters,
+  theme
+}) => ({
+  width: '100%',
+  [theme.breakpoints.up('md')]: disableGutters ? false : {
+    margin: '0 auto',
+    maxWidth: '86vw',
+  }
+}));
+
+Container.propTypes = {
+  ...propTypes,
+};
+
+export default Container;

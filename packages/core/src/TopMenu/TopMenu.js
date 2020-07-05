@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Grid from '../Grid';
-import Gutter from '../Gutter';
+import Container from '../Container';
 import TopMenuContent from '../TopMenuContent';
 
 import propTypes from './propTypes';
@@ -14,9 +14,9 @@ const TopMenu = ({ classes, guttersClass, variant }) => {
 
   return (
     <Grid container classes={mergedClasses}>
-      <Gutter lg={1} xs={false} />
-      <TopMenuContent variant={variant} />
-      <Gutter lg={1} xs={false} />
+      <Container>
+        <TopMenuContent variant={variant} />
+      </Container>
     </Grid>
   );
 };

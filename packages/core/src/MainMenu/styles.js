@@ -5,8 +5,8 @@ const styles = (theme) => ({
   root: {
     [theme.breakpoints.up(SCREEN_SIZES.MEDIUM)]: {
       backgroundColor: fade(theme.palette.primary.main, 0.95),
-      paddingTop: theme.spaces.compact.value,
-      paddingBottom: theme.spaces.compact.value,
+      paddingTop: '.75rem',
+      paddingBottom: '.75rem',
     },
   },
 });

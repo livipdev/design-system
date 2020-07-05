@@ -29,7 +29,7 @@ const SubMenuContent = ({ classes, variant, isExiting }) => {
   };
 
   return (
-    <Grid item classes={mergedClasses} lg={10} xs={12}>
+    <Grid item classes={mergedClasses} lg={12} xs={12}>
       <HeaderMenu menu={menu} customClasses={classes.menu} />
       <SubMenuButtons variant={variant} isExiting={isExiting} />
     </Grid>

@@ -5,7 +5,7 @@ const styles = (theme) => ({
   },
 
   typography: {
-    color: theme.palette.primary.lighter,
+    fontStyle: 'italic'
   }
 });
 

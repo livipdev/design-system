@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Grid from '../Grid';
-import Gutter from '../Gutter';
 import MainMenuContent from '../MainMenuContent';
+import Container from '../Container';
 
 import propTypes from './propTypes';
 
@@ -26,9 +26,9 @@ const MainMenu = ({ classes, guttersClass, variant, isExiting }, ref) => {
 
   return (
     <Grid container classes={mergedClasses} ref={ref}>
-      <Gutter lg={1} xs={false} />
-      <MainMenuContent variant={variant} isExiting={isExiting} />
-      <Gutter lg={1} xs={false} />
+      <Container>
+        <MainMenuContent variant={variant} isExiting={isExiting} />
+      </Container>
     </Grid>
   );
 };

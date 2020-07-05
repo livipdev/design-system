@@ -7,7 +7,7 @@ import TopMenuSocialIcons from '../TopMenuSocialIcons';
 import propTypes from './propTypes';
 
 const TopMenuContent = ({ classes, variant }) => (
-  <Grid item classes={classes} lg={10} xs={12}>
+  <Grid item classes={classes} lg={12} xs={12}>
     <TopMenuClaim variant={variant} />
     <TopMenuSocialIcons />
   </Grid>

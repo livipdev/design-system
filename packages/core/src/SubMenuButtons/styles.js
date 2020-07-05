@@ -5,7 +5,12 @@ const styles = (theme) => ({
     ...theme.alignments.center,
 
     '& > a': {
-      color: theme.palette.primary.lighter,
+      color: theme.palette.common.white,
+      textTransform: 'uppercase',
+
+      '&:hover': {
+        textDecoration: 'none',
+      },
     },
 
     [theme.breakpoints.up(SCREEN_SIZES.MEDIUM)]: {

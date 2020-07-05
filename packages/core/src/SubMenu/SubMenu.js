@@ -3,7 +3,7 @@ import React from 'react';
 import { MENU_TYPE_SUB } from '@livipdev/containers/MenuMobile/constants';
 
 import Grid from '../Grid';
-import Gutter from '../Gutter';
+import Container from '../Container';
 import SubMenuContent from '../SubMenuContent';
 
 import propTypes from './propTypes';
@@ -28,9 +28,9 @@ const SubMenu = ({ classes, guttersClass, variant, isExiting }, ref) => {
 
   return (
     <Grid container classes={mergedClasses} ref={ref}>
-      <Gutter lg={1} xs={false} />
-      <SubMenuContent variant={variant} isExiting={isExiting} />
-      <Gutter lg={1} xs={false} />
+      <Container>
+        <SubMenuContent variant={variant} isExiting={isExiting} />
+      </Container>
     </Grid>
   );
 };
