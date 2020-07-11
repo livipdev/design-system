@@ -1,6 +1,6 @@
 const styles = (theme) => ({
   root: {
-    marginBottom: theme.spaces.looseX2.value,
+    marginBottom: ({ marginBottom }) => marginBottom,
   },
 });
 

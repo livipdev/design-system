@@ -3,7 +3,7 @@
     "h2": {
       "fontFamily": "Montserrat-SemiBold, Montserrat, Helvetica, Arial, sans-serif",
       "fontWeight": "500",
-      "fontSize": "3rem",
+      "fontSize": "2.25rem",
       "@media screen and (max-width: 600px)": {
         "fontSize": "1.85rem"
       }
