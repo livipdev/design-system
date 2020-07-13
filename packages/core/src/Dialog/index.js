@@ -1,6 +1,6 @@
 import withStyles from '@livipdev/core/styles/withStyles';
 
 import styles from './styles';
-import FooterSocial from './FooterSocial';
+import Dialog from './Dialog';
 
-export default withStyles(styles)(FooterSocial);
+export default withStyles(styles)(Dialog);
