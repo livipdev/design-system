@@ -1,6 +1,6 @@
 {
   "name": "@livipdev/icons",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Icons for our design system",
   "author": "odelucca",
   "license": "MIT",
@@ -34,5 +34,5 @@
     "@babel/preset-react": "^7.8.3",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "5a6e051d4d86b64ab5c933625cd9c1be851ef105"
+  "gitHead": "a8b657aafb14a5096b044f2b137e1ba7ba1b0e0e"
 }
