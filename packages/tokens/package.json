@@ -1,6 +1,6 @@
 {
   "name": "@livipdev/tokens",
-  "version": "1.6.0",
+  "version": "1.0.0",
   "description": "Tokens dictionary used on our theme and applications",
   "author": "odelucca",
   "license": "MIT",
