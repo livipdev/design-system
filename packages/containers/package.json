@@ -1,6 +1,6 @@
 {
   "name": "@livipdev/containers",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Common application containers using our design system",
   "author": "odelucca",
   "license": "MIT",
@@ -29,5 +29,5 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "b1f381812f2e908a3ea707b4c513540960b60320"
+  "gitHead": "fea02131f169a333a3e5ede891d55d64ab283853"
 }

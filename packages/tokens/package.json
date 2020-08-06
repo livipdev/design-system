@@ -1,6 +1,6 @@
 {
   "name": "@livipdev/tokens",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Tokens dictionary used on our theme and applications",
   "author": "odelucca",
   "license": "MIT",
@@ -25,5 +25,5 @@
     "@material-ui/core": "^4.9.5",
     "style-dictionary": "^2.8.3"
   },
-  "gitHead": "b1f381812f2e908a3ea707b4c513540960b60320"
+  "gitHead": "fea02131f169a333a3e5ede891d55d64ab283853"
 }
