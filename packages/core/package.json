@@ -1,6 +1,6 @@
 {
   "name": "@livipdev/core",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Core components for our design system",
   "author": "odelucca",
   "license": "MIT",
@@ -35,11 +35,7 @@
     "typeface-montserrat": "^0.0.75"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-react": "^7.8.3",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "a8b657aafb14a5096b044f2b137e1ba7ba1b0e0e"
+  "gitHead": "b1f381812f2e908a3ea707b4c513540960b60320"
 }

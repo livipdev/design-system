@@ -29,17 +29,11 @@
     "release": "lerna publish --contents dist"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.8.3",
-    "@typescript-eslint/eslint-plugin": "2.x",
-    "@typescript-eslint/parser": "2.x",
-    "babel-eslint": "10.x",
-    "eslint": "6.x",
-    "eslint-config-react-app": "^5.2.1",
-    "eslint-plugin-flowtype": "4.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "2.x",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
     "lerna": "^3.20.2"
   }
 }
