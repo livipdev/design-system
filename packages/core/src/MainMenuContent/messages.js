@@ -15,9 +15,9 @@ export default defineMessages({
     defaultMessage: 'Livip One',
   },
 
-  travel: {
-    id: `${mainMenuItemsRef}.travel`,
-    defaultMessage: 'Livip Travel',
+  incentive: {
+    id: `${mainMenuItemsRef}.incentive`,
+    defaultMessage: 'Livip Incentive',
   },
 
   about: {

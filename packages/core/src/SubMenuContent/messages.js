@@ -5,7 +5,7 @@ export const subMenuTravelRef = `${subMenuRef}.travel`;
 const subMenuTravelItemsRef = `${subMenuTravelRef}.items`;
 
 export default defineMessages({
-  travel: {
+  incentive: {
     events: {
       id: `${subMenuTravelItemsRef}.events`,
       defaultMessage: 'Events',

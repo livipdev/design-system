@@ -6,7 +6,7 @@ import { PROPOSAL } from './constants';
 const subMenuTravelButtonsRef = `${subMenuTravelRef}.buttons`;
 
 export default defineMessages({
-  travel: {
+  incentive: {
     [PROPOSAL]: {
       id: `${subMenuTravelButtonsRef}.proposal`,
       defaultMessage: 'Request a proposal',

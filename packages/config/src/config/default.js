@@ -2,7 +2,7 @@ import {
   ROOT,
   TICKETS,
   ONE,
-  TRAVEL,
+  INCENTIVE,
 } from './constants';
 
 const configs = {
@@ -10,12 +10,12 @@ const configs = {
     [ROOT]: ROOT,
     [TICKETS]: TICKETS,
     [ONE]: ONE,
-    [TRAVEL]: TRAVEL,
+    [INCENTIVE]: INCENTIVE,
     available: [
       ROOT,
       TICKETS,
       ONE,
-      TRAVEL,
+      INCENTIVE,
     ],
   },
 };

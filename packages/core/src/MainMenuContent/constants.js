@@ -2,22 +2,22 @@ import config from '@livipdev/config';
 
 const TICKETS = config.variants.tickets;
 const ONE = config.variants.one;
-const TRAVEL = config.variants.travel;
+const INCENTIVE = config.variants.incentive;
 const ABOUT = 'about';
 const CONTACT = 'contact';
 
 export const MAIN_MENU_HASHMAP = {
   [TICKETS]: {
     key: 'tickets',
-    href: '#',
+    href: 'https://pwa-tickets.vercel.app',
   },
   [ONE]: {
     key: 'one',
-    href: '#',
+    href: 'https://pwa-one.vercel.app',
   },
-  [TRAVEL]: {
-    key: 'travel',
-    href: '#',
+  [INCENTIVE]: {
+    key: 'incentive',
+    href: 'https://pwa-incentive.vercel.app',
   },
   [ABOUT]: {
     key: 'about',
@@ -32,5 +32,5 @@ export const MAIN_MENU_HASHMAP = {
 export const MAIN_MENU_ORDER = [
   TICKETS,
   ONE,
-  TRAVEL,
+  INCENTIVE,
 ];

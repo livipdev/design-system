@@ -2,28 +2,28 @@ import config from '@livipdev/config';
 
 const TICKETS = config.variants.tickets;
 const ONE = config.variants.one;
-const TRAVEL = config.variants.travel;
+const INCENTIVE = config.variants.incentive;
 
 export const PROPOSAL = 'proposal';
 
-const TRAVEL_SUBMENU_BUTTONS_ORDER = [
+const INCENTIVE_SUBMENU_BUTTONS_ORDER = [
   PROPOSAL,
 ];
 
-const TRAVEL_SUBMENU_BUTTONS_HASHMAP = {
+const INCENTIVE_SUBMENU_BUTTONS_HASHMAP = {
   [PROPOSAL]: {
     variant: 'text',
     color: 'secondary',
   },
 };
 
-const TRAVEL_SUBMENU_BUTTONS = {
-  order: TRAVEL_SUBMENU_BUTTONS_ORDER,
-  hashmap: TRAVEL_SUBMENU_BUTTONS_HASHMAP,
+const INCENTIVE_SUBMENU_BUTTONS = {
+  order: INCENTIVE_SUBMENU_BUTTONS_ORDER,
+  hashmap: INCENTIVE_SUBMENU_BUTTONS_HASHMAP,
 };
 
 export const SUBMENU_BUTTONS = {
   [TICKETS]: {},
   [ONE]: {},
-  [TRAVEL]: TRAVEL_SUBMENU_BUTTONS,
+  [INCENTIVE]: INCENTIVE_SUBMENU_BUTTONS,
 };

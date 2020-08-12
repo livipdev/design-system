@@ -5,8 +5,8 @@ import { topMenuRef } from '../TopMenu/messages';
 const topMenuClaimsRef = `${topMenuRef}.claims`;
 
 export default defineMessages({
-  travel: {
-    id: `${topMenuClaimsRef}.travel`,
+  incentive: {
+    id: `${topMenuClaimsRef}.incentivel`,
     defaultMessage: "Make your clients' events an unforgettable experience!",
   },
 
