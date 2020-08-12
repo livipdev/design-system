@@ -10,6 +10,6 @@ export default defineMessages({
 
   label: {
     id: `${scope}.label`,
-    defaultMessage: 'type your email',
+    defaultMessage: 'Type your email',
   },
 });

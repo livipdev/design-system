@@ -66,6 +66,7 @@ const Footer = ({ classes, variant }) => (
     <Container>
       <Box
         component={Grid}
+        className={classes.addressBar}
         container
         justify="space-between"
         alignItems="center"

@@ -9,7 +9,7 @@ import messages from './messages';
 const FooterLinks = ({ classes }) => (
   <>
     <a nohref className={classes.link}>
-      <Typography message={messages.engageSportsGroup} />
+      <Typography message={messages.aboutUs} />
     </a>
     <a nohref className={classes.link}>
       <Typography message={messages.theSportraveller} />
@@ -21,7 +21,7 @@ const FooterLinks = ({ classes }) => (
       <Typography message={messages.frequentlyAskedQuestions} />
     </a>
     <a nohref className={classes.link}>
-      <Typography message={messages.privacyPolitics} />
+      <Typography message={messages.privacyPolicy} />
     </a>
     <a nohref className={classes.link}>
       <Typography message={messages.termsAndConditions} />

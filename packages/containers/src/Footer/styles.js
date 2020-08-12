@@ -8,5 +8,9 @@ export default function (theme) {
     divider: {
       backgroundColor: 'rgba(255, 255, 255, .1)',
     },
+
+    addressBar: {
+      padding: '8px 0',
+    },
   };
 }

@@ -4,8 +4,8 @@ const scope = 'app.components.FooterLinks';
 
 export default defineMessages({
   engageSportsGroup: {
-    id: `${scope}.engageSportsGroup`,
-    defaultMessage: 'Engage Sports Group',
+    id: `${scope}.aboutUs`,
+    defaultMessage: 'About us',
   },
   theSportraveller: {
     id: `${scope}.theSportraveller`,
@@ -20,8 +20,8 @@ export default defineMessages({
     defaultMessage: 'Frequently Asked Questions',
   },
   privacyPolitics: {
-    id: `${scope}.privacyPolitics`,
-    defaultMessage: 'Privacy politics',
+    id: `${scope}.privacyPolicy`,
+    defaultMessage: 'Privacy Policy',
   },
   termsAndConditions: {
     id: `${scope}.termsAndConditions`,
