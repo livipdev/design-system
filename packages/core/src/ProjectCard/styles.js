@@ -17,7 +17,7 @@ export default function (theme) {
       position: 'relative',
 
       // background properties
-      backgroundImage: ({ img }) => `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${img})`,
+      backgroundImage: ({ img }) => `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(${img})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center top',
     },
