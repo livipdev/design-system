@@ -8,6 +8,7 @@ const propTypes = {
   }),
   date: PropTypes.string,
   title: PropTypes.object,
+  href: PropTypes.string,
 };
 
 export default propTypes;

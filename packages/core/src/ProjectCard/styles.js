@@ -8,6 +8,7 @@ export default function (theme) {
       width: '40vw',
       marginBottom: ({ gutterBottom }) => gutterBottom ? `${theme.spacing(3)}px` : '0',
       padding: theme.spacing(4),
+      paddingBottom: theme.spacing(8),
 
       // display properties
       alignItems: 'center',
@@ -26,6 +27,7 @@ export default function (theme) {
       textAlign: 'center',
       marginBottom: '2rem',
       fontSize: '3.5rem',
+      fontWeight: 'bold',
     },
 
     tag: {

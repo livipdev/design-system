@@ -6,14 +6,14 @@ const subMenuTravelItemsRef = `${subMenuTravelRef}.items`;
 
 export default defineMessages({
   incentive: {
-    events: {
-      id: `${subMenuTravelItemsRef}.events`,
-      defaultMessage: 'Events',
+    nextEvents: {
+      id: `${subMenuTravelItemsRef}.next_events`,
+      defaultMessage: 'Next events',
     },
 
-    projects: {
-      id: `${subMenuTravelItemsRef}.projects`,
-      defaultMessage: 'Projects',
+    eventsHeld: {
+      id: `${subMenuTravelItemsRef}.events_held`,
+      defaultMessage: 'Events held',
     },
   },
 });

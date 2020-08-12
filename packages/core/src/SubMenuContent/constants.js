@@ -4,23 +4,23 @@ const TICKETS = config.variants.tickets;
 const ONE = config.variants.one;
 const INCENTIVE = config.variants.incentive;
 
-const EVENTS = 'events';
-const PROJECTS = 'projects';
+const NEXT_EVENTS = 'nextEvents';
+const EVENTS_HELD = 'eventsHeld';
 
 export const INCENTIVE_SUBMENU_HASHMAP = {
-  [EVENTS]: {
-    key: 'events',
-    href: 'events',
+  [NEXT_EVENTS]: {
+    key: 'nextEvents',
+    href: 'proximos-eventos',
   },
-  [PROJECTS]: {
-    key: 'projects',
-    href: 'projects',
+  [EVENTS_HELD]: {
+    key: 'eventsHeld',
+    href: 'eventos-realizados',
   },
 };
 
 export const INCENTIVE_SUBMENU_ORDER = [
-  EVENTS,
-  PROJECTS,
+  NEXT_EVENTS,
+  EVENTS_HELD,
 ];
 
 const INCENTIVE_SUBMENU = {
