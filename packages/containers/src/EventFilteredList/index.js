@@ -8,7 +8,7 @@ import { selectEventsWithCategory } from './selectors';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const EventFilteredList = ({ events, messages, selectorName, defaultFilter }) => {
+const EventFilteredList = ({ events, messages, selectorName, defaultFilter, variant }) => {
   const [filter, setFilter] = useState(defaultFilter);
   const tabs = buildTabs(events, selectorName);
   const filteredEvents = selectEventsWithCategory(events, filter);
@@ -25,6 +25,7 @@ const EventFilteredList = ({ events, messages, selectorName, defaultFilter }) =>
         events={filteredEvents}
         currentFilter={filter}
         filterEvents={filterEvents}
+        variant={variant}
       />
     </PanelWithFilter>
   );

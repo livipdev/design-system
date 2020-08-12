@@ -13,19 +13,19 @@ export default function (theme) {
       alignItems: 'center',
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'flex-end',
+      justifyContent: 'center',
       position: 'relative',
 
       // background properties
-      backgroundColor: theme.palette.primary.light,
-      backgroundImage: ({ img }) => `url(${img})`,
+      backgroundImage: ({ img }) => `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${img})`,
       backgroundSize: 'cover',
-      backgroundPosition: 'center',
+      backgroundPosition: 'center top',
     },
 
     title: {
       textAlign: 'center',
       marginBottom: '2rem',
+      fontSize: '3.5rem',
     },
 
     tag: {
@@ -35,9 +35,13 @@ export default function (theme) {
       backgroundColor: theme.palette.primary.main,
       padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`,
       borderRadius: '4px',
-      textTransform: 'uppercase',
       fontSize: '.875rem',
       fontWeight: 'bold',
+      display: 'flex',
+
+      '& span': {
+        padding: '2px 0 0 7px',
+      },
     },
   };
 }

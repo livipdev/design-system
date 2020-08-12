@@ -3,6 +3,7 @@ import React from 'react';
 import GridList from '../GridList';
 import GridListTile from '../GridListTile';
 import EventCard from '../EventCard';
+import ProjectCard from '../ProjectCard';
 import {
   useTheme,
   useWidth,
@@ -24,6 +25,7 @@ const EventList = ({
   cellHeight,
   spacingType,
   customClass,
+  variant,
 }) => {
   const theme = useTheme();
   const viewport = useWidth();
@@ -40,18 +42,22 @@ const EventList = ({
   return (
     <GridList
       classes={mergedClasses}
-      cols={cols}
+      cols={variant === 'project' ? 2 : cols}
       cellHeight={cellHeight}
       spacing={spacing}
     >
       {
         events.map((event) => (
           <GridListTile key={event.id} className={mergedClasses.tile}>
-            <EventCard
-              event={event}
-              currentFilter={currentFilter}
-              filterEvents={filterEvents}
-            />
+            {
+              variant === 'project'
+                ? <ProjectCard {...event} />
+                : <EventCard
+                    event={event}
+                    currentFilter={currentFilter}
+                    filterEvents={filterEvents}
+                  />
+            }
           </GridListTile>
         ))
       }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 
 import Box from '@livipdev/core/Box';
 import Button from '@livipdev/core/Button';
@@ -13,7 +14,10 @@ const ProjectCard = ({ classes, title, date }) => (
     {
       date && (
         <Box className={classes.tag}>
-          <span>{date}</span>
+          <CalendarTodayIcon />
+          <span>
+            { date }
+          </span>
         </Box>
       )
     }

@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 
 import { eventPropTypes } from '@livipdev/containers/EventFilteredList/propTypes';
 
+export const availableVariants = ['event', 'project'];
+
 const propTypes = {
   events: PropTypes.arrayOf(eventPropTypes),
   currentFilter: PropTypes.string,
@@ -11,6 +13,7 @@ const propTypes = {
   spacingType: PropTypes.string,
   classes: PropTypes.obj,
   customClass: PropTypes.string,
+  variant: PropTypes.oneOf(availableVariants),
 };
 
 export default propTypes;

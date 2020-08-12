@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { availableVariants } from '@livipdev/core/EventList/propTypes';
 
 export const eventPropTypes = PropTypes.shape({
   id: PropTypes.string.isRequired,
@@ -12,6 +13,7 @@ const propTypes = {
   events: PropTypes.arrayOf(eventPropTypes).isRequired,
   selectorName: PropTypes.string.isRequired,
   defaultFilter: PropTypes.string,
+  variant: PropTypes.oneOf(availableVariants),
 };
 
 export default propTypes;
