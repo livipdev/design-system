@@ -3,6 +3,10 @@ import {
   TICKETS,
   ONE,
   INCENTIVE,
+  ROOT_URL,
+  TICKETS_URL,
+  ONE_URL,
+  INCENTIVE_URL,
 } from './constants';
 
 const configs = {
@@ -17,6 +21,13 @@ const configs = {
       ONE,
       INCENTIVE,
     ],
+  },
+
+  urls: {
+    [ROOT]: ROOT_URL,
+    [TICKETS]: TICKETS_URL,
+    [ONE]: ONE_URL,
+    [INCENTIVE]: INCENTIVE_URL,
   },
 };
 
