@@ -23,6 +23,7 @@ const NewsletterForm = ({ inverse, classes, onSubmit }) => {
       alignItems="center"
       component="form"
       display="flex"
+      alignItems="flex-end"
       onSubmit={handleSubmit}
     >
       <TextField

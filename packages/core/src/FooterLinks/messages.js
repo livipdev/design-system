@@ -3,7 +3,7 @@ import { defineMessages } from 'react-intl';
 const scope = 'app.components.FooterLinks';
 
 export default defineMessages({
-  engageSportsGroup: {
+  aboutUs: {
     id: `${scope}.aboutUs`,
     defaultMessage: 'About us',
   },
@@ -19,7 +19,7 @@ export default defineMessages({
     id: `${scope}.frequentlyAskedQuestions`,
     defaultMessage: 'Frequently Asked Questions',
   },
-  privacyPolitics: {
+  privacyPolicy: {
     id: `${scope}.privacyPolicy`,
     defaultMessage: 'Privacy Policy',
   },

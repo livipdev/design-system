@@ -7,7 +7,7 @@ const styles = (theme) => ({
     ...theme.alignments.vertical,
 
     paddingTop: theme.spaces.loose.value,
-    height: (props) => props.cover ? '100vh' : 'unset',
+    height: (props) => props.cover ? '80vh' : 'unset',
   },
 
   bg: {

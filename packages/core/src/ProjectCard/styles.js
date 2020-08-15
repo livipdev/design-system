@@ -25,7 +25,7 @@ export default function (theme) {
     title: {
       textAlign: 'center',
       marginBottom: '2rem',
-      fontSize: '3.5rem',
+      fontSize: ({ parentColumns }) => parentColumns < 3 ? '3.5rem' : '2rem',
       fontWeight: 'bold',
     },
 
@@ -38,7 +38,7 @@ export default function (theme) {
       borderRadius: '4px',
       fontSize: '.875rem',
       fontWeight: 300,
-      display: 'flex',
+      display: ({ hideDate }) => hideDate ? 'none' : 'flex',
 
       '& span': {
         padding: '2px 0 0 7px',

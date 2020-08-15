@@ -14,6 +14,7 @@ const propTypes = {
   classes: PropTypes.obj,
   customClass: PropTypes.string,
   variant: PropTypes.oneOf(availableVariants),
+  hideDate: PropTypes.bool,
 };
 
 export default propTypes;

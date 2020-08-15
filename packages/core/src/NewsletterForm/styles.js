@@ -3,11 +3,11 @@ export default function (theme) {
     button: {
       fontWeight: 600,
       width: '20vw',
+      padding: '15px 0',
     },
 
     input: {
       width: theme.sizes.fullwidth.width,
-      marginRight: `${theme.spacing(2)}px`,
       '& .MuiInputLabel-root, & .MuiInputBase-root': {
         color: ({ inverse }) => inverse ? theme.palette.common.white : theme.palette.primary.main,
       },

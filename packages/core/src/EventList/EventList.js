@@ -25,6 +25,7 @@ const EventList = ({
   cellHeight,
   spacingType,
   customClass,
+  hideDate,
   variant,
 }) => {
   const theme = useTheme();
@@ -51,7 +52,7 @@ const EventList = ({
           <GridListTile key={event.id} className={mergedClasses.tile}>
             {
               variant === 'project'
-                ? <ProjectCard parentColumns={cols} {...event} />
+                ? <ProjectCard parentColumns={cols} hideDate={hideDate} {...event} />
                 : <EventCard
                     event={event}
                     currentFilter={currentFilter}
