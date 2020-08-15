@@ -9,6 +9,7 @@ const propTypes = {
   background: PropTypes.string,
   variant: PropTypes.oneOf(Object.values(AVAILABLE_VARIANTS)),
   classes: PropTypes.obj,
+  backgroundDarkMask: PropTypes.bool,
 };
 
 export default propTypes;

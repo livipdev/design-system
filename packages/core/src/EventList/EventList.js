@@ -42,7 +42,7 @@ const EventList = ({
   return (
     <GridList
       classes={mergedClasses}
-      cols={variant === 'project' ? 2 : cols}
+      cols={cols}
       cellHeight={cellHeight}
       spacing={spacing}
     >
@@ -51,7 +51,7 @@ const EventList = ({
           <GridListTile key={event.id} className={mergedClasses.tile}>
             {
               variant === 'project'
-                ? <ProjectCard {...event} />
+                ? <ProjectCard parentColumns={cols} {...event} />
                 : <EventCard
                     event={event}
                     currentFilter={currentFilter}

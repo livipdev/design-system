@@ -4,8 +4,7 @@ export default function (theme) {
       // look and feel
       borderRadius: '5px',
       color: theme.palette.common.white,
-      height: '32vw',
-      width: '40vw',
+      height: ({ parentColumns }) => `${60/parentColumns}vw`,
       marginBottom: ({ gutterBottom }) => gutterBottom ? `${theme.spacing(3)}px` : '0',
       padding: theme.spacing(4),
       paddingBottom: theme.spacing(8),
@@ -38,7 +37,7 @@ export default function (theme) {
       padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`,
       borderRadius: '4px',
       fontSize: '.875rem',
-      fontWeight: 'bold',
+      fontWeight: 300,
       display: 'flex',
 
       '& span': {

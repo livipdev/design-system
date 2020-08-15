@@ -9,6 +9,7 @@ const propTypes = {
   date: PropTypes.string,
   title: PropTypes.object,
   href: PropTypes.string,
+  parentColumns: PropTypes.number,
 };
 
 export default propTypes;

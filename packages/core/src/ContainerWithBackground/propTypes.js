@@ -6,6 +6,7 @@ const propTypes = {
   children: PropTypes.node,
   variant: PropTypes.string,
   customClass: PropTypes.string,
+  backgroundDarkMask: PropTypes.bool,
 };
 
 export default propTypes;

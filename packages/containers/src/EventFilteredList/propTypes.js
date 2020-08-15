@@ -7,6 +7,7 @@ export const eventPropTypes = PropTypes.shape({
   categories: PropTypes.arrayOf(PropTypes.string).isRequired,
   date: PropTypes.instanceOf(Date),
   img: PropTypes.string.isRequired,
+  columns: PropTypes.number,
 });
 
 const propTypes = {

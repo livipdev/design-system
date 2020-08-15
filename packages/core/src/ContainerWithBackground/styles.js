@@ -1,5 +1,6 @@
-import { buildImagePath } from '../Image/builders';
 import { SCREEN_SIZES } from '../styles/theme/constants';
+
+import { buildBackgroundImage } from './builders';
 
 const styles = (theme) => ({
   root: {
@@ -10,26 +11,26 @@ const styles = (theme) => ({
   },
 
   bg: {
-    backgroundImage: (props) => `url(${buildImagePath(props.background)})`,
+    backgroundImage: (props) => buildBackgroundImage(props),
 
     [theme.breakpoints.up(SCREEN_SIZES.EXTRA_SMALL)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.EXTRA_SMALL)})`,
+      backgroundImage: (props) => buildBackgroundImage(props, SCREEN_SIZES.EXTRA_SMALL),
     },
 
     [theme.breakpoints.up(SCREEN_SIZES.SMALL)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.SMALL)})`,
+      backgroundImage: (props) => buildBackgroundImage(props, SCREEN_SIZES.SMALL),
     },
 
     [theme.breakpoints.up(SCREEN_SIZES.MEDIUM)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.MEDIUM)})`,
+      backgroundImage: (props) => buildBackgroundImage(props, SCREEN_SIZES.MEDIUM),
     },
 
     [theme.breakpoints.up(SCREEN_SIZES.LARGE)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.LARGE)})`,
+      backgroundImage: (props) => buildBackgroundImage(props, SCREEN_SIZES.LARGE),
     },
 
     [theme.breakpoints.up(SCREEN_SIZES.EXTRA_LARGE)]: {
-      backgroundImage: (props) => `url(${buildImagePath(props.background, SCREEN_SIZES.EXTRA_LARGE)})`,
+      backgroundImage: (props) => buildBackgroundImage(props, SCREEN_SIZES.EXTRA_LARGE),
     },
   },
 

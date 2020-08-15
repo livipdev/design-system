@@ -16,6 +16,7 @@ const CarouselSlideContent = ({
   suptitle,
   background,
   children,
+  backgroundDarkMask,
 }) => {
   const mergedContentClasses = selectMergedClasses(classes, variant, 'content');
   const mergedTitleClasses = selectMergedClasses(classes, variant, 'title');
@@ -27,6 +28,7 @@ const CarouselSlideContent = ({
     <ContainerWithBackground
       customClass={classes.container}
       background={background}
+      backgroundDarkMask={backgroundDarkMask}
     >
       <Grid
         className={mergedContentClasses}

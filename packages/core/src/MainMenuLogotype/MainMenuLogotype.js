@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Box from '../Box';
+import Link from '../Link';
 import Logotype from '../Logotype';
 
 import propTypes from './propTypes';
 
 const MainMenuLogotype = ({ classes, variant }) => (
-  <Box classes={classes}>
+  <Link href='/' classes={classes}>
     <Logotype variant={variant} />
-  </Box>
+  </Link>
 );
 
 MainMenuLogotype.propTypes = propTypes;
