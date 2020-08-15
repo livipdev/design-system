@@ -1,7 +1,9 @@
-import dynamic from 'next/dynamic';
+import RootLogotype from './Root';
+import ProductLogotype from './Product';
+import { VARIANT_ROOT } from './constants';
 
-import { VARIANT_COMPONENTS } from './constants';
-
-export const selectVariant = (variant) =>
-  dynamic(() =>
-    import(VARIANT_COMPONENTS[variant]));
+export const selectVariant = (variant) => (
+  variant === VARIANT_ROOT
+    ? RootLogotype
+    : ProductLogotype
+)
