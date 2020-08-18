@@ -6,6 +6,7 @@ const propTypes = {
   viewBox: PropTypes.string,
   variant: PropTypes.oneOf(config.variants.available),
   width: PropTypes.string,
+  rootLogotype: PropTypes.bool,
 };
 
 export default propTypes;

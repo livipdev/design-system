@@ -6,6 +6,7 @@ const propTypes = {
   guttersClass: PropTypes.string,
   variant: PropTypes.oneOf(config.variants.available),
   isExiting: PropTypes.bool,
+  rootLogotype: PropTypes.bool,
 };
 
 export default propTypes;

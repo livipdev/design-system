@@ -7,10 +7,10 @@ import SubMenu from '../SubMenu';
 
 import propTypes from './propTypes';
 
-const HeaderToolbar = ({ classes, variant }) => (
+const HeaderToolbar = ({ classes, variant, rootLogotype }) => (
   <Toolbar classes={classes} disableGutters>
     <TopMenu variant={variant} guttersClass={classes.gutters} />
-    <MainMenu variant={variant} guttersClass={classes.gutters} />
+    <MainMenu variant={variant} guttersClass={classes.gutters} rootLogotype={rootLogotype} />
     <SubMenu variant={variant} guttersClass={classes.gutters} />
   </Toolbar>
 );

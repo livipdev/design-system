@@ -17,7 +17,7 @@ const mergeClasses = (classes, others) => (
   ].join(" ")
 );
 
-const MainMenuContent = ({ variant, classes, isExiting }) => {
+const MainMenuContent = ({ variant, classes, isExiting, rootLogotype }) => {
   const menu = buildMainMenu(variant);
   const mergedClasses = {
     ...classes,
@@ -31,7 +31,7 @@ const MainMenuContent = ({ variant, classes, isExiting }) => {
 
   return (
     <Grid item classes={mergedClasses} lg={12} xs={12}>
-      <MainMenuLogotype variant={variant} />
+      <MainMenuLogotype variant={variant} rootLogotype={rootLogotype} />
       <HeaderMenu menu={menu} />
       <MainMenuButtons isExiting={isExiting} />
     </Grid>

@@ -10,6 +10,7 @@ const propTypes = {
   title: PropTypes.object,
   href: PropTypes.string,
   parentColumns: PropTypes.number,
+  gutterX: PropTypes.number,
 };
 
 export default propTypes;

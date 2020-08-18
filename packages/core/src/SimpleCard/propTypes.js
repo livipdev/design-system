@@ -11,6 +11,7 @@ const propTypes = {
   content: PropTypes.shape(contentPropTypes),
   classes: PropTypes.obj,
   italicDescription: PropTypes.bool,
+  gutterX: PropTypes.number,
 };
 
 export default propTypes;

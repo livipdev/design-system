@@ -6,7 +6,7 @@ import Logotype from '../Logotype';
 
 const FooterLogo = ({ variant, ...props }) => (
   <Box {...props} component="div">
-    <Logotype variant={variant} />
+    <Logotype variant={variant} rootLogotype />
   </Box>
 );
 

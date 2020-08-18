@@ -5,7 +5,7 @@ export const scope = 'app.components.NewsletterForm';
 export default defineMessages({
   send: {
     id: `${scope}.send`,
-    defaultMessage: 'Send',
+    defaultMessage: 'Sign our Newsletter',
   },
 
   label: {

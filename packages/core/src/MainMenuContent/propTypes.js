@@ -5,6 +5,7 @@ const propTypes = {
   classes: PropTypes.object,
   variant: PropTypes.oneOf(config.variants.available),
   isExiting: PropTypes.bool,
+  rootLogotype: PropTypes.bool,
 };
 
 export default propTypes;

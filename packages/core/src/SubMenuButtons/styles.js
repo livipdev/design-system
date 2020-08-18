@@ -5,11 +5,13 @@ const styles = (theme) => ({
     ...theme.alignments.center,
 
     '& > a': {
-      color: theme.palette.common.white,
+      color: '#a05576',
       textTransform: 'uppercase',
+      transition: '.6s all ease-out',
 
       '&:hover': {
         textDecoration: 'none',
+        color: theme.palette.common.white,
       },
     },
 

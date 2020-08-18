@@ -4,6 +4,9 @@ const styles = (theme) => ({
     border: `1px solid ${theme.palette.grey['300']}`,
     borderRadius: 4,
     boxShadow: 'none',
+    width: '100%',
+    marginLeft: ({ gutterX }) => `${gutterX}vw`,
+    marginRight: ({ gutterX }) => `${gutterX}vw`,
   },
 
   media: {

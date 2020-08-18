@@ -13,7 +13,7 @@ const mergeClasses = (classes, others) => (
   ].join(" ")
 );
 
-const MainMenu = ({ classes, guttersClass, variant, isExiting }, ref) => {
+const MainMenu = ({ classes, guttersClass, variant, isExiting, rootLogotype }, ref) => {
   const mergedClasses = {
     ...classes,
     root: mergeClasses(
@@ -27,7 +27,7 @@ const MainMenu = ({ classes, guttersClass, variant, isExiting }, ref) => {
   return (
     <Grid container classes={mergedClasses} ref={ref}>
       <Container>
-        <MainMenuContent variant={variant} isExiting={isExiting} />
+        <MainMenuContent variant={variant} isExiting={isExiting} rootLogotype={rootLogotype} />
       </Container>
     </Grid>
   );

@@ -4,6 +4,8 @@ export default function (theme) {
       fontWeight: 600,
       width: '20vw',
       padding: '15px 0',
+      color: ({ inverse }) => inverse ? '#881c4c' : theme.palette.common.white,
+      textTransform: ({ inverse }) => inverse ? 'none' : 'uppercase',
     },
 
     input: {

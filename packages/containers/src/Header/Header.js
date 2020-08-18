@@ -8,13 +8,13 @@ import HeaderDrawer from '@livipdev/core/HeaderDrawer';
 import propTypes from './propTypes';
 import { DEFAULT_MENU_STATE } from './constants';
 
-const Header = ({ variant }) => {
+const Header = ({ variant, rootLogotype }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(DEFAULT_MENU_STATE);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
     <AppBar position="fixed" color="transparent">
-      <HeaderToolbar variant={variant} />
+      <HeaderToolbar variant={variant} rootLogotype={rootLogotype} />
       <HeaderMenuToggler toggleMenu={toggleMenu} />
       <HeaderDrawer
         isMenuOpen={isMenuOpen}

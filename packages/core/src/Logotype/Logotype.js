@@ -5,8 +5,8 @@ import defaultProps from './defaultProps';
 import { selectVariant } from './selectors';
 import SvgIcon from '../SvgIcon';
 
-const Logotype = ({ classes, variant, viewBox, width }) => {
-  const Variant = selectVariant(variant);
+const Logotype = ({ classes, variant, viewBox, width, rootLogotype }) => {
+  const Variant = selectVariant(variant, rootLogotype);
 
   return (
     <SvgIcon className={classes.root} viewBox={viewBox} width={width}>

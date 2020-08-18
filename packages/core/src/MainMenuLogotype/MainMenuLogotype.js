@@ -5,9 +5,9 @@ import Logotype from '../Logotype';
 
 import propTypes from './propTypes';
 
-const MainMenuLogotype = ({ classes, variant }) => (
+const MainMenuLogotype = ({ classes, variant, rootLogotype }) => (
   <Link href='/' classes={classes}>
-    <Logotype variant={variant} />
+    <Logotype variant={variant} rootLogotype={rootLogotype} />
   </Link>
 );
 
