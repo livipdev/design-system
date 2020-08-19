@@ -8,12 +8,12 @@ export default defineMessages({
   incentive: {
     nextEvents: {
       id: `${subMenuTravelItemsRef}.next_events`,
-      defaultMessage: 'Next events',
+      defaultMessage: 'Próximos eventos',
     },
 
     eventsHeld: {
       id: `${subMenuTravelItemsRef}.events_held`,
-      defaultMessage: 'Events held',
+      defaultMessage: 'Eventos realizados',
     },
   },
 });

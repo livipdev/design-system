@@ -37,12 +37,16 @@ export default function (theme) {
       backgroundColor: theme.palette.primary.main,
       padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`,
       borderRadius: '4px',
-      fontSize: '.875rem',
+      fontSize: ({ parentColumns }) => parentColumns < 3 ? '.875rem' : '.7rem',
       fontWeight: 300,
       display: ({ hideDate }) => hideDate ? 'none' : 'flex',
 
       '& span': {
         padding: '2px 0 0 7px',
+      },
+
+      '& svg': {
+        fontSize: ({ parentColumns }) => parentColumns < 3 ? '1.5rem' : '1.1rem',
       },
     },
   };

@@ -5,7 +5,7 @@ const scope = 'app.components.FooterLinks';
 export default defineMessages({
   aboutUs: {
     id: `${scope}.aboutUs`,
-    defaultMessage: 'About us',
+    defaultMessage: 'Quem somos',
   },
   theSportraveller: {
     id: `${scope}.theSportraveller`,
@@ -13,18 +13,18 @@ export default defineMessages({
   },
   partnersAndClients: {
     id: `${scope}.partnersAndClients`,
-    defaultMessage: 'Partners and Clients',
+    defaultMessage: 'Parceiros e Clientes',
   },
   frequentlyAskedQuestions: {
     id: `${scope}.frequentlyAskedQuestions`,
-    defaultMessage: 'Frequently Asked Questions',
+    defaultMessage: 'Dúvidas Frequentes',
   },
   privacyPolicy: {
     id: `${scope}.privacyPolicy`,
-    defaultMessage: 'Privacy Policy',
+    defaultMessage: 'Política de Privacidade',
   },
   termsAndConditions: {
     id: `${scope}.termsAndConditions`,
-    defaultMessage: 'Terms and Conditions',
+    defaultMessage: 'Termos e Condições',
   },
 });

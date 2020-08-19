@@ -22,11 +22,11 @@ export default defineMessages({
 
   about: {
     id: `${mainMenuItemsRef}.about`,
-    defaultMessage: 'About us',
+    defaultMessage: 'Sobre',
   },
 
   contact: {
     id: `${mainMenuItemsRef}.contact`,
-    defaultMessage: 'Get in touch',
+    defaultMessage: 'Fale conosco',
   },
 });

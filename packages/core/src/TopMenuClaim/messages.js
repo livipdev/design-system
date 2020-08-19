@@ -7,11 +7,11 @@ const topMenuClaimsRef = `${topMenuRef}.claims`;
 export default defineMessages({
   incentive: {
     id: `${topMenuClaimsRef}.incentivel`,
-    defaultMessage: "Make your clients' events an unforgettable experience!",
+    defaultMessage: "Torne os eventos do seus clientes em experiências inesqueciveis!",
   },
 
   contact: {
     id: `${topMenuClaimsRef}.contact`,
-    defaultMessage: 'Contact us +55 11 9 9999-9900',
+    defaultMessage: 'Entre em contato conosco (11) 9 9999-9900',
   },
 });

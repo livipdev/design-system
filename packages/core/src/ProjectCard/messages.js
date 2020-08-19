@@ -5,11 +5,11 @@ export const scope = 'app.components.ProjectCard';
 export default defineMessages({
   subtitle: {
     id: `${scope}.subtitle`,
-    defaultMessage: 'to {company}',
+    defaultMessage: 'para {company}',
   },
 
   button: {
     id: `${scope}.button`,
-    defaultMessage: 'See more',
+    defaultMessage: 'Ver programa',
   },
 });

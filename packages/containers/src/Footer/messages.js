@@ -5,6 +5,6 @@ export const scope = 'app.containers.Footer';
 export default defineMessages({
   socialNetworks: {
     id: `${scope}.socialNetworks`,
-    defaultMessage: 'Social links',
+    defaultMessage: 'Redes sociais',
   },
 });

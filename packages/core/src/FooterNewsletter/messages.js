@@ -5,6 +5,6 @@ const scope = 'app.components.FooterNewsletter';
 export default defineMessages({
   title: {
     id: `${scope}.title`,
-    defaultMessage: 'Newsletter',
+    defaultMessage: 'Receba novidades',
   },
 });

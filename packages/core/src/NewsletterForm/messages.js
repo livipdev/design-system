@@ -5,11 +5,11 @@ export const scope = 'app.components.NewsletterForm';
 export default defineMessages({
   send: {
     id: `${scope}.send`,
-    defaultMessage: 'Sign our Newsletter',
+    defaultMessage: 'Assinar nossa Newsletter',
   },
 
   label: {
     id: `${scope}.label`,
-    defaultMessage: 'Type your email',
+    defaultMessage: 'Digite aqui seu email',
   },
 });

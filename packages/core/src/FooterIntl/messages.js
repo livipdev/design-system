@@ -5,10 +5,10 @@ const scope = 'app.components.FooterIntl';
 export default defineMessages({
   pt: {
     id: `${scope}.pt`,
-    defaultMessage: 'Portuguese',
+    defaultMessage: 'Português',
   },
   en: {
     id: `${scope}.en`,
-    defaultMessage: 'English',
+    defaultMessage: 'Inglês',
   },
 });

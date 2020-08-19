@@ -5,6 +5,6 @@ export const scope = 'app.components.NewsletterBanner';
 export default defineMessages({
   title: {
     id: `${scope}.title`,
-    defaultMessage: 'Register to our newsletter',
+    defaultMessage: 'Receba nossas novidades',
   },
 });

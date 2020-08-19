@@ -9,7 +9,7 @@ export default defineMessages({
   incentive: {
     [PROPOSAL]: {
       id: `${subMenuTravelButtonsRef}.proposal`,
-      defaultMessage: 'Request a proposal',
+      defaultMessage: 'Solicitar orçamento',
     },
   },
 });

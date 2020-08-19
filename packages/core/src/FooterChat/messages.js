@@ -5,10 +5,10 @@ const scope = 'app.components.FooterChat';
 export default defineMessages({
   title: {
     id: `${scope}.title`,
-    defaultMessage: 'Hi, welcome to Livip.',
+    defaultMessage: 'Olá, bem vindo a Livip.',
   },
   subtitle: {
     id: `${scope}.subtitle`,
-    defaultMessage: 'Can I help you?',
+    defaultMessage: 'Posso te ajudar?',
   },
 });

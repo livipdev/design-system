@@ -5,6 +5,6 @@ const scope = 'app.components.FooterContact';
 export default defineMessages({
   title: {
     id: `${scope}.title`,
-    defaultMessage: 'Contact us',
+    defaultMessage: 'Fale com a gente',
   },
 });

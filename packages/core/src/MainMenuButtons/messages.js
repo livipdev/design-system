@@ -7,11 +7,11 @@ const mainMenuButtonsRef = `${mainMenuRef}.buttons`;
 export default defineMessages({
   livipClub: {
     id: `${mainMenuButtonsRef}.livipClub`,
-    defaultMessage: 'Livip Club',
+    defaultMessage: 'Clube Livip',
   },
 
   referral: {
     id: `${mainMenuButtonsRef}.referral`,
-    defaultMessage: 'Refer to your company',
+    defaultMessage: 'Indique para sua empresa',
   },
 });
