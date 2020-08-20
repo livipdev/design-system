@@ -13,7 +13,6 @@ import FooterContact from '@livipdev/core/FooterContact';
 import FooterNewsletter from '@livipdev/core/FooterNewsletter';
 import FooterChat from '@livipdev/core/FooterChat';
 import FooterAddress from '@livipdev/core/FooterAddress';
-import FooterIntl from '@livipdev/core/FooterIntl';
 import FooterSectiontitle from '@livipdev/core/FooterSectionTitle';
 
 import messages from './messages';
@@ -74,9 +73,6 @@ const Footer = ({ classes, variant }) => (
       >
         <Grid item>
           <FooterAddress />
-        </Grid>
-        <Grid item>
-          <FooterIntl />
         </Grid>
       </Box>
     </Container>

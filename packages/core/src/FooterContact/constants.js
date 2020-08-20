@@ -1,2 +1,2 @@
-export const PHONE = '0800 000 000';
-export const EMAIL = 'meajuda@livipdev.com.br';
+export const PHONE = '+55 11 9999 9999';
+export const EMAIL = 'atendimento@livip.com.br';

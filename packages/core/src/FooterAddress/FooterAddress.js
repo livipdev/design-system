@@ -7,7 +7,15 @@ import Typography from '../Typography';
 const FooterAddress = ({ classes }) => (
   <Box py={2}>
     <Typography className={classes.address}>
-      Rua Capote Valente, 39 - 05409-000 - São Paulo, SP
+      A Livip é uma marca da Engage Projetos de Esporte e Entretenimento LTDA.
+    </Typography>
+
+    <Typography className={classes.address}>
+      Avenida Pedroso de Morais, 271, 10º andar, Pinheiros, São Paulo, Brasil. 
+    </Typography>
+
+    <Typography className={classes.address}>
+      Livip © Copyright 2020.
     </Typography>
   </Box>
 );

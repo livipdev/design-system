@@ -6,7 +6,7 @@ import Logotype from '../Logotype';
 import propTypes from './propTypes';
 
 const MainMenuLogotype = ({ classes, variant, rootLogotype }) => (
-  <Link href='/' classes={classes}>
+  <Link href='https://pre-home.livip.vercel.app' classes={classes}>
     <Logotype variant={variant} rootLogotype={rootLogotype} />
   </Link>
 );
