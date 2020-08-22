@@ -1,4 +1,4 @@
-import ReactCarousel, { Dots } from '@brainhubeu/react-carousel';
+import ReactCarousel, { Dots, slidesToShowPlugin } from '@brainhubeu/react-carousel';
 
 import styled from '../styles/styled';
 import propTypes from './propTypes';
@@ -18,4 +18,5 @@ ReactCarousel.propTypes = {
 export {
   Carousel as default,
   Dots,
+  slidesToShowPlugin,
 };

@@ -12,6 +12,7 @@ const styles = (theme) => ({
 
   bg: {
     backgroundImage: (props) => buildBackgroundImage(props),
+    backgroundPosition: 'center',
 
     [theme.breakpoints.up(SCREEN_SIZES.EXTRA_SMALL)]: {
       backgroundImage: (props) => buildBackgroundImage(props, SCREEN_SIZES.EXTRA_SMALL),

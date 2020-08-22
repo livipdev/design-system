@@ -10,11 +10,11 @@ const EVENTS_HELD = 'eventsHeld';
 export const INCENTIVE_SUBMENU_HASHMAP = {
   [NEXT_EVENTS]: {
     key: 'nextEvents',
-    href: 'proximos-eventos',
+    href: '/proximos-eventos',
   },
   [EVENTS_HELD]: {
     key: 'eventsHeld',
-    href: 'eventos-realizados',
+    href: '/eventos-realizados',
   },
 };
 
