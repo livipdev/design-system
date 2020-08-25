@@ -11,7 +11,7 @@ import Spacer from '@livipdev/core/Spacer';
 import messages from './messages';
 import propTypes from './propTypes';
 
-const ProjectCard = ({ classes, title, date, href }) => (
+const ProjectCard = ({ classes, title, subtitle, date, href }) => (
   <Link href={href}>
     <Box className={classes.wrapper}>
       <Spacer />
@@ -27,6 +27,9 @@ const ProjectCard = ({ classes, title, date, href }) => (
       }
       <Typography className={classes.title} variant="h3" color="commmon.white">
         {title}
+      </Typography>
+      <Typography className={classes.subtitle} variant="h4" color="commmon.white">
+        {subtitle}
       </Typography>
       <Button variant="outlined">
         <FormattedMessage {...messages.button} />

@@ -25,9 +25,13 @@ export default function (theme) {
 
     title: {
       textAlign: 'center',
-      marginBottom: '2rem',
       fontSize: ({ parentColumns }) => parentColumns < 3 ? '3.5rem' : '2rem',
       fontWeight: 'bold',
+    },
+
+    subtitle: {
+      fontWeight: 300,
+      marginBottom: '2rem',
     },
 
     tag: {
