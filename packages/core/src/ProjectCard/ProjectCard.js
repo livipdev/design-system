@@ -14,7 +14,6 @@ import propTypes from './propTypes';
 const ProjectCard = ({ classes, title, subtitle, date, href }) => (
   <Link href={href}>
     <Box className={classes.wrapper}>
-      <Spacer />
       {
         date && (
           <Box className={classes.tag}>
@@ -31,7 +30,7 @@ const ProjectCard = ({ classes, title, subtitle, date, href }) => (
       <Typography className={classes.subtitle} variant="h4" color="commmon.white">
         {subtitle}
       </Typography>
-      <Button variant="outlined">
+      <Button className={classes.button} variant="outlined">
         <FormattedMessage {...messages.button} />
       </Button>
     </Box>

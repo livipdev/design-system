@@ -31,7 +31,7 @@ export default function (theme) {
 
     subtitle: {
       fontWeight: 300,
-      marginBottom: '2rem',
+      fontSize: '1.8rem',
     },
 
     tag: {
@@ -52,6 +52,11 @@ export default function (theme) {
       '& svg': {
         fontSize: ({ parentColumns }) => parentColumns < 3 ? '1.5rem' : '1.1rem',
       },
+    },
+
+    button: {
+      position: 'absolute',
+      bottom: '20%',
     },
   };
 }
