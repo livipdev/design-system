@@ -4,6 +4,7 @@ import Card from '../Card';
 import CardMedia from '../CardMedia';
 import EventCardBar from '@livipdev/containers/EventCardBar';
 
+import EventCardCategories from '../EventCardCategories';
 import propTypes from './propTypes';
 
 const EventCard = ({ classes, event, currentFilter, filterEvents }) => (
@@ -11,10 +12,11 @@ const EventCard = ({ classes, event, currentFilter, filterEvents }) => (
     <CardMedia
       className={classes.media}
       image={event.img}
-      title={event.name}
+      title={event.title}
     />
-    <EventCardBar
-      event={event}
+    <EventCardBar event={event} />
+    <EventCardCategories
+      categories={event.categories}
       currentFilter={currentFilter}
       filterEvents={filterEvents}
     />

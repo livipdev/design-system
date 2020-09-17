@@ -10,15 +10,11 @@ import propTypes from './propTypes';
 const EventCardBarFront = ({
   classes,
   event,
-  currentFilter,
-  filterEvents,
   toggleSide,
 }) => (
   <Box className={classes.box}>
     <EventCardTitle
       event={event}
-      currentFilter={currentFilter}
-      filterEvents={filterEvents}
       toggleSide={toggleSide}
     />
     <Divider />

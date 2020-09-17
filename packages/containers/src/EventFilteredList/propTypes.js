@@ -3,7 +3,7 @@ import { availableVariants } from '@livipdev/core/EventList/propTypes';
 
 export const eventPropTypes = PropTypes.shape({
   id: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
   categories: PropTypes.arrayOf(PropTypes.string).isRequired,
   date: PropTypes.instanceOf(Date),
   img: PropTypes.string.isRequired,

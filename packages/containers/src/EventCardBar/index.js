@@ -5,7 +5,7 @@ import EventCardBarFront from '@livipdev/core/EventCardBarFront';
 
 import propTypes from './propTypes';
 
-const EventCardBar = ({ event, currentFilter, filterEvents }) => {
+const EventCardBar = ({ event }) => {
   const [reversed, setReversed] = useState(false);
 
   const toggleSide = () => setReversed(!reversed);
@@ -21,8 +21,6 @@ const EventCardBar = ({ event, currentFilter, filterEvents }) => {
             />
           : <EventCardBarFront
               event={event}
-              currentFilter={currentFilter}
-              filterEvents={filterEvents}
               toggleSide={toggleSide}
             />
       }

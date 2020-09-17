@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  category: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
   applyFilter: PropTypes.func,
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Grid from '../Grid';
 import Typography from '../Typography';
-import EventCardCategories from '../EventCardCategories';
+import EventCardLocation from '../EventCardLocation';
 import EventCardActions from '../EventCardActions';
 
 import propTypes from './propTypes';
@@ -10,19 +10,13 @@ import propTypes from './propTypes';
 const EventCardTitle = ({
   classes,
   event,
-  currentFilter,
-  filterEvents,
   toggleSide,
 }) => (
   <Grid className={classes.container} container>
     <Grid item>
-      <EventCardCategories
-        categories={event.categories}
-        currentFilter={currentFilter}
-        filterEvents={filterEvents}
-      />
+      <EventCardLocation location={event.location} />
       <Typography variant="h4">
-        {event.name}
+        {event.title}
       </Typography>
     </Grid>
 
