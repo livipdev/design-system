@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { FormattedMessage } from 'react-intl';
 
 import Link from '../Link';
@@ -11,7 +11,11 @@ export const buildVariantButtons = (variant) => {
     ...SUBMENU_BUTTONS[variant],
     variant,
   };
-  const buttons = options.order.map((key) => buildKeyButton(key, options));
+  const buttons = (
+    options.order
+      ? options.order.map((key) => buildKeyButton(key, options))
+      : <Fragment />
+  );
 
   return buttons;
 };

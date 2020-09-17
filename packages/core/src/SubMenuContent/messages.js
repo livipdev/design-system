@@ -1,19 +1,34 @@
 import { defineMessages } from 'react-intl';
 import { subMenuRef } from '../SubMenu/messages';
 
-export const subMenuTravelRef = `${subMenuRef}.travel`;
-const subMenuTravelItemsRef = `${subMenuTravelRef}.items`;
+export const subMenIncentiveRef = `${subMenuRef}.incentive`;
+const subMenuIncentiveItemsRef = `${subMenIncentiveRef}.items`;
+
+export const subMenTicketsRef = `${subMenuRef}.tickets`;
+const subMenuTicketsItemsRef = `${subMenTicketsRef}.items`;
 
 export default defineMessages({
   incentive: {
     nextEvents: {
-      id: `${subMenuTravelItemsRef}.next_events`,
+      id: `${subMenuIncentiveItemsRef}.next_events`,
       defaultMessage: 'Próximos eventos',
     },
 
     eventsHeld: {
-      id: `${subMenuTravelItemsRef}.events_held`,
+      id: `${subMenuIncentiveItemsRef}.events_held`,
       defaultMessage: 'Eventos realizados',
+    },
+  },
+
+  tickets: {
+    events: {
+      id: `${subMenuTicketsItemsRef}.events`,
+      defaultMessage: 'Eventos',
+    },
+
+    login: {
+      id: `${subMenuIncentiveItemsRef}.login`,
+      defaultMessage: 'Login',
     },
   },
 });
