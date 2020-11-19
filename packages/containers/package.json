@@ -1,6 +1,6 @@
 {
   "name": "@livipdev/containers",
-  "version": "1.0.7",
+  "version": "1.0.11",
   "description": "Common application containers using our design system",
   "author": "odelucca",
   "license": "MIT",
